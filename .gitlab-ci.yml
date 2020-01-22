@@ -1,0 +1,38 @@
+image: node:latest
+
+cache:
+  untracked: true
+  paths:
+  - node_modules/
+
+stages:
+  - install
+  - test
+  - deploy
+
+install:
+  type: install
+  only:
+    - master
+  script:
+    - npm install
+
+test:
+  type: test
+  only:
+    - master
+  script:
+    - npm run lint
+
+deploy:
+  type: deploy
+  only:
+    - master
+  environment:
+    name: production
+    url: http://davidb.nyc
+  script:
+    - apt-get update
+    - apt-get install lftp
+    - npm run build
+    - lftp -e "set ftp:ssl-allow no; mirror -R /builds/dabrad26/website-fe/dist /" -u $BETA_FTP_USER,$FTP_PASSWORD davidbradshaw.us
