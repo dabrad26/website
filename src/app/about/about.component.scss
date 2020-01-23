@@ -1,0 +1,35 @@
+.about-area {
+  .main-title {
+      margin-bottom: 30px;
+      h1 {
+          padding-bottom: 20px;
+          margin-bottom: 30px;
+          &:before {
+              left: 10%;
+              @media (max-width: 1200px) {
+                  left: 12%;
+              }
+              @media (max-width: 991px) {
+                  left: 8%;
+              }
+              @media (max-width: 767px) {
+                  left: 10%;
+              }
+          }
+          &:after {
+              left: 5px;
+          }
+      }
+      @media (max-width: 1024px) {
+          padding-bottom: 0px;
+      }
+  }
+  .about-left {
+      @media (max-width: 991px) {
+          display: none;
+      }
+  }
+  .primary-btn {
+      margin-top: 40px;
+  }
+}

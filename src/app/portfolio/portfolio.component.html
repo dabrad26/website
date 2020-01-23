@@ -1,1 +1,49 @@
-<p>portfolio works!</p>
+<section class="section_gap portfolio_area" id="work">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+        <div class="main-title">
+          <h1>{{limitView ? 'Latest works' : 'Portfolio items'}}</h1>
+          <p>
+            Explore my works below. Filter by type to explore stuff I designed or programmed.
+            Click an item to view the full details of the project.
+          </p>
+          <p *ngIf="limitView">
+            <br>
+            Below are my most recent works, to view the entire portfolio view the full portfolio page.
+            <br>
+            <br>
+          </p>
+          <a *ngIf="limitView" routerLink="/portfolio" class="primary-btn">View portfolio</a>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="projects_fillter">
+          <ul class="filter list">
+            <li *ngFor="let filter of availableFilters" [ngClass]="{'active': filter.id === currentFilter.id}" (click)="changeFilter(filter)">{{filter.name}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="projects_inner row grid">
+      <ng-container *ngIf="portfolioItems.length">
+        <ng-container *ngFor="let portfolioItem of portfolioItems">
+          <div *ngIf="portfolioItemVisible(portfolioItem.category)" class="{{portfolioItem.gridSize}} grid-item brand">
+            <a class="projects_item" [routerLink]="'/portfolio/' + portfolioItem.id">
+              <img class="img-fluid w-100" [src]="portfolioItem.imageUrl" [alt]="portfolioItem.name">
+              <div class="projects_text">
+                <h4>{{portfolioItem.name}}</h4>
+                <p>{{portfolioItem.type}}</p>
+              </div>
+            </a>
+          </div>
+        </ng-container>
+      </ng-container>
+      <ng-container *ngIf="!portfolioItems.length">
+        <div class="no-results col-sm-12">No results were found. Try clearing the filter or refreshing the page.</div>
+      </ng-container>
+    </div>
+  </div>
+</section>

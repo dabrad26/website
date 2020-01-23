@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef } from '@angular/core';
 import { SharedServices } from '../services/shared.services';
+declare var google;
 
 @Component({
   selector: 'app-contact',
@@ -9,7 +10,8 @@ import { SharedServices } from '../services/shared.services';
 export class ContactComponent implements OnInit {
 
   constructor(
-    private sharedServices: SharedServices
+    private sharedServices: SharedServices,
+    private elementRef: ElementRef
   ) { }
 
   ngOnInit() {
@@ -18,6 +20,27 @@ export class ContactComponent implements OnInit {
       this.sharedServices.getNavItemByRoute('/'),
       this.sharedServices.getNavItemByRoute('/contact')
     ]);
+    this.setupMap();
+  }
+
+  setupMap() {
+    const myLatlng = new google.maps.LatLng(40.766573, -73.990485);
+
+    const mapOptions = {
+        zoom: 13,
+        scrollwheel: false,
+        center: myLatlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        disableDefaultUI: true
+    };
+
+    const map = new google.maps.Map(this.elementRef.nativeElement.querySelector('#mapBox'), mapOptions);
+
+    const marker = new google.maps.Marker({
+        position: myLatlng,
+        map,
+        animation: google.maps.Animation.DROP,
+    });
   }
 
 }

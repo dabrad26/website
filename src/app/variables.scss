@@ -1,14 +1,17 @@
-$primary-font: 'Roboto', sans-serif;
-$title-font: 'Poppins', sans-serif;
+$primary-font: 'Montserrat', sans-serif;
+$title-font: 'Montserrat', sans-serif;
 
 /*Color Variables*/
-$primary-color: #e45447;
-$primary-color2: #ffd200;
+$primary-color: #683fc6;
+$primary-color2: #3fa7d6;
+$primary-color3: #cd5c69;
+$primary-color4: #ee6352;
+$primary-color5: #59cd90;
 $title-color: #222222;
 $text-color: #777777;
 /*=================== fonts ====================*/
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:700|Roboto:400,500,500i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap');
 
 //    Mixins
 @mixin transition($args: all 0.4s ease 0s) {

@@ -28,7 +28,7 @@
 			margin-right: 40px;
 			display: inline-block;
 			a{
-				color: #c48e0b;
+				color: $primary-color;
 				font-size: 36px;
 				@include transition;
 			}
@@ -37,7 +37,7 @@
 			}
 			&:hover{
 				a{
-					color: $primary-color;
+					color: $primary-color3;
 				}
 			}
 		}

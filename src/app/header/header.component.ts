@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 import { NavItem } from '../models/models';
 import { SharedServices } from '../services/shared.services';
+import * as jquery from 'jquery';
 
 @Component({
   selector: 'app-header',
@@ -13,11 +14,13 @@ export class HeaderComponent implements OnInit {
 
   constructor(
     private router: Router,
-    private sharedServices: SharedServices
+    private sharedServices: SharedServices,
+    private elementRef: ElementRef
   ) { }
 
   ngOnInit() {
     this.menuItems = this.sharedServices.getAvailableRoutes();
+    this.navbarFixed();
   }
 
   isActiveRoute(menuItem: NavItem): boolean {
@@ -26,6 +29,21 @@ export class HeaderComponent implements OnInit {
 
   isHomePage(): boolean {
     return this.router.url === '/';
+  }
+
+  navbarFixed() {
+    const navOffsetTop = jquery('header').height() + 50;
+    const headerArea = jquery('.header_area');
+    if (headerArea) {
+      jquery(window).scroll(() => {
+        const scroll = jquery(window).scrollTop();
+        if (scroll >= navOffsetTop) {
+          headerArea.addClass('navbar_fixed');
+        } else {
+          headerArea.removeClass('navbar_fixed');
+        }
+      });
+    }
   }
 
 }

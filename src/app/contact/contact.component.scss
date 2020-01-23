@@ -1,0 +1,83 @@
+@import '../variables';
+
+.mapBox {
+  height: 420px;
+  margin-top: 60px;
+}
+
+.contact_area {
+  a {
+    color: #683fc6;
+  }
+}
+
+.contact_info {
+  .info_item {
+      position: relative;
+      padding-left: 45px;
+      i {
+          position: absolute;
+          left: 0;
+          top: 0;
+          font-size: 22px;
+          line-height: 24px;
+          color: $primary-color;
+          font-weight: 600;
+      }
+      h6 {
+          font-size: 16px;
+          line-height: 24px;
+          color: $primary-font;
+          font-weight: bold;
+          margin-bottom: 0px;
+          color: $title-color;
+          a {
+              color: $title-color;
+          }
+      }
+      p {
+          font-size: 14px;
+          line-height: 24px;
+          padding: 2px 0px;
+      }
+  }
+}
+
+.contact_form {
+  .form-group {
+      margin-bottom: 10px;
+      .form-control {
+          font-size: 13px;
+          line-height: 26px;
+          color: #555;
+          border: 1px solid #888;
+          font-family: $primary-font;
+          border-radius: 0px;
+          padding-left: 20px;
+          &:focus {
+              box-shadow: none;
+              outline: none;
+          }
+          @include placeholder {
+              color: #555;
+          }
+      }
+      textarea {
+          resize: none;
+          &.form-control {
+              height: 122px;
+          }
+      }
+  }
+  .primary-btn {
+      background: $primary-color;
+      color: #fff;
+      margin-top: 20px;
+      border: 2px solid $primary-color;
+      &:hover {
+          color: #000;
+          border: 2px solid #90acd1;
+          background: transparent;
+      }
+  }
+}

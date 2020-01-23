@@ -1,1 +1,49 @@
-<p>contact works!</p>
+<section class="contact_area section_gap">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-3">
+              <div class="contact_info">
+                  <div class="info_item">
+                      <i class="fa fa-home"></i>
+                      <h6>New York, New York</h6>
+                      <p>Midtown West</p>
+                  </div>
+                  <div class="info_item">
+                      <i class="fa fa-envelope"></i>
+                      <h6>Send a message</h6>
+                      <p>Send us your message using this form</p>
+                  </div>
+                  <div class="info_item">
+                    <i class="fa fa-linkedin"></i>
+                    <h6>Connect on LinkedIn</h6>
+                    <p>Connect or message me via <a href="https://linkedin.com/in/davidbradshawus" target="_blank" title="LinkedIn">LinkedIn</a></p>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-9">
+              <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <input type="text" class="form-control" id="name" name="name" required placeholder="Name">
+                      </div>
+                      <div class="form-group">
+                          <input type="email" class="form-control" id="email" name="email" required placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                          <input type="text" class="form-control" id="subject" name="subject" required placeholder="Subject">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <textarea class="form-control" name="message" id="message" rows="1" required placeholder="Message"></textarea>
+                      </div>
+                  </div>
+                  <div class="col-md-12 text-right">
+                      <button type="submit" value="submit" class="primary-btn"><span>Send Message</span></button>
+                  </div>
+              </form>
+          </div>
+      </div>
+      <div id="mapBox" class="mapBox"></div>
+  </div>
+</section>

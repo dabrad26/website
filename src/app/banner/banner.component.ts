@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { SharedServices } from '../services/shared.services';
 import { Router } from '@angular/router';
+import * as jquery from 'jquery';
 
 @Component({
   selector: 'app-banner',
@@ -21,5 +22,11 @@ export class BannerComponent {
 
   getCurrentPageName(): string {
     return this.sharedServices.getCurrentPage().name;
+  }
+
+  scrollDown(): void {
+    jquery('html, body').animate({
+      scrollTop: (jquery('#fullscreen-image')[0].offsetHeight - 20)
+  }, 500);
   }
 }

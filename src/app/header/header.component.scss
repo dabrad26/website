@@ -10,8 +10,8 @@
   .navbar-brand {
     margin-right: 30px;
     img {
-      width: 60px;
-      height: 60px;
+      width: 55px;
+      height: 55px;
     }
   }
   .menu_nav {
@@ -28,7 +28,6 @@
         margin-right: 45px;
         .nav-link {
           font: 500 12px/100px $primary-font;
-          text-transform: capitalize;
           color: #000;
           padding: 0px;
           display: inline-block;
@@ -133,7 +132,7 @@
       top: -70px;
       left: 0;
       right: 0;
-      background: $primary-color2;
+      background: $primary-color4;
       transform: translateY(70px);
       transition: transform 500ms ease, background 500ms ease;
       -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -212,7 +211,7 @@
       margin-bottom: 23px;
   }
   .header_area .navbar {
-      background: $primary-color;
+      background: $primary-color4;
   }
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
       opacity: 1;
