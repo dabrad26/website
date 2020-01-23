@@ -23,6 +23,6 @@ export class BaseComponent implements OnInit {
           document.documentElement.scrollTop = 0;
         }
       }
-    })
+    });
   }
 }
