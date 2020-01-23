@@ -1,0 +1,3 @@
+<div *ngIf="getBreadcrumbs() && getBreadcrumbs().length" class="page_link">
+  <a *ngFor="let breadcrumb of getBreadcrumbs()" [routerLink]="breadcrumb.link">{{breadcrumb.name}}</a>
+</div>

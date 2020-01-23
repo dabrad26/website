@@ -1,0 +1,24 @@
+<section *ngIf="!home" class="banner_area">
+  <div class="banner_inner d-flex align-items-center">
+    <div class="container">
+      <div class="banner_content text-right">
+        <h1>{{getCurrentPageName()}}</h1>
+        <app-breadcrumbs></app-breadcrumbs>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section *ngIf="home" class="banner-area owl-carousel" id="home">
+  <div class="single_slide_banner slide_bg1">
+    <div class="container">
+      <div class="row fullscreen d-flex align-items-center" [ngStyle]="{height: getWindowHeight()}">
+        <div class="banner-content col-lg-12 justify-content-center">
+          <h1>David Bradshaw</h1>
+          <h3>Software Engineer and UX Designer</h3>
+          <a href="#" class="primary-btn">Hello</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
