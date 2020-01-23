@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { SharedServices } from '../services/shared.services';
+import { SharedService } from '../services/shared.service';
 import { FilterItem, PortfolioItem } from '../models/models';
+import { ApiService } from '../services/api.service';
 
 @Component({
   selector: 'app-portfolio',
@@ -9,6 +10,7 @@ import { FilterItem, PortfolioItem } from '../models/models';
 })
 export class PortfolioComponent implements OnInit {
   @Input() limitView: boolean;
+  pageStatus: ''|'error'|'loading' = 'loading';
   currentFilter: FilterItem;
   portfolioItems: Array<PortfolioItem> = [];
   availableFilters: Array<FilterItem> = [
@@ -35,71 +37,26 @@ export class PortfolioComponent implements OnInit {
   ];
 
   constructor(
-    private sharedServices: SharedServices
+    private sharedService: SharedService,
+    private apiService: ApiService
   ) { }
 
   ngOnInit() {
+    this.pageStatus = 'loading';
     this.currentFilter = this.availableFilters[0];
-    this.sharedServices.setCurrentPage(this.sharedServices.getNavItemByRoute('/portfolio'));
-    this.sharedServices.setCurrentBreadcrumbs([
-      this.sharedServices.getNavItemByRoute('/'),
-      this.sharedServices.getNavItemByRoute('/portfolio')
+    this.sharedService.setCurrentPage(this.sharedService.getNavItemByRoute('/portfolio'));
+    this.sharedService.setCurrentBreadcrumbs([
+      this.sharedService.getNavItemByRoute('/'),
+      this.sharedService.getNavItemByRoute('/portfolio')
     ]);
 
-    this.portfolioItems = [
-      {
-        name: 'Test item 1',
-        id: 'test1',
-        type: 'Client project',
-        gridSize: 'col-lg-3 col-sm-6 col-sm-12',
-        category: ['web', 'design'],
-        imageUrl: '/assets/portfolio-images/work1.jpg'
-      },
-      {
-        name: 'Test item 2',
-        id: 'test2',
-        type: 'Client project',
-        gridSize: 'col-lg-3 col-sm-6 col-sm-12',
-        category: ['mobile', 'desktop'],
-        imageUrl: '/assets/portfolio-images/work1.jpg'
-      },
-      {
-        name: 'Test item 3',
-        id: 'test3',
-        type: 'School project',
-        gridSize: 'col-lg-6 col-sm-6',
-        category: ['web'],
-        imageUrl: '/assets/portfolio-images/work1.jpg'
-      },
-      {
-        name: 'Test item 4',
-        id: 'test4',
-        type: 'School project',
-        gridSize: 'col-lg-6 col-sm-6',
-        category: ['web'],
-        imageUrl: '/assets/portfolio-images/work1.jpg'
-      },
-      {
-        name: 'Test item 5',
-        id: 'test5',
-        type: 'School project',
-        gridSize: 'col-lg-6 col-sm-6',
-        category: ['web'],
-        imageUrl: '/assets/portfolio-images/work1.jpg'
-      },
-      {
-        name: 'Test item 6',
-        id: 'test6',
-        type: 'School project',
-        gridSize: 'col-lg-6 col-sm-6',
-        category: ['web'],
-        imageUrl: '/assets/portfolio-images/work1.jpg'
-      }
-    ];
-
-    if (this.limitView) {
-      this.portfolioItems = this.portfolioItems.slice(0, 5);
-    }
+    this.apiService.getData('portfolioItems').subscribe(response => {
+      this.portfolioItems = this.limitView ? response.slice(0, 5) : response;
+      this.pageStatus = '';
+    }, error => {
+      this.sharedService.handleError('Unable to get portfolio items', error);
+      this.pageStatus = 'error';
+    });
   }
 
   changeFilter(filter: FilterItem): void {

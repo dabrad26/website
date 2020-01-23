@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './routing.module';
 import { BaseComponent } from './base/base.component';
@@ -11,9 +12,12 @@ import { ResumeComponent } from './resume/resume.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { PortfolioItemComponent } from './portfolio-item/portfolio-item.component';
 import { ContactComponent } from './contact/contact.component';
-import { SharedServices } from './services/shared.services';
+import { SharedService } from './services/shared.service';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { FooterComponent } from './footer/footer.component';
+import { ApiService } from './services/api.service';
+import { LoadingComponent } from './loading/loading.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
@@ -27,14 +31,19 @@ import { FooterComponent } from './footer/footer.component';
     PortfolioItemComponent,
     ContactComponent,
     BreadcrumbsComponent,
-    FooterComponent
+    FooterComponent,
+    LoadingComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+
   ],
   providers: [
-    SharedServices
+    SharedService,
+    ApiService
   ],
   bootstrap: [BaseComponent]
 })

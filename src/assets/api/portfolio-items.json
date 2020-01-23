@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Test item 1",
+    "id": "test1",
+    "type": "Client project",
+    "gridSize": "col-lg-3 col-sm-6 col-sm-12",
+    "category": ["web", "design"],
+    "imageUrl": "/assets/portfolio-images/work1.jpg"
+  },
+  {
+    "name": "Test item 2",
+    "id": "test2",
+    "type": "Client project",
+    "gridSize": "col-lg-3 col-sm-6 col-sm-12",
+    "category": ["mobile", "desktop"],
+    "imageUrl": "/assets/portfolio-images/work1.jpg"
+  },
+  {
+    "name": "Test item 3",
+    "id": "test3",
+    "type": "School project",
+    "gridSize": "col-lg-6 col-sm-6",
+    "category": ["web"],
+    "imageUrl": "/assets/portfolio-images/work1.jpg"
+  },
+  {
+    "name": "Test item 4",
+    "id": "test4",
+    "type": "School project",
+    "gridSize": "col-lg-6 col-sm-6",
+    "category": ["web"],
+    "imageUrl": "/assets/portfolio-images/work1.jpg"
+  },
+  {
+    "name": "Test item 5",
+    "id": "test5",
+    "type": "School project",
+    "gridSize": "col-lg-6 col-sm-6",
+    "category": ["web"],
+    "imageUrl": "/assets/portfolio-images/work1.jpg"
+  },
+  {
+    "name": "Test item 6",
+    "id": "test6",
+    "type": "School project",
+    "gridSize": "col-lg-6 col-sm-6",
+    "category": ["web"],
+    "imageUrl": "/assets/portfolio-images/work1.jpg"
+  }
+]

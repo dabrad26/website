@@ -1,0 +1,29 @@
+
+.reusme_content {
+  .padded-right {
+    padding-right: 32px;
+  }
+  .main-title {
+    margin-bottom: 30px;
+    text-align: right;
+    h1 {
+        padding-bottom: 20px;
+        font-size: 34px;
+        margin-bottom: 30px;
+        &:before {
+            left: unset;
+            right: 0;
+        }
+        &:after {
+            left: unset;
+            right: 0;
+        }
+    }
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+    @media (max-width: 1024px) {
+        padding-bottom: 0px;
+    }
+  }
+}

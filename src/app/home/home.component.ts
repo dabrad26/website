@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SharedServices } from '../services/shared.services';
+import { SharedService } from '../services/shared.service';
 
 @Component({
   selector: 'app-home',
@@ -9,13 +9,13 @@ import { SharedServices } from '../services/shared.services';
 export class HomeComponent implements OnInit {
 
   constructor(
-    private sharedServices: SharedServices
+    private sharedService: SharedService
   ) { }
 
   ngOnInit() {
-    this.sharedServices.setCurrentPage(this.sharedServices.getNavItemByRoute('/'));
-    this.sharedServices.setCurrentBreadcrumbs([
-      this.sharedServices.getNavItemByRoute('/')
+    this.sharedService.setCurrentPage(this.sharedService.getNavItemByRoute('/'));
+    this.sharedService.setCurrentBreadcrumbs([
+      this.sharedService.getNavItemByRoute('/')
     ]);
   }
 

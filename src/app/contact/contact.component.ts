@@ -1,5 +1,5 @@
 import { Component, OnInit, ElementRef } from '@angular/core';
-import { SharedServices } from '../services/shared.services';
+import { SharedService } from '../services/shared.service';
 declare var google;
 
 @Component({
@@ -10,15 +10,15 @@ declare var google;
 export class ContactComponent implements OnInit {
 
   constructor(
-    private sharedServices: SharedServices,
+    private sharedService: SharedService,
     private elementRef: ElementRef
   ) { }
 
   ngOnInit() {
-    this.sharedServices.setCurrentPage(this.sharedServices.getNavItemByRoute('/contact'));
-    this.sharedServices.setCurrentBreadcrumbs([
-      this.sharedServices.getNavItemByRoute('/'),
-      this.sharedServices.getNavItemByRoute('/contact')
+    this.sharedService.setCurrentPage(this.sharedService.getNavItemByRoute('/contact'));
+    this.sharedService.setCurrentBreadcrumbs([
+      this.sharedService.getNavItemByRoute('/'),
+      this.sharedService.getNavItemByRoute('/contact')
     ]);
     this.setupMap();
   }

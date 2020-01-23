@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { SharedServices } from '../services/shared.services';
+import { SharedService } from '../services/shared.service';
 import { Router } from '@angular/router';
 import * as jquery from 'jquery';
 
@@ -12,7 +12,7 @@ export class BannerComponent {
   @Input() home: boolean;
 
   constructor(
-    private sharedServices: SharedServices,
+    private sharedService: SharedService,
     private router: Router
   ) { }
 
@@ -21,7 +21,7 @@ export class BannerComponent {
   }
 
   getCurrentPageName(): string {
-    return this.sharedServices.getCurrentPage().name;
+    return this.sharedService.getCurrentPage().name;
   }
 
   scrollDown(): void {

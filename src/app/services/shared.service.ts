@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { NavItem } from '../models/models';
 
 @Injectable()
-export class SharedServices {
+export class SharedService {
   private currentBreadcrumbs: Array<NavItem> = [];
   private currentPage: NavItem = new NavItem();
   private availableRoutes: Array<NavItem> = [
@@ -50,5 +50,9 @@ export class SharedServices {
 
   getCurrentPage(): NavItem {
     return this.currentPage;
+  }
+
+  handleError(message: string, error: any): void {
+    console.error(`Website: ${message}`, error);
   }
 }

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavItem } from '../models/models';
-import { SharedServices } from '../services/shared.services';
+import { SharedService } from '../services/shared.service';
 
 @Component({
   selector: 'app-breadcrumbs',
@@ -10,11 +10,11 @@ import { SharedServices } from '../services/shared.services';
 export class BreadcrumbsComponent {
 
   constructor(
-    private sharedServices: SharedServices
+    private sharedService: SharedService
   ) { }
 
   getBreadcrumbs(): Array<NavItem> {
-    return this.sharedServices.getCurrentBreadcrumbs();
+    return this.sharedService.getCurrentBreadcrumbs();
   }
 
 }

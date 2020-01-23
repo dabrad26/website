@@ -16,3 +16,34 @@ export class PortfolioItem {
   category: Array<'design'|'web'|'mobile'|'desktop'>;
   imageUrl: string;
 }
+
+export class EducationItem {
+  school: string;
+  degree: string;
+  program: string;
+  location: string;
+  description: string;
+  startDate: string;
+  endDate: string|null;
+  displayDateString?: string;
+}
+
+export class ExperienceItem {
+  company: string;
+  jobTitle: string;
+  location: string;
+  description: string;
+  startDate: string;
+  endDate: string|null;
+  displayDateString?: string;
+}
+
+export class TestimonialItem {
+  quote: string;
+  entity: {
+    name: string;
+    url?: string;
+    imageUrl: string;
+  };
+  dateCreated: string;
+}

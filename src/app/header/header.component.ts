@@ -1,7 +1,7 @@
 import { Component, OnInit, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 import { NavItem } from '../models/models';
-import { SharedServices } from '../services/shared.services';
+import { SharedService } from '../services/shared.service';
 import * as jquery from 'jquery';
 
 @Component({
@@ -14,12 +14,12 @@ export class HeaderComponent implements OnInit {
 
   constructor(
     private router: Router,
-    private sharedServices: SharedServices,
+    private sharedService: SharedService,
     private elementRef: ElementRef
   ) { }
 
   ngOnInit() {
-    this.menuItems = this.sharedServices.getAvailableRoutes();
+    this.menuItems = this.sharedService.getAvailableRoutes();
     this.navbarFixed();
   }
 
