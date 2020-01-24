@@ -10,7 +10,7 @@
             <br>
             <br>
           </p>
-          <a href="" target="_blank" class="primary-btn">Download resume</a>
+          <a href="/assets/documents/David Bradshaw Resume.pdf" target="_blank" class="primary-btn">Download resume</a>
         </div>
       </div>
     </div>
@@ -18,7 +18,7 @@
       <app-loading *ngIf="pageStatus==='loading'"></app-loading>
       <app-error *ngIf="pageStatus==='error'"></app-error>
       <ng-container *ngIf="!pageStatus">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center resume-grouping">
           <div class="col-md-4 padded-right">
             <div class="section-title main-title">
               <h1>Experience</h1>
@@ -32,7 +32,7 @@
             </div>
           </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center resume-grouping">
           <div class="col-md-4 padded-right">
             <div class="section-title main-title">
               <h1>Education</h1>

@@ -7,6 +7,11 @@
       margin-bottom: 30px;
     }
   }
+
+  .project-links {
+    margin-bottom: 40px;
+  }
+
   p {
     margin-bottom: 30px;
     font-size: 14px;
@@ -15,11 +20,8 @@
     }
   }
   .portfolio_right_text {
-    margin-top: 50px;
-    @media (max-width: 991px) {
-      margin-top: 0px;
-    }
-    @media (max-width: 576px) {
+    margin-top: 0;
+    @media (max-width: 767px) {
       margin-top: 50px;
     }
     h4 {
@@ -39,7 +41,7 @@
           font-size: 14px;
           color: #000;
           font-weight: 400;
-          width: 97px;
+          width: 130px;
           display: inline-block;
         }
         font-weight: normal;
@@ -53,6 +55,24 @@
       }
     }
   }
+
+  .project-links {
+    ul {
+      margin-top: 18px;
+      padding-left: 20px;
+    }
+    li {
+
+      a {
+        color: $primary-color;
+        font-weight: 600;
+
+        &:hover, &:active, &:focus {
+          color: $primary-color3;
+        }
+      }
+    }
+  }
 }
 
 .social_details {
@@ -62,11 +82,12 @@
   }
   li {
     display: inline-block;
-    margin-right: 14px;
+    margin-right: 20px;
     a {
-      font-size: 14px;
+      cursor: pointer;
+      font-size: 18px;
       i {
-        color: #000 !important;
+        color: $primary-color3 !important;
         &:hover {
           color: $primary-color !important;
         }

@@ -74,10 +74,14 @@
       color: #fff;
       margin-top: 20px;
       border: 2px solid $primary-color;
-      &:hover {
+      &:not(:disabled):hover {
           color: #000;
           border: 2px solid #90acd1;
           background: transparent;
+      }
+
+      &:disabled {
+        opacity: 0.6;
       }
   }
 }

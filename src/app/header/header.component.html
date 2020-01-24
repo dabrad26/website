@@ -10,7 +10,9 @@
         </button>
         <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
           <ul class="nav navbar-nav menu_nav justify-content-end">
-            <li *ngFor="let menuItem of menuItems" class="nav-item" [ngClass]="{'active': isActiveRoute(menuItem)}"><a class="nav-link" [routerLink]="menuItem.link">{{menuItem.name}}</a></li>
+            <li *ngFor="let menuItem of menuItems" class="nav-item" [ngClass]="{'active': isActiveRoute(menuItem)}">
+              <a class="nav-link" [routerLink]="menuItem.link">{{menuItem.name}}</a>
+            </li>
           </ul>
         </div>
       </div>

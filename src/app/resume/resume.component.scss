@@ -3,6 +3,7 @@
   .padded-right {
     padding-right: 32px;
   }
+
   .main-title {
     margin-bottom: 30px;
     text-align: right;
@@ -24,6 +25,31 @@
     }
     @media (max-width: 1024px) {
         padding-bottom: 0px;
+    }
+  }
+
+  .resume-grouping {
+    margin-bottom: 60px
+  }
+
+  .listing {
+    margin-bottom: 40px;
+
+    .listing-title {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #000;
+
+      @media (max-width: 767px) {
+        font-size: 16px;
+      }
+    }
+
+    .listing-subtitle {
+      font-weight: 600;
+      margin-bottom: 4px;
+      color: #000;
     }
   }
 }

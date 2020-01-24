@@ -1,1 +1,42 @@
-<p>portfolio-item works!</p>
+<section class="portfolio_details_area section_gap">
+  <div class="container">
+    <app-loading *ngIf="pageStatus==='loading'"></app-loading>
+    <app-error *ngIf="pageStatus==='error'"></app-error>
+    <div *ngIf="!pageStatus" class="portfolio_details_inner">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="left_img">
+            <img class="img-fluid" [src]="portfolioData.imageUrl" [alt]="portfolioData.name">
+          </div>
+        </div>
+        <div class="offset-md-1 col-md-5">
+          <div class="portfolio_right_text mt-30">
+            <h4>{{portfolioData.name}}</h4>
+            <p>{{portfolioData.shortDescription}}</p>
+            <ul class="list" *ngIf="quickFactKeys.length">
+              <li *ngFor="let key of quickFactKeys"><span>{{key}}:</span> {{portfolioData.quickFacts[key]}}</li>
+            </ul>
+            <ul class="list social_details">
+              <h5>Share this item</h5>
+              <li><a (click)="shareLink('facebook')"><i class="fa fa-facebook"></i></a></li>
+              <li><a (click)="shareLink('twitter')"><i class="fa fa-twitter"></i></a></li>
+              <li><a (click)="shareLink('pinterest')"><i class="fa fa-pinterest"></i></a></li>
+              <li><a (click)="shareLink('linkedin')"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div *ngIf="portfolioData.projectLinks" class="col-lg-3 project-links">
+          <h5>Project links</h5>
+          <ul>
+            <li *ngFor="let link of portfolioData.projectLinks"><a [href]="link.link" target="_blank">{{link.name}}</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-{{portfolioData.projectLinks ? '9' : '12'}}">
+          <p>{{portfolioData.longDescription}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

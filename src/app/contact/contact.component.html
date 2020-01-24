@@ -21,27 +21,27 @@
               </div>
           </div>
           <div class="col-lg-9">
-              <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+              <div class="row contact_form">
                   <div class="col-md-6">
                       <div class="form-group">
-                          <input type="text" class="form-control" id="name" name="name" required placeholder="Name">
+                          <input type="text" class="form-control" id="name" name="name" [(ngModel)]="formData.name" required placeholder="Name">
                       </div>
                       <div class="form-group">
-                          <input type="email" class="form-control" id="email" name="email" required placeholder="Email">
+                          <input type="email" class="form-control" id="email" name="email" [(ngModel)]="formData.email" required placeholder="Email">
                       </div>
                       <div class="form-group">
-                          <input type="text" class="form-control" id="subject" name="subject" required placeholder="Subject">
+                          <input type="text" class="form-control" id="subject" name="subject" [(ngModel)]="formData.subject" required placeholder="Subject">
                       </div>
                   </div>
                   <div class="col-md-6">
                       <div class="form-group">
-                          <textarea class="form-control" name="message" id="message" rows="1" required placeholder="Message"></textarea>
+                          <textarea class="form-control" name="message" id="message" [(ngModel)]="formData.message" rows="1" required placeholder="Message"></textarea>
                       </div>
                   </div>
                   <div class="col-md-12 text-right">
-                      <button type="submit" value="submit" class="primary-btn"><span>Send Message</span></button>
+                    <button type="button" (click)="sendContact()" [disabled]="formDisabled()" class="primary-btn"><span>Send Message</span></button>
                   </div>
-              </form>
+                </div>
           </div>
       </div>
       <div id="mapBox" class="mapBox"></div>

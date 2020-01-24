@@ -38,12 +38,20 @@ export class ExperienceItem {
   displayDateString?: string;
 }
 
-export class TestimonialItem {
-  quote: string;
-  entity: {
-    name: string;
-    url?: string;
-    imageUrl: string;
-  };
-  dateCreated: string;
+export class PortfolioEntry {
+  id: string;
+  name: string;
+  imageUrl: string;
+  shortDescription: string;
+  longDescription: string;
+  quickFacts?: any;
+  projectLinks?: Array<{name: string, link: string}>;
+  projectImages?: Array<{name: string, url: string}>;
+}
+
+export class ContactForm {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
 }

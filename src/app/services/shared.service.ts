@@ -55,4 +55,10 @@ export class SharedService {
   handleError(message: string, error: any): void {
     console.error(`Website: ${message}`, error);
   }
+
+  isValidEmail(email: string): boolean {
+    const emailTest =
+      /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+    return emailTest.test(email);
+  }
 }
