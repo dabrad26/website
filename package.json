@@ -8,6 +8,7 @@
     "lint": "ng lint"
   },
   "private": true,
+  "prepush": "npm run lint",
   "dependencies": {
     "@angular/animations": "~8.2.14",
     "@angular/common": "~8.2.14",

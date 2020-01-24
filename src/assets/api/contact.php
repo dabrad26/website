@@ -4,18 +4,20 @@
     header( 'Content-type: application/json' );
 
     $to         = 'davidbradshaw415@gmail.com';
+    $rest_json = file_get_contents("php://input");
+    $_POST = json_decode($rest_json, true);
 
     $subject    = strip_tags($_POST['subject']);
     $email       = strip_tags($_POST['email']);
     $name       = strip_tags($_POST['name']);
-    $message    = nl2br( htmlspecialchars($_POST['message'], ENT_QUOTES) );
+    $message    = strip_tags(nl2br( htmlspecialchars($_POST['message'], ENT_QUOTES)));
     $result     = array();
 
 
     if(empty($name)){
 
         $result = array( 'response' => 'error', 'empty'=>'name', 'message'=>'<strong>Error!</strong>&nbsp; Name is required.' );
-        echo json_encode($result );
+        echo json_encode($result);
         die;
     }
 
@@ -50,23 +52,9 @@
         );
 
 
-    $templateContents = `
-      <table>
-        <tbody>
-          <tr>
-            <td>
-            <h2>{{subject}}</h2>
-            <p>Name: {{name}}</p>
-            <p>E-mail: {{email}}</p>
-            <p>{{message}}</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>`;
+    $contents = "<table><tbody><tr><td><h2>Subject: " . $subject . "</h2><p>Name: " . $name . "</p><p>E-mail: " . $email . "</p><p>" . $message . "</p></td></tr></tbody></table>";
 
-    $contents =  strtr($templateContents, $templateTags);
-
-    if ( mail( $to, $subject, $contents, $headers ) ) {
+    if ( mail( $to, "[David Website]: " . $subject, $contents, $headers ) ) {
         $result = array( 'response' => 'success', 'message'=>'<strong>Thank You!</strong>&nbsp; Your email has been delivered.' );
     } else {
         $result = array( 'response' => 'error', 'message'=>'<strong>Error!</strong>&nbsp; Cann\'t Send Mail.'  );
