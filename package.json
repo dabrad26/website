@@ -5,10 +5,10 @@
     "ng": "ng",
     "dev": "ng serve",
     "build": "ng build",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "prepush": "npm run lint"
   },
   "private": true,
-  "prepush": "npm run lint",
   "dependencies": {
     "@angular/animations": "~8.2.14",
     "@angular/common": "~8.2.14",
