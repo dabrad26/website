@@ -34,7 +34,18 @@
           </ul>
         </div>
         <div class="col-lg-{{portfolioData.projectLinks ? '9' : '12'}}">
-          <p>{{portfolioData.longDescription}}</p>
+          <p class="long-description">{{portfolioData.longDescription}}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div *ngIf="portfolioData.projectImages" class="col-sm-12 project-images">
+          <h5>Project images</h5>
+          <div class="project-images-wrapper">
+            <div class="project-image-image" *ngFor="let image of portfolioData.projectImages">
+              <h6>{{image.name}}</h6>
+              <img class="img-fluid" [src]="image.url" [alt]="image.name" [title]="image.name">
+            </div>
+          </div>
         </div>
       </div>
     </div>

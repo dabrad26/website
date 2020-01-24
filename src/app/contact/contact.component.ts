@@ -55,7 +55,7 @@ export class ContactComponent implements OnInit {
       return;
     }
 
-    this.apiService.postData('http://davidbradshaw.us/sendEmail.php', this.formData).subscribe(response => {
+    this.apiService.postData('/assets/api/contact.php', this.formData).subscribe(response => {
       alert('Message sent. Thank you!');
       this.formData = new ContactForm();
     }, error => {

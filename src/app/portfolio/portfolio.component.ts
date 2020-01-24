@@ -27,12 +27,8 @@ export class PortfolioComponent implements OnInit {
       id: 'web'
     },
     {
-      name: 'Mobile',
-      id: 'mobile'
-    },
-    {
-      name: 'Desktop',
-      id: 'desktop'
+      name: 'Applications',
+      id: 'applications'
     }
   ];
 

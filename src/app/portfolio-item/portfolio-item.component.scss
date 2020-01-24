@@ -8,8 +8,48 @@
     }
   }
 
+  .long-description {
+    white-space: pre-line;
+  }
+
   .project-links {
     margin-bottom: 40px;
+  }
+
+  .project-images {
+    .project-images-wrapper {
+      background-color: #CCC;
+      padding: 20px 0;
+
+      h6 {
+        color: #000;
+        margin-bottom: 16px;
+      }
+
+      @media (max-width: 767px) {
+        background-color: transparent;
+      }
+    }
+
+    .project-image-image {
+      max-width: 80%;
+      margin: 35px auto;
+      padding-bottom: 35px;
+      border-bottom: 1px solid #777;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      @media (max-width: 767px) {
+        max-width: 100%;
+      }
+
+      img {
+        margin: 0 auto;
+        display: block;
+      }
+    }
   }
 
   p {
