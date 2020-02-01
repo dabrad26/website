@@ -4,8 +4,8 @@
     "degree": "Master of Science",
     "program": "Information Experience Design",
     "location": "New York, NY",
-    "description": "Master of Science program that blends Information Science, Human- Computer Interaction, and User Experience disciplines.",
-    "startDate": "2020-01-01",
+    "description": "Master of Science program that blends Information Science, Human-Computer Interaction, and User Experience disciplines.",
+    "startDate": "2020-01-20",
     "endDate": null
   },
   {
@@ -14,8 +14,8 @@
     "program": "Computer Science",
     "location": "Americus, GA",
     "description": "Master of Science program with my focus being on HCI. Was awarded the Outstanding Computer Science Graduate 2013 award.",
-    "startDate": "2012-08-01",
-    "endDate": "2013-05-01"
+    "startDate": "2012-08-20",
+    "endDate": "2013-05-07"
   },
   {
     "school": "University of California San Diego Extension",
@@ -23,7 +23,7 @@
     "program": "User Experience Design",
     "location": "San Diego, CA",
     "description": "Professional certificate on user experience and user interface design for products and applications.",
-    "startDate": "2019-01-01",
+    "startDate": "2019-01-16",
     "endDate": null
   },
   {
@@ -32,8 +32,8 @@
     "program": "Computer Science",
     "location": "Americus, GA",
     "description": "Bachelor of Science program. Received the following honors during my studies: Outstanding Computer Science Undergraduate 2012, Excellence in Academics and Service to the School of Computing and Mathematics 2012, President's List, Dean's List.",
-    "startDate": "2010-08-01",
-    "endDate": "2012-05-01"
+    "startDate": "2010-08-20",
+    "endDate": "2012-05-07"
   },
   {
     "school": "Darton College",
@@ -41,7 +41,7 @@
     "program": "Computer Science",
     "location": "Albany, GA",
     "description": "Associates of Science program. Received Dean's List for Spring and Summer of 2010.",
-    "startDate": "2008-08-01",
-    "endDate": "2010-07-01"
+    "startDate": "2008-08-20",
+    "endDate": "2010-07-13"
   }
 ]

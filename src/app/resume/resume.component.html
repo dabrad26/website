@@ -27,7 +27,7 @@
           <div class="col-md-8">
             <div *ngFor="let experience of experiences" class="listing">
               <div class="listing-title">{{experience.jobTitle}}</div>
-              <div class="listing-subtitle">{{experience.company}}, {{experience.location}}, {{experience.displayDateString}}</div>
+              <div class="listing-subtitle">{{experience.company}}, {{experience.location}}; {{experience.displayDateString}}</div>
               <div class="listing-description">{{experience.description}}</div>
             </div>
           </div>
@@ -40,8 +40,11 @@
           </div>
           <div class="col-md-8">
             <div *ngFor="let education of educations" class="listing">
-              <div class="listing-title">{{education.degree}} in {{education.program}}</div>
-              <div class="listing-subtitle">{{education.school}}, {{education.location}}, {{education.displayDateString}}</div>
+              <div class="listing-title">
+                <span>{{education.degree}} in {{education.program}}</span>
+                <i *ngIf="!education.endDate" class="fa fa-asterisk listing-note" title="In progress"></i>
+              </div>
+              <div class="listing-subtitle">{{education.school}}, {{education.location}}; {{education.displayDateString}}</div>
               <div class="listing-description">{{education.description}}</div>
             </div>
           </div>

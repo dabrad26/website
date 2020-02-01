@@ -1,3 +1,4 @@
+@import '../variables';
 
 .reusme_content {
   .padded-right {
@@ -43,6 +44,17 @@
 
       @media (max-width: 767px) {
         font-size: 16px;
+      }
+
+      .listing-note {
+        color: $primary-color;
+        font-size: 12px;
+        margin-left: 5px;
+        vertical-align: top;
+
+        @media (max-width: 767px) {
+          font-size: 10px;
+        }
       }
     }
 

@@ -4,7 +4,7 @@
     "jobTitle": "Platform Frontend Architect",
     "location": "New York, NY",
     "description": "In this role I drive the frontend architecture of Aspera products, with a specific focus on design standards, scalability, reliability, performance and NPS growth. I work closely with design to ensure consistency and patterns that meet our customer needs. I started as a Lead engineer before being promoted to Architect in July 2019.",
-    "startDate": "2018-01-01",
+    "startDate": "2018-01-14",
     "endDate": null
   },
   {
@@ -12,31 +12,31 @@
     "jobTitle": "Software Engineer II",
     "location": "San Francisco, CA",
     "description": "Frontend software engineer for customer facing offerings working closely with the design team. Mostly working with Angular, HTML, JS, Sketch.",
-    "startDate": "2017-09-01",
-    "endDate": "2018-01-01"
+    "startDate": "2017-09-07",
+    "endDate": "2018-01-13"
   },
   {
     "company": "Aspera, An IBM Company",
     "jobTitle": "Staff Software Engineer",
     "location": "Emeryville, CA",
     "description": "Frontend software engineer working on enterprise level web applications. I work closely with the design team on ensuring proper UX and UI patterns and also conducted user research studies with existing customers for UX. I was the lead frontend developer for our fist SaaS offering of Aspera Files.",
-    "startDate": "2014-11-01",
-    "endDate": "2017-08-01"
+    "startDate": "2014-11-14",
+    "endDate": "2017-08-29"
   },
   {
     "company": "Georgia Southwestern State University",
     "jobTitle": "Web Developer/Graphics Designer",
     "location": "Americus, GA",
     "description": "I was responsible for the university’s public facing websites and developed a new website that modernized the school's web presence. As a graphic designer, I was responsible for creating graphics, document layouts and icons. This also included creating print material, billboards and custom logo items.",
-    "startDate": "2013-08-01",
-    "endDate": "2014-11-01"
+    "startDate": "2013-08-12",
+    "endDate": "2014-11-12"
   },
   {
     "company": "Flint RiverQuarium",
     "jobTitle": "Web Designer/IT Manager",
     "location": "Albany, GA",
     "description": "As the web designer and IT manager I was responsible for maintaining our web server (on-prem and later cloud), website, email server, and network setup. This job also included maintaining all equipment. While working here I developed several applications to improve operations.",
-    "startDate": "2008-07-01",
-    "endDate": "2014-11-01"
+    "startDate": "2008-07-28",
+    "endDate": "2014-11-12"
   }
 ]
