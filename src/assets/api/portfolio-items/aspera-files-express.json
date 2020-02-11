@@ -1,0 +1,38 @@
+{
+  "id": "aspera-files-express",
+  "name": "Aspera Files Express",
+  "imageUrl": "/assets/portfolio-items/images/aspera-files-express.jpg",
+  "shortDescription": "While working for IBM I worked on a new project called Aspera Files Express. Aspera Files is an enterprise file management and sharing application that utilizes Aspera FASP. This new Files Express was a redesign on top of the same API used by Aspera Files. This new design was a simpler design that utilized a new UX direction. It offered support for sending and receiving packages and requesting packages.",
+  "longDescription": "For this project, my role was working as a front-end developer working closely with a design team to ensure proper user interaction and ensuring that the implementation matched the visual design comps created by the design team responsible for Aspera Files. This project was originally a demo I was working on based on a new design from the UX team. This project worked perfectly and was well received at demos and quickly was added as an offering of Aspera Files.",
+  "quickFacts": {
+    "Project type": "Work project",
+    "Company": "Aspera, an IBM Company",
+    "Role": "Lead Frontend Engineer",
+    "Language": "AngularJS, CoffeeScript, Jade, Stylus",
+    "Testing": "Karma, Protractor",
+    "URL": "https://files.asperasoft.com",
+    "Completion": "February 15, 2017"
+  },
+  "projectImages": [
+    {
+      "name": "Login page",
+      "url": "/assets/portfolio-items/images/aspera-files-express-1.jpg"
+    },
+    {
+      "name": "Send files page",
+      "url": "/assets/portfolio-items/images/aspera-files-express-2.jpg"
+    },
+    {
+      "name": "Send files page with files",
+      "url": "/assets/portfolio-items/images/aspera-files-express-4.jpg"
+    },
+    {
+      "name": "Request files page",
+      "url": "/assets/portfolio-items/images/aspera-files-express-3.jpg"
+    },
+    {
+      "name": "Welcome screen",
+      "url": "/assets/portfolio-items/images/aspera-files-express-6.jpg"
+    }
+  ]
+}

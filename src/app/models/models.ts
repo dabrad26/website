@@ -13,7 +13,7 @@ export class PortfolioItem {
   id: string;
   type: string;
   gridSize: string;
-  category: Array<'design'|'web'|'applications'>;
+  category: Array<'design'|'web'|'applications'|'papers'>;
   imageUrl: string;
 }
 

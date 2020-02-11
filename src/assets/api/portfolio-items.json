@@ -6,5 +6,61 @@
     "gridSize": "col-lg-6 col-sm-6",
     "category": ["design"],
     "imageUrl": "/assets/portfolio-items/images/oakland-forever-home.jpg"
+  },
+  {
+    "name": "Retro Music Players",
+    "id": "retro-music-players",
+    "type": "School project",
+    "gridSize": "col-lg-6 col-sm-6",
+    "category": ["design"],
+    "imageUrl": "/assets/portfolio-items/images/retro-music-players.jpg"
+  },
+  {
+    "name": "Car Infotainment System",
+    "id": "car-infotainment-system",
+    "type": "School project",
+    "gridSize": "col-lg-6 col-sm-6",
+    "category": ["design"],
+    "imageUrl": "/assets/portfolio-items/images/car-infotainment-system.jpg"
+  },
+  {
+    "name": "IBM Aspera on Cloud",
+    "id": "aspera-on-cloud",
+    "type": "Work project",
+    "gridSize": "col-lg-6 col-sm-6",
+    "category": ["design", "web"],
+    "imageUrl": "/assets/portfolio-items/images/aspera-on-cloud.jpg"
+  },
+  {
+    "name": "Aspera Developer Network",
+    "id": "aspera-developer-network",
+    "type": "Work project",
+    "gridSize": "col-lg-6 col-sm-6",
+    "category": ["design", "web"],
+    "imageUrl": "/assets/portfolio-items/images/aspera-developer-network.jpg"
+  },
+  {
+    "name": "Aspera Files Express",
+    "id": "aspera-files-express",
+    "type": "Work project",
+    "gridSize": "col-lg-6 col-sm-6",
+    "category": ["web"],
+    "imageUrl": "/assets/portfolio-items/images/aspera-files-express.jpg"
+  },
+  {
+    "name": "Aspera Files",
+    "id": "aspera-files",
+    "type": "Work project",
+    "gridSize": "col-lg-6 col-sm-6",
+    "category": ["web"],
+    "imageUrl": "/assets/portfolio-items/images/aspera-files.jpg"
+  },
+  {
+    "name": "Marriott Bonvoy UX Study",
+    "id": "marriott-bonvoy-ux-study",
+    "type": "School project",
+    "gridSize": "col-lg-6 col-sm-6",
+    "category": ["design"],
+    "imageUrl": "/assets/portfolio-items/images/marriott-bonvoy-ux-study.jpg"
   }
 ]

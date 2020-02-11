@@ -23,7 +23,7 @@
     <ng-container *ngIf="!pageStatus">
       <div class="row justify-content-center">
         <div class="col-lg-10">
-          <div class="projects_fillter">
+          <div *ngIf="!limitView" class="projects_fillter">
             <ul class="filter list">
               <li *ngFor="let filter of availableFilters" [ngClass]="{'active': filter.id === currentFilter.id}" (click)="changeFilter(filter)">{{filter.name}}</li>
             </ul>

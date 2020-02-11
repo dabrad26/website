@@ -29,6 +29,10 @@ export class PortfolioComponent implements OnInit {
     {
       name: 'Applications',
       id: 'applications'
+    },
+    {
+      name: 'Papers',
+      id: 'papers'
     }
   ];
 
