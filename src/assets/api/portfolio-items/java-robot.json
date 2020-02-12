@@ -1,0 +1,44 @@
+{
+    "id": "java-robot",
+    "name": "Java Robot with Controller Apps",
+    "imageUrl": "/assets/portfolio-items/images/java-robot.jpg",
+    "shortDescription": "For a final project for my undergraduate degree I worked on a Java driven robot that would receive commands over a wireless network from desktop and mobile applications and perform the command. My role in this group project included the programming of all of the applications, the programming of the robot itself, the physical design of the robot, as well as the design of the user interface.",
+    "longDescription": "The robot (Java based robot) itself was designed to look like a motor vehicle with sensors. The robot had two wheels (left and right), an on-board motherboard that could run Java applications, an LCD display for printing out information useful to the user, IR detection receivers on the back, sonar detection on the front, and a WiFLY adapter for connecting to a network. The robot was programmed to move forward, backward, move one of the wheels independently (for turning) and to dance.\n\nThe robot received packets of data from the controller applications and would process the command. The commands were processed as long as they would not put the robot in danger. The robot would check its surroundings before performing an operation. For example, using the IR and Sonar detection units it would verify that it would not crash if it continued its course. If an object was approaching the robot would make an audible beep and stop any operations and return a message to the controller application that it is in danger of crashing.\n\nThe Windows controller application was the first GUI developed for communicating with the robot; it was designed to run on the Windows Operating System. It was written in C# and used the .NET framework. This application would connect to the robot by entering the IP address and Port number (given to user by robot) and used socket connections to send packets of data to the robot. This offered the ability to control the robot using a Directional pad, directional sticks, and a Dance button to make the robot dance (this was a randomization of controls performed on the robot).\n\nThe Windows Phone controller application was the first mobile application to control the robot. It was designed for Windows Phone 7 Mango; Mango was required due to the use of Sockets (included in Mango and newer versions of Windows Phone. This application was written in C# with the layout in XAML. This application would connect to the robot by entering the IP address and Port number (given to user by robot) and used socket connections to send packets of data to the robot. This offered the ability to control the robot using a Directional pad, directional sticks, and a Dance button to make the robot dance (this was a randomization of controls performed on the robot).\n\nThe Android controller application was designed for Android Smartphones. This application was written in Java. This application would connect to the robot by entering the IP address and Port number (given to user by robot) and used socket connections to send packets of data to the robot. This offered the ability to control the robot using a Directional pad and offered a Dance button to make the robot dance (this was a randomization of controls performed on the robot).\n\nThe Command based controller was the original method used to control the robot before the graphical interfaces were developed for each of the supported platforms. This Shell script was developed to allow users using a UNIX or LINUX based operating system the ability to control the robot using a Directional Pad like group on the keyboard (similar to keyboard based games). The Shell script was redesigned to be user friendly and provided a clean interface and instructions. The Terminal based controller would also receive replies from the Robot to show the user what was happening.",
+    "quickFacts": {
+      "Project type": "School project",
+      "School": "Georgia Southwestern State University",
+      "Class": "CSCI-4900 – Capstone Project",
+      "Language": "Java, Android SDK, C#, Windows Phone SDK, ASP.NET, Shell",
+      "Completion": "April 23, 2012"
+    },
+    "projectImages": [
+      {
+        "name": "Windows D-Pad controller",
+        "url": "/assets/portfolio-items/images/java-robot-1.jpg"
+      },
+      {
+        "name": "Windows Stick controller",
+        "url": "/assets/portfolio-items/images/java-robot-2.jpg"
+      },
+      {
+        "name": "Windows Phone D-Pad controller",
+        "url": "/assets/portfolio-items/images/java-robot-3.jpg"
+      },
+      {
+        "name": "Windows Phone Stick controller",
+        "url": "/assets/portfolio-items/images/java-robot-4.jpg"
+      },
+      {
+        "name": "Android connect page",
+        "url": "/assets/portfolio-items/images/java-robot-5.jpg"
+      },
+      {
+        "name": "Android D-Pad controller",
+        "url": "/assets/portfolio-items/images/java-robot-6.jpg"
+      },
+      {
+        "name": "Command line controller",
+        "url": "/assets/portfolio-items/images/java-robot-7.jpg"
+      }
+    ]
+  }

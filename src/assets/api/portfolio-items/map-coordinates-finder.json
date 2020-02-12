@@ -1,0 +1,23 @@
+{
+    "id": "map-coordinates-finder",
+    "name": "Map Coordinates Finder",
+    "imageUrl": "/assets/portfolio-items/images/map-coordinates-finder.jpg",
+    "shortDescription": "To help users find the coordinates for the Trivia Scavenger Hunt creation tool, this map was created. This map allows the user to easily click and drag the marker around to get the coordinates of that location and visually see the radius (set by the user) that would be acceptable for the user to be in.",
+    "longDescription": "While this app is mainly for helping with creating the Scavenger Hunt it is also useful for anyone trying to get the coordinates of a location and to visually see how much a radius would cover. The map allows you to click and drag the marker for instant viewing of the latitude and longitude. It also uses the user’s current location (if allowed by the browser) to go ahead and start the point in the user’s general area. The map also connects to Google Places for searching for areas and getting the coordinates of a specific place (search term or address). The map was created in HTML, CSS, JQuery and JavaScript using the Google Maps and Places API.",
+    "quickFacts": {
+      "Project type": "Personal project",
+      "Language": "jQuery, Google Maps API, JavaScript, HTML, CSS",
+      "Completion": "March 14, 2014",
+      "Status": "Shut down"
+    },
+    "projectImages": [
+      {
+        "name": "Home page",
+        "url": "/assets/portfolio-items/images/map-coordinates-finder-1.jpg"
+      },
+      {
+        "name": "Search results",
+        "url": "/assets/portfolio-items/images/map-coordinates-finder-2.jpg"
+      }
+    ]
+  }

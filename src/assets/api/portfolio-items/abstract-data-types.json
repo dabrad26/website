@@ -1,0 +1,23 @@
+{
+    "id": "abstract-data-types",
+    "name": "Abstract Data Types",
+    "imageUrl": "/assets/portfolio-items/images/abstract-data-types.jpg",
+    "shortDescription": "There is no exact definition that describes what Abstract Data Types are. Many books and references give vague concepts to what they are, but none can give an exact definition. It soon became obvious that there was no exact definition; the only item that gave a form of a definition was the Encyclopædia Britannica, which simply gave the theory that they are for large scale programs, and a manner of hiding internal details of data structures and their operations (“Abstract Data Types”). This was not what was needed for explaining Abstract Data Types to the standard user.",
+    "longDescription": "The first step in deciphering what Abstract Data Types are is to break the term up into the basic words that make up this concept. The first word would be „abstract‟; „abstract‟ is simply anything that is conceptual or intangible. The next word is „data‟; „data‟ is obviously any piece of information that is present, more importantly in this case, information presented to the computer. This leaves our last word „type‟; „type‟ is a vague word, which usually shows what area something belongs in (Dale, 2-3). When you put these three separate concepts together you get a conceptual piece of data that belongs to a certain category. This is getting closer to the true theory behind Abstract Data Types. From this, the true meaning of Abstract Data Types are coming to light. It is simply the alterations of conceptual data, or data that is not known or understood, that are altered based on their category or type.",
+    "quickFacts": {
+      "Project type": "School paper",
+      "School": "Georgia Southwestern State University",
+      "Class": "CSCI-3300 – Concepts of Programming Languages",
+      "Completion": "May 3, 2011"
+    },
+    "projectLinks": [
+      {
+        "name": "Final paper",
+        "link": "/assets/portfolio-items/documents/abstract-data-types-final.pdf"
+      },
+      {
+        "name": "Final project presentation",
+        "link": "/assets/portfolio-items/documents/abstract-data-types-presentation.pdf"
+      }
+    ]
+  }

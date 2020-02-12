@@ -1,0 +1,23 @@
+{
+    "id": "developing-apps-for-win-phone",
+    "name": "Developing Applications for Windows Phone 7",
+    "imageUrl": "/assets/portfolio-items/images/developing-apps-for-win-phone.jpg",
+    "shortDescription": "Recently the world of Information Technology has seen an explosion of new technology, devices, and software all in one field.  The field of mobile communication has expanded since the release of cellular phones, and has recently started expanding exponentially since the release of smartphones.",
+    "longDescription": "Many people do not understand exactly what a smartphone is, verse what a standard cellular phone does; Encyclopædia Britannica defines a smartphone as a “mobile telephone with a display screen, built-in personal information management, and an operating system that allows other computer software to be installed (smartphone).”  By following this definition we can see that the main difference between a cellular phone and a smartphone is the ability to install software to broaden what the device can do.  As of today, there are four main smartphone operating systems in use; other manufactures have operating systems for their devices, but they are not as widely used as the four main operating systems.",
+    "quickFacts": {
+      "Project type": "School paper",
+      "School": "Georgia Southwestern State University",
+      "Class": "CSCI-4910 – Senior Seminar",
+      "Completion": "September 16, 2011"
+    },
+    "projectLinks": [
+      {
+        "name": "Final paper",
+        "link": "/assets/portfolio-items/documents/developing-apps-for-win-phone-final.pdf"
+      },
+      {
+        "name": "Final project presentation",
+        "link": "/assets/portfolio-items/documents/developing-apps-for-win-phone-presentation.pdf"
+      }
+    ]
+  }
