@@ -78,6 +78,7 @@
     text-align: center;
     opacity: 0;
     visibility: hidden;
+    padding: 0 15px;
     @include transition();
     h4 {
       font-size: 20px;

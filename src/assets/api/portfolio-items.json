@@ -141,7 +141,7 @@
     "type": "School paper",
     "gridSize": "col-lg-4 col-sm-6",
     "category": ["papers"],
-    "imageUrl": "/assets/portfolio-items/images/virtual-network-lab.jpg"
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg"
   },
   {
     "name": "Flint RiverQuarium Wiki",
@@ -150,6 +150,14 @@
     "gridSize": "col-lg-4 col-sm-6",
     "category": ["web"],
     "imageUrl": "/assets/portfolio-items/images/frq-wiki.jpg"
+  },
+  {
+    "name": "Cloud Computing; the Future of Information Technology?",
+    "id": "cloud-computing-future-it",
+    "type": "School paper",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["papers"],
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg"
   },
   {
     "name": "Southern Forestry Realty",
@@ -165,7 +173,7 @@
     "type": "School paper",
     "gridSize": "col-lg-4 col-sm-6",
     "category": ["papers"],
-    "imageUrl": "/assets/portfolio-items/images/perfect-candidate-for-job.jpg"
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg"
   },
   {
     "name": "Visitor Information Kiosk",
@@ -197,7 +205,7 @@
     "type": "School paper",
     "gridSize": "col-lg-4 col-sm-6",
     "category": ["papers"],
-    "imageUrl": "/assets/portfolio-items/images/abstract-data-types.jpg"
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg"
   },
   {
     "name": "Developing Applications for Windows Phone 7",
@@ -205,6 +213,6 @@
     "type": "School paper",
     "gridSize": "col-lg-4 col-sm-6",
     "category": ["papers"],
-    "imageUrl": "/assets/portfolio-items/images/developing-apps-for-win-phone.jpg"
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg"
   }
 ]
