@@ -3,6 +3,7 @@ import { SharedService } from '../services/shared.service';
 import { ActivatedRoute } from '@angular/router';
 import { PortfolioEntry } from '../models/models';
 import { ApiService } from '../services/api.service';
+declare const FB;
 
 @Component({
   selector: 'app-portfolio-item',
@@ -42,26 +43,29 @@ export class PortfolioItemComponent implements OnInit {
     });
   }
 
-  shareLink(type: 'facebook'|'twitter'|'pinterest'|'linkedin'): void {
-    // TODO: Most of these share links do not work...
-    const currentUrl = location.href;
-    let link;
-    switch (type) {
-      case 'pinterest':
-        link = `https://pinterest.com/pin/create/button/?url=${currentUrl}&description=${this.portfolioData.name}`;
-        break;
-      case 'facebook':
-        link = `https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`;
-        break;
-      case 'twitter':
-        link = `https://twitter.com/intent/tweet?url=${currentUrl}&text=${this.portfolioData.name}`;
-        break;
-      case 'linkedin':
-        link = `https://www.linkedin.com/shareArticle?mini=true&url=${currentUrl}&title=${this.portfolioData.name}`;
-        break;
-    }
+  getShareText(): string {
+    return `Checkout ${this.portfolioData.name} from David Bradshaw's portfolio!`;
+  }
 
-    window.open(link, '_blank');
+  shareTwitter() {
+    window.open(`http://twitter.com/share?text=${this.getShareText()}&url=${location.href}`, '_blank');
+  }
+
+  shareLinkedin() {
+    window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${location.href}&`, '_blank');
+  }
+
+  sharePinterest() {
+    window.open(`http://pinterest.com/pin/create/link/?url=${location.href}`, '_blank');
+  }
+
+  shareFacebook() {
+    FB.ui({
+      method: 'share',
+      app_id: '182061646405462',
+      quote: this.getShareText(),
+      href: location.href,
+    });
   }
 
 }

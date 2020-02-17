@@ -125,6 +125,17 @@
       }
     }
   }
+
+  &.header-home-page {
+    &:not(.navbar_fixed) .nav-item .nav-link {
+      color: #FFF !important;
+      text-shadow: 0 0 1px #000;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
   &.navbar_fixed {
     .main_menu {
       position: fixed;

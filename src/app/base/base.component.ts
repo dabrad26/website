@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import 'bootstrap';
 import { Router, NavigationEnd } from '@angular/router';
+declare const FB;
 
 @Component({
   selector: 'app-base',
@@ -23,6 +24,13 @@ export class BaseComponent implements OnInit {
           document.documentElement.scrollTop = 0;
         }
       }
+    });
+
+    FB.init({
+      appId: '182061646405462',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v6.0'
     });
   }
 }

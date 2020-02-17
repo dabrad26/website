@@ -50,10 +50,11 @@
       background: $primary-color;
       border: 2px solid transparent;
       color: #fff;
+
       &:hover {
-          background: transparent;
-          border-color: $primary-color;
-          color: #000;
+          background: $primary-color4;
+          border-color: $primary-color4;
+          color: #FFF;
       }
   }
   h1 {
@@ -89,7 +90,7 @@
       overflow: hidden;
       width: 100%;
       min-height: 400px;
-      background-image: url(/assets/images/banner.jpg);
+      background-image: url(/assets/images/banner.svg);
       background-size: cover;
       z-index: 1;
       .banner_content {

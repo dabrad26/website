@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "dev": "ng serve",
+    "dev": "npm run set:hosts && ng serve -o --host davidtest.io",
     "build": "ng build",
     "lint": "ng lint",
-    "prepush": "npm run lint"
+    "prepush": "npm run lint",
+    "set:hosts": "if ! hostile list | grep \"127.0.0.1 davidtest.io\" >/dev/null; then sudo hostile set 127.0.0.1 davidtest.io; fi"
   },
   "private": true,
   "dependencies": {
@@ -35,6 +36,7 @@
     "@types/googlemaps": "^3.39.2",
     "@types/node": "^12.11.1",
     "codelyzer": "^5.1.2",
+    "hostile": "^1.3.2",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.7.5"

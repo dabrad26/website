@@ -3,6 +3,8 @@
     <app-loading *ngIf="pageStatus==='loading'"></app-loading>
     <app-error *ngIf="pageStatus==='error'"></app-error>
     <div *ngIf="!pageStatus" class="portfolio_details_inner">
+      <meta property="og:title" content="{{portfolioData.name + ' - David Bradshaw'}}">
+      <meta property="og:image" content="{{portfolioData.imageUrl}}">
       <div class="row">
         <div class="col-md-6">
           <div class="left_img">
@@ -18,10 +20,10 @@
             </ul>
             <ul class="list social_details">
               <h5>Share this item</h5>
-              <li><a (click)="shareLink('facebook')"><i class="fa fa-facebook"></i></a></li>
-              <li><a (click)="shareLink('twitter')"><i class="fa fa-twitter"></i></a></li>
-              <li><a (click)="shareLink('pinterest')"><i class="fa fa-pinterest"></i></a></li>
-              <li><a (click)="shareLink('linkedin')"><i class="fa fa-linkedin"></i></a></li>
+              <li><a (click)="shareFacebook()"><i class="fa fa-facebook"></i></a></li>
+              <li><a (click)="shareTwitter()"><i class="fa fa-twitter"></i></a></li>
+              <li><a (click)="sharePinterest()"><i class="fa fa-pinterest"></i></a></li>
+              <li><a (click)="shareLinkedin()"><i class="fa fa-linkedin"></i></a></li>
             </ul>
           </div>
         </div>
