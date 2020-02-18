@@ -3,8 +3,6 @@
     <app-loading *ngIf="pageStatus==='loading'"></app-loading>
     <app-error *ngIf="pageStatus==='error'"></app-error>
     <div *ngIf="!pageStatus" class="portfolio_details_inner">
-      <meta property="og:title" content="{{portfolioData.name + ' - David Bradshaw'}}">
-      <meta property="og:image" content="{{portfolioData.imageUrl}}">
       <div class="row">
         <div class="col-md-6">
           <div class="left_img">
