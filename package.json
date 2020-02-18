@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "dev": "npm run set:hosts && ng serve -o --host davidtest.io",
-    "build": "ng build",
+    "build": "ng build && cp .htaccess dist/.htaccess",
     "lint": "ng lint",
     "prepush": "npm run lint",
     "set:hosts": "if ! hostile list | grep \"127.0.0.1 davidtest.io\" >/dev/null; then sudo hostile set 127.0.0.1 davidtest.io; fi"
