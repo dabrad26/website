@@ -35,4 +35,4 @@ deploy:
     - apt-get update
     - apt-get install lftp
     - npm run build
-    - lftp -e "set ftp:ssl-allow no; mirror -R /builds/dabrad26/website-fe/dist /" -u $BETA_FTP_USER,$FTP_PASSWORD davidbradshaw.us
+    - lftp -e "set ftp:ssl-allow no; mirror -R /builds/dabrad26/website-fe/dist /" -u $FTP_USER,$FTP_PASSWORD davidbradshaw.us
