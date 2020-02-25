@@ -5,16 +5,12 @@
         <div class="main-title">
           <h1>{{limitView ? 'Latest works' : 'Portfolio items'}}</h1>
           <p>
-            Explore my works below. Filter by type to explore stuff I designed or programmed.
+            You can browse projects I have worked on below.
+            <span *ngIf="!limitView">Filter by type to explore stuff I designed or programmed.</span>
             Click an item to view the full details of the project.
+            <span *ngIf="limitView">Below are my most recent works, to view the entire portfolio visit the portfolio page.</span>
           </p>
-          <p *ngIf="limitView">
-            <br>
-            Below are my most recent works, to view the entire portfolio view the full portfolio page.
-            <br>
-            <br>
-          </p>
-          <a *ngIf="limitView" routerLink="/portfolio" class="primary-btn">View portfolio</a>
+          <a *ngIf="limitView" routerLink="/portfolio" class="primary-btn top-space">View portfolio</a>
         </div>
       </div>
     </div>
