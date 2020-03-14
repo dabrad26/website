@@ -31,6 +31,16 @@ export class HeaderComponent implements OnInit {
     return this.router.url === '/';
   }
 
+  routeClick(): void {
+    const body = document.querySelector('body');
+    if (body && body.clientWidth <= 991) {
+      const mobileButton = this.elementRef.nativeElement.querySelector('#mobile-button');
+      if (mobileButton) {
+        mobileButton.click();
+      }
+    }
+  }
+
   navbarFixed() {
     const navOffsetTop = jquery('header').height() + 50;
     const headerArea = jquery('.header_area');

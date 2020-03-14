@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <a class="navbar-brand" routerLink="/"><img src="/assets/images/logo.svg" alt="David Bradshaw Home"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" id="mobile-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -11,7 +11,7 @@
         <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
           <ul class="nav navbar-nav menu_nav justify-content-end">
             <li *ngFor="let menuItem of menuItems" class="nav-item" [ngClass]="{'active': isActiveRoute(menuItem)}">
-              <a class="nav-link" [routerLink]="menuItem.link">{{menuItem.name}}</a>
+              <a class="nav-link" (click)="routeClick()" [routerLink]="menuItem.link">{{menuItem.name}}</a>
             </li>
           </ul>
         </div>
