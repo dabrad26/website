@@ -1,5 +1,13 @@
 [
   {
+    "name": "Designing for Online Behaviors of Anonymous Users",
+    "id": "designing-for-online-behaviors-of-anonymous-users",
+    "type": "School paper",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["papers"],
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg"
+  },
+  {
     "name": "Oakland Forever Home",
     "id": "oakland-forever-home",
     "type": "School project",
@@ -46,14 +54,6 @@
     "gridSize": "col-lg-4 col-sm-6",
     "category": ["web"],
     "imageUrl": "/assets/portfolio-items/images/aspera-files-express.jpg"
-  },
-  {
-    "name": "Designing for Online Behaviors of Anonymous Users",
-    "id": "designing-for-online-behaviors-of-anonymous-users",
-    "type": "School paper",
-    "gridSize": "col-lg-4 col-sm-6",
-    "category": ["papers"],
-    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg"
   },
   {
     "name": "Aspera Files",
