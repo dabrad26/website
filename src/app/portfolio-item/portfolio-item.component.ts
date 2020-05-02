@@ -62,7 +62,7 @@ export class PortfolioItemComponent implements OnInit {
   shareFacebook() {
     FB.ui({
       method: 'share',
-      app_id: '182061646405462',
+      app_id: '172475467348030',
       quote: this.getShareText(),
       href: location.href,
     });

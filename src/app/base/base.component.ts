@@ -27,7 +27,7 @@ export class BaseComponent implements OnInit {
     });
 
     FB.init({
-      appId: '182061646405462',
+      appId: '172475467348030',
       autoLogAppEvents : true,
       xfbml            : true,
       version          : 'v6.0'

@@ -13,8 +13,11 @@
           <div class="portfolio_right_text mt-30">
             <h4>{{portfolioData.name}}</h4>
             <p>{{portfolioData.shortDescription}}</p>
-            <ul class="list" *ngIf="quickFactKeys.length">
-              <li *ngFor="let key of quickFactKeys"><span>{{key}}:</span> {{portfolioData.quickFacts[key]}}</li>
+            <ul class="list list-quick-facts" *ngIf="quickFactKeys.length">
+              <li *ngFor="let key of quickFactKeys">
+                <span class="label">{{key}}:</span>
+                <span class="data">{{portfolioData.quickFacts[key]}}</span>
+              </li>
             </ul>
             <ul class="list social_details">
               <h5>Share this item</h5>
