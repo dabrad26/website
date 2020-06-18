@@ -1,0 +1,31 @@
+{
+    "id": "human-information-behavior-research-project",
+    "name": "Human Information Behavior Research Project",
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg",
+    "shortDescription": "For this study the day to day life during a health pandemic, COVID-19 during 2020, will be evaluated. This study plans to find out how actors behave and live during this type of event.  The goal is to discover the normal feelings and actions and correlate this to the changing world and fear that is introduced via a health pandemic.  For collecting the data, I will be looking at myself and logging a daily journal.  This data is collected in a table format that can easily be parsed and queried later when it is time to evaluate.",
+    "longDescription": "The final dataset came out to be a little over half a month worth of journal entries.  Initially a longer journal was planned, however, due to protests leading to a citywide curfew the data started to become dictated by those events which broke away from the initial goal of analyzing behaviors during a health pandemic, therefore the data was ended on the first day of the curfew.  After reviewing all the data and coding the journal entries the data was placed in a JSON, JavaScript Object Notation, format to evaluate and allow quick programming to find patterns.  The data was placed into datasets and loaded into Chart.JS application which allowed for real time graphing of the data.  A common pattern the data started to expose was the correlation of getting outside and having an overall happier day.\n\nThe study is now leaning toward the benefits of being able to get out of the house and into fresh air and allow a more exploratory feeling of being outside.  During a health crisis being outside starts to become a social taboo and by going out you may be seen as having disrespect for other people’s health or a lack of concern over the current conditions (Fisher, Sellers, & Wilson).  However, mental health is also critical, and being confined to a small area with little access to fresh air and nature can cause havoc on a person’s wellbeing (Harvard Health Publishing).",
+    "quickFacts": {
+      "Project type": "School paper",
+      "School": "Pratt Institute",
+      "Class": "INFO-608 – Human Information Interaction",
+      "Completion": "June 18, 2020"
+    },
+    "projectLinks": [
+      {
+        "name": "Propasal",
+        "link": "/assets/portfolio-items/documents/human-information-behavior-research-project-proposal.pdf"
+      },
+      {
+        "name": "Environmental Scan",
+        "link": "/assets/portfolio-items/documents/human-information-behavior-research-project-environmental.pdf"
+      },
+      {
+        "name": "Data Analysis",
+        "link": "/assets/portfolio-items/documents/human-information-behavior-research-project-data.pdf"
+      },
+      {
+        "name": "Data and Analysis Code",
+        "link": "https://github.com/dabrad26/info-608-data"
+      }
+    ]
+  }

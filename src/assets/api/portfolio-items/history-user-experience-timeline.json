@@ -1,0 +1,19 @@
+{
+    "id": "history-user-experience-timeline",
+    "name": "The History of User Experience Timeline",
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg",
+    "shortDescription": "The history of User Experience is a rich history that includes a lot more than just the computer industry. Most things we use as a human has evolved to be simpler and easier for us to use. Even without realizing it the practice of User Experience has been put into everything we create.",
+    "longDescription": "The goal of User Experience is to create products that are easy for a human to use. This is true whether in the physical or digital realm. This project attempts to explore some of the key historic events that showcase the evolution of User Experience from the early ages of China and Greece to the modern age of Donald Norman keying the terminology that has created a booming profession.",
+    "quickFacts": {
+      "Project type": "School paper",
+      "School": "Pratt Institute",
+      "Class": "INFO-658 – Information Visualization",
+      "Completion": "June 7, 2020"
+    },
+    "projectLinks": [
+      {
+        "name": "Final paper",
+        "link": "/assets/portfolio-items/documents/history-user-experience-timeline.pdf"
+      }
+    ]
+  }

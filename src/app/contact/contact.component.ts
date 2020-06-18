@@ -28,22 +28,33 @@ export class ContactComponent implements OnInit {
   }
 
   setupMap() {
-    const myLatlng = new google.maps.LatLng(40.766573, -73.990485);
+    const myLatlng = new google.maps.LatLng(40.771058, -73.991161);
+
+    const mapStyles = [
+      {
+        featureType: 'poi',
+        elementType: 'labels',
+        stylers: [
+          {visibility: 'off'}
+        ]
+      }
+    ];
 
     const mapOptions = {
-        zoom: 13,
-        scrollwheel: false,
-        center: myLatlng,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        disableDefaultUI: true
+      zoom: 13,
+      scrollwheel: false,
+      center: myLatlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      disableDefaultUI: true,
+      styles: mapStyles
     };
 
     const map = new google.maps.Map(this.elementRef.nativeElement.querySelector('#mapBox'), mapOptions);
 
     const marker = new google.maps.Marker({
-        position: myLatlng,
-        map,
-        animation: google.maps.Animation.DROP,
+      position: myLatlng,
+      map,
+      animation: google.maps.Animation.DROP,
     });
   }
 

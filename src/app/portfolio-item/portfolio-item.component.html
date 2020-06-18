@@ -16,15 +16,18 @@
             <ul class="list list-quick-facts" *ngIf="quickFactKeys.length">
               <li *ngFor="let key of quickFactKeys">
                 <span class="label">{{key}}:</span>
-                <span class="data">{{portfolioData.quickFacts[key]}}</span>
+                <span class="data">
+                  <a *ngIf="key==='URL'" [href]="portfolioData.quickFacts[key]" target="_blank">{{portfolioData.quickFacts[key]}}</a>
+                  <ng-container *ngIf="key!=='URL'">{{portfolioData.quickFacts[key]}}</ng-container>
+                </span>
               </li>
             </ul>
             <ul class="list social_details">
               <h5>Share this item</h5>
-              <li><a (click)="shareFacebook()"><i class="fa fa-facebook"></i></a></li>
               <li><a (click)="shareTwitter()"><i class="fa fa-twitter"></i></a></li>
               <li><a (click)="sharePinterest()"><i class="fa fa-pinterest"></i></a></li>
               <li><a (click)="shareLinkedin()"><i class="fa fa-linkedin"></i></a></li>
+              <li><a (click)="shareEmail()"><i class="fa fa-envelope"></i></a></li>
             </ul>
           </div>
         </div>

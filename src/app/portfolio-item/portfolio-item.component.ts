@@ -3,7 +3,6 @@ import { SharedService } from '../services/shared.service';
 import { ActivatedRoute } from '@angular/router';
 import { PortfolioEntry } from '../models/models';
 import { ApiService } from '../services/api.service';
-declare const FB;
 
 @Component({
   selector: 'app-portfolio-item',
@@ -59,13 +58,8 @@ export class PortfolioItemComponent implements OnInit {
     window.open(`http://pinterest.com/pin/create/link/?url=${location.href}`, '_blank');
   }
 
-  shareFacebook() {
-    FB.ui({
-      method: 'share',
-      app_id: '172475467348030',
-      quote: this.getShareText(),
-      href: location.href,
-    });
+  shareEmail() {
+    const bodyText = `${this.getShareText()}\n\n${location.href}`;
+    window.open(`mailto:?subject=${encodeURIComponent(this.getShareText())}&body=${encodeURIComponent(bodyText)}`);
   }
-
 }

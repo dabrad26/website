@@ -1,5 +1,37 @@
 [
   {
+    "name": "Human Information Behavior Research Project",
+    "id": "human-information-behavior-research-project",
+    "type": "School paper",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["papers"],
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg"
+  },
+  {
+    "name": "New York City Evictions Statistical Data Visualization",
+    "id": "new-york-city-evictions-stat-vis",
+    "type": "School paper",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["papers"],
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg"
+  },
+  {
+    "name": "The History of User Experience Timeline",
+    "id": "history-user-experience-timeline",
+    "type": "School paper",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["papers"],
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg"
+  },
+  {
+    "name": "IBM Aspera HTTP Gateway SDK",
+    "id": "aspera-http-gateway",
+    "type": "Work project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["applications", "web"],
+    "imageUrl": "/assets/portfolio-items/images/sdk.jpg"
+  },
+  {
     "name": "Placemaking Week Redesign",
     "id": "placemaking-week-redesign",
     "type": "School project",
