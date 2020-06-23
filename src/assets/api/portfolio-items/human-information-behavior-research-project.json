@@ -16,15 +16,19 @@
         "link": "/assets/portfolio-items/documents/human-information-behavior-research-project-proposal.pdf"
       },
       {
-        "name": "Environmental Scan",
+        "name": "Environmental scan",
         "link": "/assets/portfolio-items/documents/human-information-behavior-research-project-environmental.pdf"
       },
       {
-        "name": "Data Analysis",
+        "name": "Data analysis",
         "link": "/assets/portfolio-items/documents/human-information-behavior-research-project-data.pdf"
       },
       {
-        "name": "Data and Analysis Code",
+        "name": "Final findings",
+        "link": "/assets/portfolio-items/documents/human-information-behavior-research-project-final.pdf"
+      },
+      {
+        "name": "Data and analysis code",
         "link": "https://github.com/dabrad26/info-608-data"
       }
     ]
