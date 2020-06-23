@@ -13,21 +13,21 @@ stages:
 install:
   type: install
   only:
-    - master
+    - main
   script:
     - npm install
 
 test:
   type: test
   only:
-    - master
+    - main
   script:
     - npm run lint
 
 deploy:
   type: deploy
   only:
-    - master
+    - main
   environment:
     name: production
     url: http://davidb.nyc
