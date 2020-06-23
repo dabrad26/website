@@ -1,12 +1,12 @@
 {
   "name": "website-fe",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "dev": "npm run set:hosts && ng serve -o --host davidtest.io",
-    "build": "ng build && cp .htaccess dist/.htaccess",
+    "build": "rm -rf dist && ng build --prod && cp .htaccess dist/.htaccess",
+    "deploy": "npm run build && ./deploy.sh",
     "lint": "ng lint",
-    "prepush": "npm run lint",
     "set:hosts": "if ! hostile list | grep \"127.0.0.1 davidtest.io\" >/dev/null; then sudo hostile set 127.0.0.1 davidtest.io; fi"
   },
   "private": true,
