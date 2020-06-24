@@ -11,7 +11,13 @@ export class BaseComponent implements OnInit {
 
   constructor(
     private router: Router
-  ) {}
+  ) {
+    const path = localStorage.getItem('path');
+    if (path) {
+      localStorage.removeItem('path');
+      this.router.navigate([path]);
+    }
+  }
 
   ngOnInit() {
     this.router.events.subscribe((routeEvent) => {
