@@ -29,7 +29,7 @@ export class ApiService {
     return this.http.get(dataLocation);
   }
 
-  postData(endpoint: string, data: any): Observable<any> {
-    return this.http.post(endpoint, data);
+  post(endpoint: string, data: any, options?: any): Observable<any> {
+    return this.http.post(endpoint, data, options);
   }
 }

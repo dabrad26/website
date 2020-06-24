@@ -11,6 +11,8 @@ declare var google;
 })
 export class ContactComponent implements OnInit {
   formData: ContactForm = new ContactForm();
+  sendEmailConfirm = false;
+  disableForm = false;
 
   constructor(
     private sharedService: SharedService,
@@ -66,12 +68,23 @@ export class ContactComponent implements OnInit {
       return;
     }
 
-    this.apiService.postData('/assets/api/contact.php', this.formData).subscribe(response => {
-      alert('Message sent. Thank you!');
+    const data = {
+      from: this.formData.name,
+      email: this.formData.email,
+      _subject: `[David Website]: ${this.formData.subject}`,
+      message: this.formData.message,
+      sent: new Date().toISOString(),
+    };
+    this.disableForm = true;
+    this.apiService.post('https://mailthis.to/emaildavid', data, {responseType: 'text'}).subscribe(response => {
+      alert('To confirm you are not a robot.  Please do the following captcha and then click "Go Back" to return.');
       this.formData = new ContactForm();
+      this.disableForm = false;
+      window.location.href = 'https://mailthis.to/confirm';
     }, error => {
       alert('Message could not be sent. Please try again.');
       this.sharedService.handleError('Unable to submit contact form', error);
+      this.disableForm = false;
     });
   }
 
@@ -81,7 +94,8 @@ export class ContactComponent implements OnInit {
       this.formData.email &&
       this.formData.message &&
       this.formData.subject &&
-      this.sharedService.isValidEmail(this.formData.email)
+      this.sharedService.isValidEmail(this.formData.email) &&
+      !this.disableForm
     ) {
       return false;
     }
