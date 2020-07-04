@@ -108,4 +108,15 @@
       bottom: 30px;
     }
   }
+
+  @media (max-width: 991px) {
+    &:before {
+      opacity: 0.4;
+    }
+    .projects_text {
+      opacity: 1;
+      visibility: visible;
+      bottom: 30px;
+    }
+  }
 }

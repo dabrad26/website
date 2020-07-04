@@ -1,5 +1,13 @@
 [
   {
+    "name": "Interactions of Primary School Children",
+    "id": "interactions-children-network-vis",
+    "type": "School paper",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["papers"],
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg"
+  },
+  {
     "name": "Human Information Behavior Research Project",
     "id": "human-information-behavior-research-project",
     "type": "School paper",

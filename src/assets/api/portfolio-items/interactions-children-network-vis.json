@@ -1,0 +1,26 @@
+{
+    "id": "interactions-children-network-vis",
+    "name": "Interactions of Primary School Children",
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg",
+    "shortDescription": "For this project I explored the social interactions between primary school children and their peers. A!er reading over the findings from 'High-Resolution Measurements of Face-to-Face Contact Patterns in a Primary School'. I wanted to see how students interact with peers outside of their grade level. For example, how many interactions does a first grader have with a third grader, as well as see if there are any interesting trends that might exist between grade hierarchy and social interactions with peers outside of their grade.",
+    "longDescription": "With my data loaded I had a giant blob of color on the screen. This was not very useful in its current format. I experimented with the different layouts as described in the book on pages 56-76 of 'Mastering Gephi Network Visualization'. You can see the experiments in Figure 1 below. This rendered different visualizations of the data in useful collections. For my final layout I went with Yifan Hu which is a force-based algorithm with a performance gain.",
+    "quickFacts": {
+      "Project type": "School paper",
+      "School": "Pratt Institute",
+      "Class": "INFO-658 – Information Visualization",
+      "URL": "https://studentwork.prattsi.org/infovis/labs/networks/interactions-of-primary-school-children/",
+      "Completion": "July 4, 2020"
+    },
+    "projectImages": [
+      {
+        "name": "Example usage of the network visualization",
+        "url": "/assets/portfolio-items/images/interactions-children-network-vis-1.gif"
+      }
+    ],
+    "projectLinks": [
+      {
+        "name": "Final paper",
+        "link": "/assets/portfolio-items/documents/interactions-children-network-vis.pdf"
+      }
+    ]
+  }
