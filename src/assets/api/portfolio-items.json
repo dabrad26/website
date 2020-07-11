@@ -1,5 +1,13 @@
 [
   {
+    "name": "Exploring Bike and Subway Correlation",
+    "id": "exploring-bike-subway-correlation",
+    "type": "School paper",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["papers"],
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg"
+  },
+  {
     "name": "Interactions of Primary School Children",
     "id": "interactions-children-network-vis",
     "type": "School paper",

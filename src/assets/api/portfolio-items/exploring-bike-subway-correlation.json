@@ -1,0 +1,26 @@
+{
+    "id": "exploring-bike-subway-correlation",
+    "name": "Exploring Bike and Subway Correlation",
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg",
+    "shortDescription": "For this project I explored the bikes and subway paths across the five boroughs of New York City.  After checking out other bike maps I realized not many show a connection to Subway routes and stations.  I became curious on how many station routes run parallel with bike paths and if bike paths could provide the needed final commute leg for most users.  This exploration was made possible by this map.",
+    "longDescription": "To visualize the map, I found some data points related to bike paths within New York City from the New York State Department of Transportation and the subway station points in New York City.  I put these two data points together to create an overlay on a light-colored map background to ensure readability.  The green lines represent the bike paths and the red dots represent the subway entrances. They use a standard shared radius as they are spaced apart in most cases and represent points of interest on the map.  For visualizing the data and creating an interaction and zoomable map that the user could use to explore their home or high traveled area I used Carto which was a simple tool for taking datasets and adding them as overlays via longitude and latitude data and geoJSON.",
+    "quickFacts": {
+      "Project type": "School paper",
+      "School": "Pratt Institute",
+      "Class": "INFO-658 – Information Visualization",
+      "URL": "https://studentwork.prattsi.org/infovis/visualization/exploring-bike-and-subway-correlations/",
+      "Completion": "July 11, 2020"
+    },
+    "projectImages": [
+      {
+        "name": "Final map example",
+        "url": "/assets/portfolio-items/images/exploring-bike-subway-correlation-1.jpg"
+      }
+    ],
+    "projectLinks": [
+      {
+        "name": "Final paper",
+        "link": "/assets/portfolio-items/documents/exploring-bike-subway-correlation.pdf"
+      }
+    ]
+  }
