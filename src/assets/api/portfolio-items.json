@@ -1,19 +1,27 @@
 [
   {
-    "name": "Exploring Bike and Subway Correlation",
-    "id": "exploring-bike-subway-correlation",
-    "type": "School paper",
+    "name": "Filming Locations across New York city",
+    "id": "filming-locations-across-nyc",
+    "type": "School project",
     "gridSize": "col-lg-4 col-sm-6",
     "category": ["papers"],
-    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg"
+    "imageUrl": "/assets/portfolio-items/images/visualization.jpg"
+  },
+  {
+    "name": "Exploring Bike and Subway Correlation",
+    "id": "exploring-bike-subway-correlation",
+    "type": "School project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["papers"],
+    "imageUrl": "/assets/portfolio-items/images/visualization.jpg"
   },
   {
     "name": "Interactions of Primary School Children",
     "id": "interactions-children-network-vis",
-    "type": "School paper",
+    "type": "School project",
     "gridSize": "col-lg-4 col-sm-6",
     "category": ["papers"],
-    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg"
+    "imageUrl": "/assets/portfolio-items/images/visualization.jpg"
   },
   {
     "name": "Human Information Behavior Research Project",
@@ -26,18 +34,18 @@
   {
     "name": "New York City Evictions Statistical Data Visualization",
     "id": "new-york-city-evictions-stat-vis",
-    "type": "School paper",
+    "type": "School project",
     "gridSize": "col-lg-4 col-sm-6",
     "category": ["papers"],
-    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg"
+    "imageUrl": "/assets/portfolio-items/images/visualization.jpg"
   },
   {
     "name": "The History of User Experience Timeline",
     "id": "history-user-experience-timeline",
-    "type": "School paper",
+    "type": "School project",
     "gridSize": "col-lg-4 col-sm-6",
     "category": ["papers"],
-    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg"
+    "imageUrl": "/assets/portfolio-items/images/visualization.jpg"
   },
   {
     "name": "IBM Aspera HTTP Gateway SDK",
