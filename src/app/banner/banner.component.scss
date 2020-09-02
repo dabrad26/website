@@ -5,12 +5,20 @@
       background-size: cover;
       background-repeat: no-repeat;
   }
-  .slide_bg1 {
-      background: url(/assets/images/home-banner.jpg);
+  .slide_bg {
+      background-image: url(/assets/images/home-banner.jpg);
       position: relative;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+
+      &.image-1 {
+        background-image: url(/assets/images/home-banner-1.jpg);
+      }
+
+      &.image-2 {
+        background-image: url(/assets/images/home-banner-2.jpg);
+      }
 
       &:before {
         content: '';

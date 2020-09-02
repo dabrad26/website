@@ -10,11 +10,14 @@ import * as jquery from 'jquery';
 })
 export class BannerComponent {
   @Input() home: boolean;
+  imageNumber = 1;
 
   constructor(
     private sharedService: SharedService,
     private router: Router
-  ) { }
+  ) {
+    this.imageNumber = Math.floor(Math.random() * 3);
+   }
 
   getWindowHeight(): string {
     return window.innerHeight + 'px';

@@ -5,7 +5,7 @@
     "type": "School project",
     "gridSize": "col-lg-4 col-sm-6",
     "category": ["papers"],
-    "imageUrl": "/assets/portfolio-items/images/visualization.jpg"
+    "imageUrl": "/assets/portfolio-items/images/filming-locations-across-nyc.jpg"
   },
   {
     "name": "Exploring Bike and Subway Correlation",
@@ -13,7 +13,7 @@
     "type": "School project",
     "gridSize": "col-lg-4 col-sm-6",
     "category": ["papers"],
-    "imageUrl": "/assets/portfolio-items/images/visualization.jpg"
+    "imageUrl": "/assets/portfolio-items/images/exploring-bike-subway-correlation.jpg"
   },
   {
     "name": "Interactions of Primary School Children",
@@ -21,7 +21,7 @@
     "type": "School project",
     "gridSize": "col-lg-4 col-sm-6",
     "category": ["papers"],
-    "imageUrl": "/assets/portfolio-items/images/visualization.jpg"
+    "imageUrl": "/assets/portfolio-items/images/interactions-children-network-vis.jpg"
   },
   {
     "name": "Human Information Behavior Research Project",
@@ -37,7 +37,7 @@
     "type": "School project",
     "gridSize": "col-lg-4 col-sm-6",
     "category": ["papers"],
-    "imageUrl": "/assets/portfolio-items/images/visualization.jpg"
+    "imageUrl": "/assets/portfolio-items/images/new-york-city-evictions-stat-vis.jpg"
   },
   {
     "name": "The History of User Experience Timeline",

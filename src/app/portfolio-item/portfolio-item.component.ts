@@ -50,13 +50,9 @@ export class PortfolioItemComponent implements OnInit {
     window.open(`http://twitter.com/share?text=${this.getShareText()}&url=${location.href}`, '_blank');
   }
 
-  shareLinkedin() {
-    window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${location.href}&`, '_blank');
-  }
-
-  sharePinterest() {
-    window.open(`http://pinterest.com/pin/create/link/?url=${location.href}`, '_blank');
-  }
+  // shareLinkedin() {
+  //   window.open(` http://www.linkedin.com/shareArticle?mini=true&url=${location.href}&`, '_blank');
+  // }
 
   shareEmail() {
     const bodyText = `${this.getShareText()}\n\n${location.href}`;

@@ -1,7 +1,7 @@
 {
     "id": "new-york-city-evictions-stat-vis",
     "name": "New York City Evictions Statistical Data Visualization",
-    "imageUrl": "/assets/portfolio-items/images/visualization.jpg",
+    "imageUrl": "/assets/portfolio-items/images/new-york-city-evictions-stat-vis.jpg",
     "shortDescription": "This project aims to find patterns from the evictions that occur across the five boroughs of New York City as well as the change in eviction numbers as new tenant laws are passed and the COVID-19 pandemic changed the city.",
     "longDescription": "For this experiment data from the New York City Open Data project was used. The dataset for Evictions is updated daily and at the time of pulling the data from the city it was last updated on June 18, 2020. This includes all evictions that were handled by legal measures since January 1, 2017; which means that the data would not include evictions that did not go through the proper legal channels.",
     "quickFacts": {
@@ -11,6 +11,12 @@
       "URL": "https://studentwork.prattsi.org/infovis/labs/new-york-city-evictions/",
       "Completion": "June 18, 2020"
     },
+    "projectImages": [
+      {
+        "name": "Final dashboard",
+        "url": "/assets/portfolio-items/images/new-york-city-evictions-stat-vis-1.jpg"
+      }
+    ],
     "projectLinks": [
       {
         "name": "Final paper",
