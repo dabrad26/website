@@ -1,5 +1,13 @@
 [
   {
+    "name": "Verizon Wireless Heuristic Evaluation",
+    "id": "vzw-heuristic-eval",
+    "type": "School project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["papers"],
+    "imageUrl": "/assets/portfolio-items/images/vzw-heuristic-eval.jpg"
+  },
+  {
     "name": "Filming Locations across New York city",
     "id": "filming-locations-across-nyc",
     "type": "School project",
