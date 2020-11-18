@@ -1,7 +1,7 @@
 @import '../variables';
 
 .projects_fillter {
-  background: $primary-color2;
+  background: #000000;
   .filter {
     position: relative;
     text-align: center;
@@ -24,7 +24,7 @@
       display: inline-block;
       margin-right: 30px;
       font-size: 14px;
-      color: #000;
+      color: #FFFFFF;
       text-transform: uppercase;
       padding: 3px 5px;
       transition: background-color 500ms;
@@ -34,7 +34,7 @@
       }
       &.active,
       &:hover {
-        background-color: $primary-color4;
+        background-color: rgb(87, 87, 87);
       }
     }
   }

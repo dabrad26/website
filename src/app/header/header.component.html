@@ -11,7 +11,9 @@
         <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
           <ul class="nav navbar-nav menu_nav justify-content-end">
             <li *ngFor="let menuItem of menuItems" class="nav-item" [ngClass]="{'active': isActiveRoute(menuItem)}">
-              <a class="nav-link" (click)="routeClick()" [routerLink]="menuItem.link">{{menuItem.name}}</a>
+              <a class="nav-link" (click)="routeClick()" [routerLink]="menuItem.link">
+                <span class="nav-text">{{menuItem.name}}</span>
+              </a>
             </li>
           </ul>
         </div>

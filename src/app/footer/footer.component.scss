@@ -1,7 +1,7 @@
 @import '../variables';
 
 .footer_area{
-  background: $primary-color2;
+  background: #000000;
 
   .f_logo img {
     width: 60px;
@@ -13,7 +13,7 @@
 		h4{
 			font-size: 21px;
 			margin: 40px 0 20px;
-			color: #000;
+			color: #FFF;
 		}
 	}
 	p{
@@ -46,7 +46,7 @@
 .copyright{
 	margin-top: 40px;
 	p{
-		color: #000;
+		color: #FFF;
 		a{
 			color: $primary-color;
 		}

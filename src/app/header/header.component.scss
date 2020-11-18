@@ -28,7 +28,8 @@
         margin-right: 45px;
         .nav-link {
           font: 500 12px/100px $primary-font;
-          color: #000;
+          color: #FFFFFF;
+        text-shadow: 0 0 1px #000;
           padding: 0px;
           display: inline-block;
           font-size: 16px;
@@ -38,8 +39,10 @@
         }
         &:hover,
         &.active {
-          .nav-link {
-            color: #ffffff;
+          .nav-text {
+            border-bottom: 1px solid #FFFFFF;
+            color: #FFFFFF;
+            padding-bottom: 5px;
           }
         }
         &.submenu {
@@ -122,17 +125,6 @@
         &:last-child {
           margin-right: 0px;
         }
-      }
-    }
-  }
-
-  &.header-home-page {
-    &:not(.navbar_fixed) .nav-item .nav-link {
-      color: #FFF !important;
-      text-shadow: 0 0 1px #000;
-
-      &:hover {
-        text-decoration: underline;
       }
     }
   }
@@ -277,7 +269,7 @@
   }
   .header_area .navbar-collapse {
       max-height: 340px;
-      overflow-y: scroll;
+      overflow-y: hidden;
   }
   .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
       padding: 0px 15px;
