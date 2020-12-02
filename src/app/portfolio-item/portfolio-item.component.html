@@ -2,6 +2,7 @@
   <div class="container">
     <app-loading *ngIf="pageStatus==='loading'"></app-loading>
     <app-error *ngIf="pageStatus==='error'"></app-error>
+    <div id="html-inject-point" class="injected-portfolio-item" *ngIf="pageStatus==='html'" [innerHTML]="portfolioHtml"></div>
     <div *ngIf="!pageStatus" class="portfolio_details_inner">
       <div class="row">
         <div class="col-md-6">

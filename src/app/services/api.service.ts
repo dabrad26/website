@@ -8,15 +8,17 @@ export class ApiService {
     educations: '/assets/api/educations.json',
     experiences: '/assets/api/experiences.json',
     portfolioItems: '/assets/api/portfolio-items.json',
-    portfolioEntity: '/assets/api/portfolio-items/$1.json'
+    portfolioEntity: '/assets/api/portfolio-items/$1.json',
+    portfolioEntityHtml: '/assets/api/html/$1.html',
   };
 
   constructor(
     private http: HttpClient
   ) {}
 
-  getData(endpoint: string, item?: string): Observable<any> {
+  getData(endpoint: string, item?: string, getText?): Observable<any> {
     let dataLocation = this.dataEndpoints[endpoint];
+    let responseType = undefined;
 
     if (!dataLocation) {
       throw new Error('API Service: Invalid endpoint requested.');
@@ -26,7 +28,9 @@ export class ApiService {
       dataLocation = dataLocation.replace('$1', item);
     }
 
-    return this.http.get(dataLocation);
+    if (getText) responseType = 'text';
+
+    return this.http.get(dataLocation, {responseType});
   }
 
   post(endpoint: string, data: any, options?: any): Observable<any> {

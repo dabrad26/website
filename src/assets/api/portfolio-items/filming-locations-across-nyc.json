@@ -1,26 +1,5 @@
 {
     "id": "filming-locations-across-nyc",
     "name": "Filming Locations across New York city",
-    "imageUrl": "/assets/portfolio-items/images/filming-locations-across-nyc.jpg",
-    "shortDescription": "For this project I want to create a visualization showing the most filmed locations in New York City. This data will be from the NYC Open Data project which has data from applications for file shoots and other media type items across the city. The data comes from the Mayor’s O!ice of Media and Entertainment The data found here includes over 67,000 file permits issues going back to January 2012. This should give a good qualitive view across each year which can yield averages for the seasons.",
-    "longDescription": "After securing the data the data was loaded into Tableau. Once in Tableau I reviewed the Data Source content and noticed a few issues. One was the precise locations I intended to work o! of were in human readable formats. For example, I originally intended to use the street closure data to identify precise locations within the city where filming took place. However, the data in this column was stored as street names and cross intersections in multiple patterns. After researching Google Maps and MapQuest APIs I came to the conclusion there was no clean way to retrieve the latitude and longitude coordinates, since the human readable versions would yield assumptions (best guesses) by the APIs and without a manual review it could incorrectly show the outcome. Because of this the precision was raised to be the zip codes.",
-    "quickFacts": {
-      "Project type": "School project",
-      "School": "Pratt Institute",
-      "Class": "INFO-658 – Information Visualization",
-      "URL": "https://studentwork.prattsi.org/infovis/projects/filming-locations-across-new-york-city/",
-      "Completion": "July 23, 2020"
-    },
-    "projectImages": [
-      {
-        "name": "Final map example",
-        "url": "/assets/portfolio-items/images/filming-locations-across-nyc-1.jpg"
-      }
-    ],
-    "projectLinks": [
-      {
-        "name": "Final paper",
-        "link": "/assets/portfolio-items/documents/filming-locations-across-nyc.pdf"
-      }
-    ]
+    "useHtmlVersion": true
   }

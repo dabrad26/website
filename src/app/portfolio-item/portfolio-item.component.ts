@@ -3,6 +3,7 @@ import { SharedService } from '../services/shared.service';
 import { ActivatedRoute } from '@angular/router';
 import { PortfolioEntry } from '../models/models';
 import { ApiService } from '../services/api.service';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-portfolio-item',
@@ -11,13 +12,15 @@ import { ApiService } from '../services/api.service';
 })
 export class PortfolioItemComponent implements OnInit {
   portfolioData: PortfolioEntry;
-  pageStatus: ''|'error'|'loading' = 'loading';
+  portfolioHtml: SafeHtml;
+  pageStatus: ''|'error'|'loading'|'html' = 'loading';
   quickFactKeys: Array<string> = [];
 
   constructor(
     private sharedService: SharedService,
     private activatedRoute: ActivatedRoute,
-    private apiService: ApiService
+    private apiService: ApiService,
+    private domSanitizer: DomSanitizer
   ) { }
 
   ngOnInit() {
@@ -32,12 +35,26 @@ export class PortfolioItemComponent implements OnInit {
 
     this.apiService.getData('portfolioEntity', currentId).subscribe((response: PortfolioEntry) => {
       this.portfolioData = response;
-      if (typeof this.portfolioData.quickFacts === 'object') {
-        this.quickFactKeys = Object.keys(this.portfolioData.quickFacts);
+      if (this.portfolioData.useHtmlVersion) {
+        this.loadHtml();
+      } else {
+        if (typeof this.portfolioData.quickFacts === 'object') {
+          this.quickFactKeys = Object.keys(this.portfolioData.quickFacts);
+        }
+        this.pageStatus = '';
       }
-      this.pageStatus = '';
     }, error => {
       this.sharedService.handleError('Unable to get portfolio detail', error);
+      this.pageStatus = 'error';
+    });
+  }
+
+  loadHtml(): void {
+    this.apiService.getData('portfolioEntityHtml', this.portfolioData.id, true).subscribe((response) => {
+      this.portfolioHtml = this.domSanitizer.bypassSecurityTrustHtml(response);
+      this.pageStatus = 'html';
+    }, error => {
+      this.sharedService.handleError('Unable to get portfolio html', error);
       this.pageStatus = 'error';
     });
   }
