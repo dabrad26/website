@@ -1,25 +1,5 @@
 {
     "id": "vzw-heuristic-eval",
     "name": "Verizon Wireless Heuristic Evaluation",
-    "imageUrl": "/assets/portfolio-items/images/vzw-heuristic-eval.jpg",
-    "shortDescription": "This evaluation covers the Verizon Wireless online store experience.  The goal is to evaluate the current implementation of the online experience, as of September 2020, and find areas that could be improved to provide a better user experience.",
-    "longDescription": "For this study we utilized the 10 Usability Heuristics and found any usability issues that violated these rules.  Each instance found was documented and a heuristic that was violated was mentioned for that incident.  By using this we were able to quickly identify common user experience shortcomings based on acceptable usability standards from the current implementation and find recommendations for improving it based on these rules.  Each problem found was given Severity Rating that allowed for prioritizing what changes should be made first as we provide recommendations for how to improve the user experience.",
-    "quickFacts": {
-      "Project type": "School project",
-      "School": "Pratt Institute",
-      "Class": "INFO-644 – Usability Theory & Practice",
-      "Completion": "September 28, 2020"
-    },
-    "projectImages": [
-      {
-        "name": "Example Evaluation",
-        "url": "/assets/portfolio-items/images/vzw-heuristic-eval-1.jpg"
-      }
-    ],
-    "projectLinks": [
-      {
-        "name": "Final paper",
-        "link": "/assets/portfolio-items/documents/vzw-heuristic-eval.pdf"
-      }
-    ]
+    "useHtmlVersion": true
   }
