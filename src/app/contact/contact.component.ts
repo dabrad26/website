@@ -21,6 +21,7 @@ export class ContactComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    this.sharedService.setPageTitle('Contact me');
     this.sharedService.setCurrentPage(this.sharedService.getNavItemByRoute('/contact'));
     this.sharedService.setCurrentBreadcrumbs([
       this.sharedService.getNavItemByRoute('/'),

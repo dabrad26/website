@@ -13,6 +13,7 @@ export class AboutComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    this.sharedService.setPageTitle('About me');
     this.sharedService.setCurrentPage(this.sharedService.getNavItemByRoute('/about'));
     this.sharedService.setCurrentBreadcrumbs([
       this.sharedService.getNavItemByRoute('/'),

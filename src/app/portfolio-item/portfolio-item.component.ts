@@ -24,6 +24,7 @@ export class PortfolioItemComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    this.sharedService.setPageTitle('Portfolio');
     this.pageStatus = 'loading';
     const currentId = this.activatedRoute.snapshot.params.id;
     this.sharedService.setCurrentPage({name: 'Portfolio details', link: `/portfolio/${currentId}`});
@@ -35,6 +36,7 @@ export class PortfolioItemComponent implements OnInit {
 
     this.apiService.getData('portfolioEntity', currentId).subscribe((response: PortfolioEntry) => {
       this.portfolioData = response;
+      this.sharedService.setPageTitle(`${this.portfolioData.name} - Portfolio`);
       if (this.portfolioData.useHtmlVersion) {
         this.loadHtml();
       } else {

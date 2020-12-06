@@ -42,6 +42,7 @@ export class PortfolioComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    this.sharedService.setPageTitle('Portfolio');
     this.pageStatus = 'loading';
     this.currentFilter = this.availableFilters[0];
     this.sharedService.setCurrentPage(this.sharedService.getNavItemByRoute('/portfolio'));

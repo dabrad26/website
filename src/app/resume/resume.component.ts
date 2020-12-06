@@ -21,6 +21,7 @@ export class ResumeComponent implements OnInit {
 
   ngOnInit() {
     this.pageStatus = 'loading';
+    this.sharedService.setPageTitle('Resume')
     this.sharedService.setCurrentPage(this.sharedService.getNavItemByRoute('/resume'));
     this.sharedService.setCurrentBreadcrumbs([
       this.sharedService.getNavItemByRoute('/'),

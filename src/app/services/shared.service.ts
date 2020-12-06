@@ -61,4 +61,12 @@ export class SharedService {
       /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
     return emailTest.test(email);
   }
+
+  setPageTitle(title: string): void {
+    if (window.location.pathname === '/') {
+      document.title = 'David Bradshaw';
+    } else {
+      document.title = `${title} - David Bradshaw`;
+    }
+  }
 }
