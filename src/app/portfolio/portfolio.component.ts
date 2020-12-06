@@ -50,8 +50,9 @@ export class PortfolioComponent implements OnInit {
       this.sharedService.getNavItemByRoute('/portfolio')
     ]);
 
-    this.apiService.getData('portfolioItems').subscribe(response => {
-      this.portfolioItems = this.limitView ? response.slice(0, 5) : response;
+    this.apiService.getData('portfolioItems').subscribe((response: PortfolioItem[]) => {
+      const filteredResults = response.filter(item => !item.hidden);
+      this.portfolioItems = this.limitView ? filteredResults.slice(0, 5) : filteredResults;
       this.pageStatus = '';
     }, error => {
       this.sharedService.handleError('Unable to get portfolio items', error);

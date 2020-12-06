@@ -1,5 +1,14 @@
 [
   {
+    "name": "Granola Lab Usability Evaluation",
+    "id": "granola-lab-eval",
+    "type": "School project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["papers"],
+    "imageUrl": "/assets/portfolio-items/images/granola-lab-eval.jpg",
+    "hidden": true
+  },
+  {
     "name": "Verizon Wireless Heuristic Evaluation",
     "id": "vzw-heuristic-eval",
     "type": "School project",

@@ -15,6 +15,7 @@ export class PortfolioItem {
   gridSize: string;
   category: Array<'design'|'web'|'applications'|'papers'>;
   imageUrl: string;
+  hidden?: boolean;
 }
 
 export class EducationItem {

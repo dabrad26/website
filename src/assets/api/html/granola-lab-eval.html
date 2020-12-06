@@ -1,0 +1,179 @@
+<article>
+  <h1>Granola Lab Usability Evaluation</h1>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-home.png" alt="Granola Lab" />
+    <a href="https://granolalab.com" target="_blank" rel="noreferrer noopener">Granola Lab</a>
+  </div>
+  <h2>Introduction</h2>
+  <!--
+    TODO: What was the problem? Describe your client, the overarching problem(s) you were trying to solve, and goals you were trying to achieve.
+    Also describe your individual role on the project and identify the other members of your team.
+  -->
+  <h2>Process</h2>
+  <!--
+    TODO: What was your process? Explain your overall approach to solving the problem(s), including what you did, why you did it, and what you learned from each step.
+    It’s important here show each step of your overall process – from the client kick-off meeting all the way through pilot testing your methodology –
+    and include your rationale for why you made the decisions you made.
+    Talk about your participants. How many participated? How did you recruit them? How were they representative of your client’s desired users?
+  -->
+  <h2>Findings and Recommendations</h2>
+  <p>To set the direction for the research our team focused on two fundamental goals; how do we improve the overall user experience of the website and how to facilitate consumers finding their desired products. The following set of findings and recommendations focuses on the most critical parts of the experience: first impressions with the website, the product listings, searching for products and retail locations, and successful e-commerce.</p>
+  <h3>Finding 1: Navigation Architecture and Search Functionality</h3>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig1-1.png" alt="Current Homepage" />
+    <span>Figure 1-1: Current Homepage</span>
+  </div>
+  <p>Navigation is one of the most critical parts of a website, especially for e-commerce websites. However, participants experienced difficulty accessing menu items to complete the tasks. Only a few participants found the correct item quickly; very few participants attempted to use the Search functionality. Some commented that their initial reaction of the homepage’s background was distracting, and there was an illogical hierarchy of menu items with unintuitive labels of some items in the menu (Figure 1-1).</p>
+  <blockquote>“Thought that Subscription in the SHOP menu is for newsletter, not for regular granola delivery.” - Participant 8</blockquote>
+  <p>There are four menu items with a Search box on the Navigation, and only two of them have submenus. Participants spent more time attempting to find the right menu for their task, and part of them misunderstood the label's meaning. Some mentioned menu text did not have enough contrast from the background image (Figure 1-2). One participant tried to use the search box, but it only found available products, which was not as expected. The Navigation design and the order can be improved to guide users around the website easier.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig1-2.png" alt="Current Navigation On Home Page Background Image" />
+    <span>Figure 1-2: Current Navigation On Home Page Background Image</span>
+  </div>
+  <h4>Recommendations</h4>
+  <p>For seamless navigation, we recommend streamlining the Navigation structure and removing the search function. This recommendation will help users navigate the website easier and bring them to the page they are looking for. We expect this will also reduce the user’s response time and give them a better experience with the following changes:</p>
+  <h5>1.A: Add the background color on the items in the Navigation.</h5>
+  <p>As the navigation needs to reside on multiple pages with different background elements, it needs to be wrapped with boxes that will emphasize them as buttons. Following the brand identity, white boxes for the items will give the user better legibility and contrast (Figure 1-3).</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig1-3.png" alt="The recommendation of white background buttons" />
+    <span>Figure 1-3: The recommendation of white background buttons</span>
+  </div>
+  <h5>1.B: Restructure the architecture of Navigation</h5>
+  <p>The original menu structure has irregular depth and duplications. (Figure 1-4) The 'Home' menu could potentially be removed because the standard web paradigm uses the logo as a button to bring users to the home page; which is considered an implicit home page link (Loranger 2017). 'Partners' and 'About the Lab' can be combined as one 'About' page.  Further investigation should be used, maybe via a card sorting task to understand the customers preferred terminology, for now it is recommended to simplify to ‘Retail stores’ which may sound more direct for the consumer. Information for wholesales can be found inthe  ‘FAQ’ and wholesale orders come through different channels, therefore the ‘Wholesale info’ can be removed. Lastly, as 'Search' is only for shopping products and there are only 13 products, it does not seem necessary. For discoverability, the architecture of Navigation needs to be streamlined and relabeled for some of the menu items. (Figure 1-5)</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig1-4.png" alt="Current Navigation Architecture" />
+    <span>Figure 1-4: Current Navigation Architecture</span>
+  </div>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig1-5.png" alt="Recommendation of Navigation Architecture" />
+    <span>Figure 1-5: Recommendation of Navigation Architecture</span>
+  </div>
+  <h4>Mockup</h4>
+  <p>Below is a mockup of our recommendation for the Navigation Architecture.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig1-6.png" alt="Mockup of Navigation Architecture" />
+    <span>Figure 1-6: Mockup of Navigation Architecture</span>
+  </div>
+  <h3>Finding 2: Retail Location Experience</h3>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig2-1.png" alt="Current display of Retail Locations Page" />
+    <span>Figure 2-1: Current display of Retail Locations Page</span>
+  </div>
+  <p>During our evaluation we tested the “Retail Locations” page asking participants to find a local store near them where they could purchase Granola Lab products.  Some participants were confused initially at what they were seeing as the primary visual indicator of New York City, Manhattan Island, was obscured with Whole Foods logos and it was not obvious where the map was centered.  A participant outside of New York said</p>
+  <blockquote>“I would expect to see location around my IP address in California…[I] Would expect to just type in my zip code” – Participant 4</blockquote>
+  <p>The participant expected the map to be centered to their geographical location based on the browser location or have a way for them to type in their Zip Code and the list of locations on the page proved to be overbearing to most participants and was not easy to understand without prior knowledge of the specific store.  Initial reactions of the list were not favorable including</p>
+  <blockquote>“I have no interest in going through all of them. And I have no idea how to follow the location. – Participant 6</blockquote>
+  <p>Where it seems, the list is just too long and difficult to navigate.  It was observed that most participants wanted to quickly search their location and see a result of locations near them.  The current list would not support searching by cross streets which would be the most common way to search for locations in the city. Another participant shared a similar feeling expressing that</p>
+  <blockquote>“List is too big, makes it not easy to find what you are looking for” – Participant 4</blockquote>
+  <p>The list also does not have any indication which items are available at a specific location which would make contact information more critical for the end user to contact the store to find out which items are available at their closest location.</p>
+  <h4>Recommendations</h4>
+  <p>For our recommendation we recommend simplifying the page and following a more traditional location-based search paradigm.  By removing most of the content we can avoid information overload on the end user and instead focus on the primary task of showing them what is closest to them.  Most users will not need to know what is in Connecticut if they live in Manhattan.  Because of this we should focus on rendering a map zoomed in to their location and not showing Point of Interest markers that block out the map.  We would recommend the following changes:</p>
+  <h5>2.A: Remove static list of stores</h5>
+  <p>Most participants found the list to be an information overload and did not want to navigate or figure out the order to find a store near them. Because of this we recommend removing the list completely.</p>
+  <h5>2.B: Use the end user’s location as a starting point</h5>
+  <p>Some participants indicated they just want to see what stores are around their location and quickly navigate the map.  We recommend using JavaScript Geolocation API to gain access to the user’s location. If not available, start with a generic Zip Code, like Granola Lab’s location or the most popular Zip Code of customers; using historical data from analytical collections.</p>
+  <h5>2.C: Search bar</h5>
+  <p>We recommend adding a search bar at the top of the page that is auto filled to the current search based on the prior recommendation.  This should be a fuzzy search that allows zip codes or full addresses or any supported Google Map’s string.  This search bar should support typeahead for simpler searching.</p>
+  <h5>2.D: Start with a closer zoom level on the map</h5>
+  <p>At the current load of the map the zoom is currently at 2 miles setting.  This causes the Point of Interest markers to block out the map.  We recommend starting the map zoomed in to a 1,000 feet viewport.  Default Google Maps markers: like historical sites and attractions should be disabled and hidden.  The only markers that should be loaded are the stores where Granola Lab products are sold.  We would also recommend hiding custom Point of Interest Markers when the map is zoomed out over 2,000 feet.</p>
+  <h5>2.E: Split map into a list and map view</h5>
+  <p>Following the common map-based location search we recommend splitting the view into a 25/75 split where 25% of the view is the list base of items shown currently on the map; sorted by closest to the current center marker.  The list should update as the map is panned or zoomed to include whatever Point of Interest markers are currently rendered.  On mobile this should be collapsed by default and have a toggle to open the list view.</p>
+  <h5>2.F: List information</h5>
+  <p>List information in the list view on the map should be simple and include name, the first part of address, phone, website address, and link to view in Google Maps.  Phone and website should be hyperlinked appropriately for ease of triggering the action.  If possible, we recommend showing markers of what items they sell. Some iconography of what items they stock.  This can include what flavors or whether it is an “On the menu” or available for purchase.  We also recommend using standard markers on the map and not using logos or different colors as it is not clear what the colors mean.</p>
+  <h4>Mockup</h4>
+  <p>Below is a mockup of our recommendation for the “Retail Locations” page.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig2-2.png" alt="Mockup of Retail Location" />
+    <span>Figure 2-2: Mockup of Retail Location</span>
+  </div>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig2-3.png" alt="Mockup of Retail Locations Typeahead" />
+    <span>Figure 2-3: Mockup of Retail Locations Typeahead</span>
+  </div>
+  <h3>Finding 3: Filtering and Sorting of products can be simplified</h3>
+  <p>The ‘All Products’ page consists of a list of products from various categories; including granola packs, gift sets and logo merchandise. The page includes previews of the products which makes them very easy to differentiate. On the top of the page there are two features to help organize the list of products: Product Filter and Sort By (Figure 3-1).</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig3-1.png" alt="Current display of the product filter" />
+    <span>Figure 3.1: Current display of the product filter</span>
+  </div>
+  <p>Participants’ initial reaction to the ‘Product List’ page was quite positive; they really liked the minimalistic design and visual aids; like product images. After a closer look, some of the participants were confused with the order of the products on the page; though it was clear that products were sorted alphabetically, but also confusing to see individual granola packs mixed with sets and other products. The second observation is related to the product filter and ‘sort by’ feature. One of the participants had the following comment about the visual design:</p>
+  <blockquote>“appearance of sort by and Product filter widget doesn't match the vibe of the whole site” - Participant 4</blockquote>
+  <p>Another common observation about the product filter is that it has too many choices and contains mixed categories, such as flavors, packaging, and other product features in a single list. One of the participants mentioned:</p>
+  <blockquote>“this is too overwhelming to have so many filter options for a rather short list of products”.  - Participant 5</blockquote>
+  <h4>Recommendations</h4>
+  <p>Currently the online store has 13 items; therefore, filtering and sorting is not the most critical feature for the website, however, we know that product offerings can grow in the future and we want to ensure a design that can accommodate and facilitate that growth. With this outlook in mind the following recommendations are suggested:</p>
+  <h5>3.A: Introduce different filter hierarchies: flavor, preferences, packaging and price.</h5>
+  <p>This will reduce the list of product categories in the filter (Figure 3-3) and help users to focus on the most important parameters of search. Different setting options is one of the focuses of the online store. To signify sets and gifts a quick filter could be presented as a stand alone option on the filter panel (Figure 3-2).</p>
+  <h5>3.B: List products from single to multiple items, to by- or supporting products.</h5>
+  <p>To improve the user’s perception of the product catalog it is recommended to establish a clear logic of why they are organized in a certain way. Alphabetical order seems like the most obvious one, however, when a product catalog is more visual and contains product images, it may prove beneficial to utilize the imagery to showcase the features of the product to avoid the need for complex filters.  With this default order it will be still beneficial to keep other sorting alternatives.</p>
+  <h5>3.C: Limit sort-by options to the most frequently used.</h5>
+  <p>Since the product’s names are not too complex, it is also recommended to keep only the most frequently used filtering and sorting options, for example alphabetically A-Z, price from low to high, featured, and newly added (Figure 3-3).</p>
+  <h4>Mockup</h4>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig3-2.png" alt="Mockup of Filter panel design" />
+    <span>Figure 3-2: Mockup of Filter panel design</span>
+  </div>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig3-3.png" alt="Mockup of Filters and Sort in interactive state" />
+    <span>Figure 3-3: Mockup of Filters and Sort in interactive state</span>
+  </div>
+  <h3>Finding 4: Missing Information and Hierarchy on Product Details Page</h3>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig4-1.png" alt="Current display of product details page" />
+    <span>Figure 4-1: Current display of product details page</span>
+  </div>
+  <p>Product details page is one of the most important pages for an e-commerce site as it contains the key information about the product itself which is the selling point to customers. In order to test out the usability of the standard purchase flow of the website, participants were asked to find a product, check the ingredients and add the item to their shopping cart. From our observations we found a few recommendations that could improve the product details page (Figure 4-1).</p>
+  <p>A lack of hierarchy in the description section was observed with participants having trouble finding ingredients because the description section appeared to them as a large box of text.</p>
+  <blockquote>"It's hard to see ingredients, because all the text is blended together." - Participant 6</blockquote>
+  <p>Missing details in the product images section caused participants to be unable to find the image of the back of the product where they normally locate the ingredients, nutrition facts and other product information.</p>
+  <blockquote>"Normally I don't read descriptions. There is too much text. I would prefer to have it in the screenshots." - Participant 4</blockquote>
+  <p>A lost connection between subscription and product. Although the subscription feature was not the priority of our testing for the purchasing flow, there were still participants who mentioned that the subscription page (Figure 4-2) included too much text and it was hard to understand the connection between it and specific products.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig4-2.png" alt="Current subscription page details page" />
+    <span>Figure 4-2: Current subscription page details page</span>
+  </div>
+  <h4>Recommendations</h4>
+  <p>An efficient product details page should consider the following aspects:</p>
+  <ol>
+    <li>Enough product information, such as description, images, and instructions.</li>
+    <li>Clear options with prominent buttons to continue the purchase</li>
+    <li>Understandable layout for different sections.</li>
+    <li>Legible and easy to understand text information.</li>
+  </ol>
+  <p>Because of these aspects the following recommendations are made:</p>
+  <h5>4.A: Adding divisions in description section & highlighting important words</h5>
+  <p>Based on the content of the description section of the current website, we recommend separating the basic information and description from the ingredients information and also highlighting words that are meant for emphasis to help users locate critical information more efficiently. (Figure 4-3)</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig4-3.png" alt="Recommendation of description and Ingredients" />
+    <span>Figure 4-3: Recommendation of description and Ingredients</span>
+  </div>
+  <h5>4.B: Adding an image of product back panel</h5>
+  <p>In order to provide users a better understanding of the real product when shopping online, we recommend adding an image of the product back panel to increase the informativity and reality.</p>
+  <h5>4.C: Adding subscription option to build an easier way to subscribe products</h5>
+  <p>On the current website subscriptions have to be done on another page called Subscription with four complex steps. The options and descriptions are not clear and may confuse some potential customers. We recommend adding a subscription option on the product details page that can facilitate users to compare the difference subscriptions and sign up from the standard shopping flow. (Figure 4-4)</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig4-4.png" alt="Recommendation of subscription option in product details page" />
+    <span>Figure 4-4: Recommendation of subscription option in product details page</span>
+  </div>
+  <h4>Mockup</h4>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/granola-fig4-5.png" alt="Mockup of product details page" />
+    <span>Figure 4-5: Mockup of product details page</span>
+  </div>
+
+  <h2>Conclusion</h2>
+  <!--
+    TODO: What was the conclusion? Explain how the final results were delivered, describe the clients’ reaction, and identify some next steps.
+    Every good story needs an ending – what was the conclusion of your process? If you got feedback from the client, what was it? I
+    f you were to continue working on the project, what would you do next? Looking at the entire project, what were the major lessons or takeaways?
+  -->
+  <h2>Project Metadata</h2>
+  <ul>
+    <!-- <li><a href="/assets/portfolio-items/documents/granola-lab-eval.pdf" rel="noreferrer noopener" target="_blank">Download PDF Version</a></li> -->
+    <li><a href="/assets/portfolio-items/documents/granola-lab-eval-presentation.pdf" rel="noreferrer noopener" target="_blank">Download Presentation</a></li>
+    <li><b>Project type</b>: School group project</li>
+    <li><b>School</b>: Pratt Institute</li>
+    <li><b>Class</b>: INFO-644 – Usability Theory and Practice</li>
+    <li><b>Completion</b>: December 8, 2020</li>
+  </ul>
+</article>

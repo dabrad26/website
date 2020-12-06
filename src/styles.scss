@@ -192,4 +192,25 @@ button:focus {
       margin-top: 12px;
     }
   }
+
+  blockquote {
+    background-color: rgba($text-color, 0.1);
+    border-left: 10px solid $text-color;
+    margin: 1rem 0;
+    padding: 0.5em 10px;
+    font-style: italic;
+
+    &:before {
+      color: $text-color;
+      content: '“';
+      font-size: 3.5em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.56em;
+    }
+
+    p {
+      display: inline;
+    }
+  }
 }
