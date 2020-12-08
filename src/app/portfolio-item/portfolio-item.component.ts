@@ -27,11 +27,11 @@ export class PortfolioItemComponent implements OnInit {
     this.sharedService.setPageTitle('Portfolio');
     this.pageStatus = 'loading';
     const currentId = this.activatedRoute.snapshot.params.id;
-    this.sharedService.setCurrentPage({name: 'Portfolio details', link: `/portfolio/${currentId}`});
+    this.sharedService.setCurrentPage({name: 'Portfolio', link: `/portfolio/${currentId}`});
     this.sharedService.setCurrentBreadcrumbs([
       this.sharedService.getNavItemByRoute('/'),
       this.sharedService.getNavItemByRoute('/portfolio'),
-      {name: 'Details', link: `/portfolio/${currentId}`}
+      {name: 'Item', link: `/portfolio/${currentId}`}
     ]);
 
     this.apiService.getData('portfolioEntity', currentId).subscribe((response: PortfolioEntry) => {

@@ -213,4 +213,23 @@ button:focus {
       display: inline;
     }
   }
+
+  table {
+    margin: 22px 18px;
+    border: 1px solid $text-color;
+
+    .center-content {
+      text-align: center;
+    }
+
+    td, th {
+      padding: 4px 6px;
+      border: 1px solid $text-color;
+    }
+
+    th {
+      background-color: rgba($primary-color2, 0.4);
+      font-weight: bold;
+    }
+  }
 }
