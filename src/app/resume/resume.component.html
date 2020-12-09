@@ -40,7 +40,7 @@
           <div class="col-md-8">
             <div *ngFor="let education of educations" class="listing">
               <div class="listing-title">
-                <span>{{education.degree}} in {{education.program}}</span>
+                <span>{{education.degree}} {{education.program ? 'in' : ''}} {{education.program}}</span>
                 <i *ngIf="!education.endDate" class="fa fa-asterisk listing-note" title="In progress"></i>
               </div>
               <div class="listing-subtitle">{{education.school}}, {{education.location}}; {{education.displayDateString}}</div>

@@ -21,7 +21,7 @@ export class PortfolioItem {
 export class EducationItem {
   school: string;
   degree: string;
-  program: string;
+  program?: string;
   location: string;
   description: string;
   startDate: string;

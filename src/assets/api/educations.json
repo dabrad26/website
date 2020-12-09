@@ -43,5 +43,13 @@
     "description": "Associates of Science program. Received Dean's List for Spring and Summer of 2010.",
     "startDate": "2008-08-20",
     "endDate": "2010-07-13"
+  },
+  {
+    "school": "Lee County High School",
+    "degree": "High School Diploma",
+    "location": "Leesburg, GA",
+    "description": "College Preparatory track.",
+    "startDate": "2004-08-16",
+    "endDate": "2008-05-02"
   }
 ]
