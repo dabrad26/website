@@ -18,22 +18,14 @@
     "endDate": "2013-05-07"
   },
   {
-    "school": "University of California San Diego Extension",
-    "degree": "Professional Certificate",
-    "program": "User Experience Design",
-    "location": "San Diego, CA",
-    "description": "Professional certificate on user experience and user interface design for products and applications.",
-    "startDate": "2019-01-16",
-    "endDate": "2020-03-21"
-  },
-  {
     "school": "Georgia Southwestern State University",
     "degree": "Bachelor of Science",
     "program": "Computer Science",
     "location": "Americus, GA",
     "description": "Bachelor of Science program. Received the following honors during my studies: Outstanding Computer Science Undergraduate 2012, Excellence in Academics and Service to the School of Computing and Mathematics 2012, President's List, Dean's List.",
     "startDate": "2010-08-20",
-    "endDate": "2012-05-07"
+    "endDate": "2012-05-07",
+    "collapsed": true
   },
   {
     "school": "Darton College",
@@ -42,7 +34,8 @@
     "location": "Albany, GA",
     "description": "Associates of Science program. Received Dean's List for Spring and Summer of 2010.",
     "startDate": "2008-08-20",
-    "endDate": "2010-07-13"
+    "endDate": "2010-07-13",
+    "collapsed": true
   },
   {
     "school": "Lee County High School",
@@ -50,6 +43,7 @@
     "location": "Leesburg, GA",
     "description": "College Preparatory track.",
     "startDate": "2004-08-16",
-    "endDate": "2008-05-02"
+    "endDate": "2008-05-02",
+    "collapsed": true
   }
 ]

@@ -13,6 +13,21 @@ export class ResumeComponent implements OnInit {
   pageStatus: ''|'error'|'loading' = 'loading';
   experiences: Array<ExperienceItem> = [];
   educations: Array<EducationItem> = [];
+  certificates: Array<EducationItem> = [];
+  viewData = {
+    education: {
+      hasMore: false,
+      visible: false,
+    },
+    experience: {
+      hasMore: false,
+      visible: false,
+    },
+    certificate: {
+      hasMore: false,
+      visible: false,
+    }
+  };
 
   constructor(
     private sharedService: SharedService,
@@ -31,13 +46,28 @@ export class ResumeComponent implements OnInit {
     this.apiService.getData('educations').pipe(mergeMap((educationData: Array<EducationItem>) => {
       this.educations = educationData.map(education => {
         education.displayDateString = this.getDateString(education.startDate, education.endDate);
+        if (education.collapsed) {
+          this.viewData.education.hasMore = true;
+        }
         return education;
       });
-      return this.apiService.getData('experiences').pipe(map((experienceData: Array<ExperienceItem>) => {
-        this.experiences = experienceData.map(experience => {
-          experience.displayDateString = this.getDateString(experience.startDate, experience.endDate);
-          return experience;
+      return this.apiService.getData('certificates').pipe(mergeMap((certificateData: Array<EducationItem>) => {
+        this.certificates = certificateData.map(certificate => {
+          certificate.displayDateString = this.getDateString(certificate.startDate, certificate.endDate);
+          if (certificate.collapsed) {
+            this.viewData.certificate.hasMore = true;
+          }
+          return certificate;
         });
+        return this.apiService.getData('experiences').pipe(map((experienceData: Array<ExperienceItem>) => {
+          this.experiences = experienceData.map(experience => {
+            experience.displayDateString = this.getDateString(experience.startDate, experience.endDate);
+            if (experience.collapsed) {
+              this.viewData.experience.hasMore = true;
+            }
+            return experience;
+          });
+        }));
       }));
     })).subscribe(() => {
       this.pageStatus = '';
@@ -45,8 +75,13 @@ export class ResumeComponent implements OnInit {
       this.sharedService.handleError('Unable to get resume items', error);
       this.pageStatus = 'error';
     });
-
   }
+
+  showMore = (type: 'experience'|'certificate'|'education', event: MouseEvent): void => {
+    event.preventDefault();
+    this.viewData[type].visible = true;
+    this.viewData[type].hasMore = false;
+  };
 
   private getDateString(startDate: string, endDate: string): string {
     const start = new Date(startDate);

@@ -27,6 +27,7 @@ export class EducationItem {
   startDate: string;
   endDate: string|null;
   displayDateString?: string;
+  collapsed?: boolean;
 }
 
 export class ExperienceItem {
@@ -37,6 +38,7 @@ export class ExperienceItem {
   startDate: string;
   endDate: string|null;
   displayDateString?: string;
+  collapsed?: boolean;
 }
 
 export class PortfolioEntry {

@@ -24,11 +24,12 @@
             </div>
           </div>
           <div class="col-md-8">
-            <div *ngFor="let experience of experiences" class="listing">
+            <div *ngFor="let experience of experiences" class="listing" [ngClass]="{'collapsed-item': experience.collapsed && !viewData.experience.visible}">
               <div class="listing-title">{{experience.jobTitle}}</div>
               <div class="listing-subtitle">{{experience.company}}, {{experience.location}}; {{experience.displayDateString}}</div>
               <div class="listing-description">{{experience.description}}</div>
             </div>
+            <a href="" *ngIf="viewData.experience.hasMore" (click)="showMore('experience', $event)">Show more</a>
           </div>
         </div>
         <div class="row justify-content-center resume-grouping">
@@ -38,7 +39,7 @@
             </div>
           </div>
           <div class="col-md-8">
-            <div *ngFor="let education of educations" class="listing">
+            <div *ngFor="let education of educations" class="listing" [ngClass]="{'collapsed-item': education.collapsed && !viewData.education.visible}">
               <div class="listing-title">
                 <span>{{education.degree}} {{education.program ? 'in' : ''}} {{education.program}}</span>
                 <i *ngIf="!education.endDate" class="fa fa-asterisk listing-note" title="In progress"></i>
@@ -46,6 +47,25 @@
               <div class="listing-subtitle">{{education.school}}, {{education.location}}; {{education.displayDateString}}</div>
               <div class="listing-description">{{education.description}}</div>
             </div>
+            <a href="" *ngIf="viewData.education.hasMore" (click)="showMore('education', $event)">Show more</a>
+          </div>
+        </div>
+        <div class="row justify-content-center resume-grouping">
+          <div class="col-md-4 padded-right">
+            <div class="section-title main-title">
+              <h1>Certificates</h1>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div *ngFor="let certificate of certificates" class="listing" [ngClass]="{'collapsed-item': certificate.collapsed && !viewData.certificate.visible}">
+              <div class="listing-title">
+                <span>{{certificate.degree}} {{certificate.program ? 'in' : ''}} {{certificate.program}}</span>
+                <i *ngIf="!certificate.endDate" class="fa fa-asterisk listing-note" title="In progress"></i>
+              </div>
+              <div class="listing-subtitle">{{certificate.school}}, {{certificate.location}}; {{certificate.displayDateString}}</div>
+              <div class="listing-description">{{certificate.description}}</div>
+            </div>
+            <a href="" *ngIf="viewData.certificate.hasMore" (click)="showMore('certificate', $event)">Show more</a>
           </div>
         </div>
       </ng-container>

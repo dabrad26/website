@@ -6,6 +6,7 @@ import { Observable } from 'rxjs';
 export class ApiService {
   private dataEndpoints: any = {
     educations: '/assets/api/educations.json',
+    certificates: '/assets/api/certificates.json',
     experiences: '/assets/api/experiences.json',
     portfolioItems: '/assets/api/portfolio-items.json',
     portfolioEntity: '/assets/api/portfolio-items/$1.json',
