@@ -47,8 +47,8 @@ export class PortfolioEntry {
   longDescription: string;
   quickFacts?: any;
   useHtmlVersion?: boolean;
-  projectLinks?: Array<{name: string, link: string}>;
-  projectImages?: Array<{name: string, url: string}>;
+  projectLinks?: Array<{name: string; link: string}>;
+  projectImages?: Array<{name: string; url: string}>;
 }
 
 export class ContactForm {

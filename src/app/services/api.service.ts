@@ -18,7 +18,7 @@ export class ApiService {
 
   getData(endpoint: string, item?: string, getText?): Observable<any> {
     let dataLocation = this.dataEndpoints[endpoint];
-    let responseType = undefined;
+    let responseType;
 
     if (!dataLocation) {
       throw new Error('API Service: Invalid endpoint requested.');
@@ -28,7 +28,9 @@ export class ApiService {
       dataLocation = dataLocation.replace('$1', item);
     }
 
-    if (getText) responseType = 'text';
+    if (getText) {
+      responseType = 'text';
+    }
 
     return this.http.get(dataLocation, {responseType});
   }

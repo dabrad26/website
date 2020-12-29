@@ -2,7 +2,7 @@ import { Component, OnInit, ElementRef } from '@angular/core';
 import { SharedService } from '../services/shared.service';
 import { ContactForm } from '../models/models';
 import { ApiService } from '../services/api.service';
-declare var google;
+declare const google;
 
 @Component({
   selector: 'app-contact',
