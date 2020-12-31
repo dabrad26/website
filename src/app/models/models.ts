@@ -28,6 +28,7 @@ export class EducationItem {
   endDate: string|null;
   displayDateString?: string;
   collapsed?: boolean;
+  link?: string;
 }
 
 export class ExperienceItem {
