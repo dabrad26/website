@@ -4,15 +4,31 @@
     "id": "granola-lab-eval",
     "type": "School project",
     "gridSize": "col-lg-4 col-sm-6",
-    "category": ["papers"],
+    "category": ["papers", "design"],
     "imageUrl": "/assets/portfolio-items/images/granola-lab-eval.jpg"
+  },
+  {
+    "name": "Membership Database Management System",
+    "id": "membership-database",
+    "type": "School project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["web", "applications"],
+    "imageUrl": "/assets/portfolio-items/images/membership-database.jpg"
+  },
+  {
+    "name": "Pedestrian and Cyclist Accidents Visualization",
+    "id": "pedestrian-cyclist-vis",
+    "type": "School project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["web", "design"],
+    "imageUrl": "/assets/portfolio-items/images/pedestrian-cyclist-vis.jpg"
   },
   {
     "name": "Verizon Wireless Heuristic Evaluation",
     "id": "vzw-heuristic-eval",
     "type": "School project",
     "gridSize": "col-lg-4 col-sm-6",
-    "category": ["papers"],
+    "category": ["papers", "design"],
     "imageUrl": "/assets/portfolio-items/images/vzw-heuristic-eval.jpg"
   },
   {
