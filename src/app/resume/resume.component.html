@@ -27,6 +27,9 @@
             <div *ngFor="let experience of experiences" class="listing" [ngClass]="{'collapsed-item': experience.collapsed && !viewData.experience.visible}">
               <div class="listing-title">{{experience.jobTitle}}</div>
               <div class="listing-subtitle">{{experience.company}}, {{experience.location}}; {{experience.displayDateString}}</div>
+              <div class="listing-roles" *ngIf="experience.roles">
+                <div class="listing-roles--item" *ngFor="let role of experience.roles">{{role.displayDateString}} &mdash; {{role.jobTitle}}</div>
+              </div>
               <div class="listing-description">{{experience.description}}</div>
             </div>
             <a href="" *ngIf="viewData.experience.hasMore" (click)="showMore('experience', $event)">Show more</a>

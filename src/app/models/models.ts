@@ -40,6 +40,14 @@ export class ExperienceItem {
   endDate: string|null;
   displayDateString?: string;
   collapsed?: boolean;
+  roles?: [
+    {
+      jobTitle: string;
+      startDate: string;
+      endDate?: string;
+      displayDateString?: string;
+    }
+  ];
 }
 
 export class PortfolioEntry {

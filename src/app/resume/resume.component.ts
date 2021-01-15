@@ -61,6 +61,11 @@ export class ResumeComponent implements OnInit {
         });
         return this.apiService.getData('experiences').pipe(map((experienceData: Array<ExperienceItem>) => {
           this.experiences = experienceData.map(experience => {
+            if (Array.isArray(experience.roles)) {
+              experience.roles.forEach(role => {
+                role.displayDateString = this.getDateString(role.startDate, role.endDate);
+              });
+            }
             experience.displayDateString = this.getDateString(experience.startDate, experience.endDate);
             if (experience.collapsed) {
               this.viewData.experience.hasMore = true;

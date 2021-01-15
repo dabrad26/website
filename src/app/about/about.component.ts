@@ -7,12 +7,15 @@ import { SharedService } from '../services/shared.service';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
+  aboutImage: string;
 
   constructor(
     private sharedService: SharedService
   ) { }
 
   ngOnInit() {
+    const imageNumber = Math.floor(Math.random() * 3);
+    this.aboutImage = `/assets/images/david-about${imageNumber}.jpg`;
     this.sharedService.setPageTitle('About me');
     this.sharedService.setCurrentPage(this.sharedService.getNavItemByRoute('/about'));
     this.sharedService.setCurrentBreadcrumbs([

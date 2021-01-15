@@ -3,9 +3,21 @@
     "company": "IBM",
     "jobTitle": "Platform Frontend Architect",
     "location": "New York, NY",
-    "description": "In this role I drive the frontend architecture of Aspera products, with a specific focus on design standards, scalability, reliability, performance and NPS growth. I work closely with design to ensure consistency and patterns that meet our customer needs. I started as a Lead engineer before being promoted to Architect in July 2019.",
+    "description": "In this role I drive the architecture of Aspera’s frontend products, with a specific focus on design standards, scalability, performance and NPS growth. I work closely with design to ensure consistency and patterns that meet our customer needs.",
     "startDate": "2018-01-14",
-    "endDate": null
+    "endDate": null,
+    "roles": [
+      {
+        "jobTitle": "Platform Frontend Architect",
+        "startDate": "2019-07-03",
+        "endDate": null
+      },
+      {
+        "jobTitle": "Lead Frontend Engineer",
+        "startDate": "2018-01-14",
+        "endDate": "2019-07-03"
+      }
+    ]
   },
   {
     "company": "Center for Digital Experiences at Pratt",

@@ -64,6 +64,17 @@
       color: #000;
     }
 
+    .listing-roles {
+      padding-left: 15px;
+      font-weight: 600;
+      margin-bottom: 4px;
+
+      &--item::before {
+        content: '\2014';
+        margin-right: 10px;
+      }
+    }
+
     &.collapsed-item {
       display: none;
     }
