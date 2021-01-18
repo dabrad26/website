@@ -15,7 +15,7 @@ export class AboutComponent implements OnInit {
 
   ngOnInit() {
     const imageNumber = Math.floor(Math.random() * 3);
-    this.aboutImage = `/assets/images/david-about${imageNumber}.jpg`;
+    this.aboutImage = `/assets/images/david-about${imageNumber}.png`;
     this.sharedService.setPageTitle('About me');
     this.sharedService.setCurrentPage(this.sharedService.getNavItemByRoute('/about'));
     this.sharedService.setCurrentBreadcrumbs([
