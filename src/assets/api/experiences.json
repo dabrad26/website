@@ -9,8 +9,8 @@
     "roles": [
       {
         "jobTitle": "Software Development Manager",
-        "startDate": "2019-07-03",
-        "endDate": "2021-01-18"
+        "startDate": "2021-01-18",
+        "endDate": null
       },
       {
         "jobTitle": "Platform Frontend Architect",
@@ -23,14 +23,6 @@
         "endDate": "2019-07-03"
       }
     ]
-  },
-  {
-    "company": "Center for Digital Experiences at Pratt",
-    "jobTitle": "UX Consultant",
-    "location": "New York, NY",
-    "description": "In this role I have worked with multiple clients on different projects connected to the Center for Digital Experience at the Pratt Institute. These projects can be found on my portfolio.",
-    "startDate": "2020-01-19",
-    "endDate": null
   },
   {
     "company": "Collective Health",
