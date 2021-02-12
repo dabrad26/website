@@ -56,11 +56,14 @@
           padding-left: 20px;
           &:focus {
               box-shadow: none;
-              outline: none;
+              outline: 1px solid #555;
           }
           @include placeholder {
               color: #555;
           }
+      }
+      textarea, input {
+        box-shadow: none;
       }
       textarea {
           resize: none;
