@@ -1,5 +1,13 @@
 [
   {
+    "name": "Design Challenges",
+    "id": "info-design-challenges",
+    "type": "School project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["design"],
+    "imageUrl": "/assets/portfolio-items/images/info-design-challenges.jpg"
+  },
+  {
     "name": "Granola Lab Usability Evaluation",
     "id": "granola-lab-eval",
     "type": "School project",
