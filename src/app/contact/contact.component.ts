@@ -31,7 +31,7 @@ export class ContactComponent implements OnInit {
   }
 
   setupMap() {
-    const myLatlng = new google.maps.LatLng(40.771058, -73.991161);
+    const myLatlng = new google.maps.LatLng(33.694232, -117.826764);
 
     const mapStyles = [
       {
@@ -44,7 +44,7 @@ export class ContactComponent implements OnInit {
     ];
 
     const mapOptions = {
-      zoom: 13,
+      zoom: 9,
       scrollwheel: false,
       center: myLatlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP,

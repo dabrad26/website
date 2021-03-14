@@ -2,7 +2,7 @@
   {
     "company": "IBM",
     "jobTitle": "Software Development Manager",
-    "location": "New York, NY",
+    "location": "Los Angeles Metropolitan Area",
     "description": "In this role I drive the architecture of Aspera’s frontend products and manage the UI engineers, with a specific focus on design standards, scalability, performance and NPS growth. I work closely with design to ensure consistency and patterns that meet our customer needs.",
     "startDate": "2018-01-14",
     "endDate": null,
@@ -35,7 +35,7 @@
   {
     "company": "Aspera, An IBM Company",
     "jobTitle": "Staff Software Engineer",
-    "location": "Emeryville, CA",
+    "location": "San Francisco Bay Area",
     "description": "Frontend software engineer working on enterprise level web applications. I work closely with the design team on ensuring proper UX and UI patterns and also conducted user research studies with existing customers for UX. I was the lead frontend developer for our fist SaaS offering of Aspera Files.",
     "startDate": "2014-11-14",
     "endDate": "2017-08-29"
