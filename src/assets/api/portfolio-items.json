@@ -1,5 +1,14 @@
 [
   {
+    "name": "Monterey Bay Aquarium",
+    "id": "monterey-bay",
+    "type": "School project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["design"],
+    "hidden": true,
+    "imageUrl": "/assets/portfolio-items/images/monterey-bay.jpg"
+  },
+  {
     "name": "Design Challenges",
     "id": "info-design-challenges",
     "type": "School project",
