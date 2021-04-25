@@ -24,7 +24,11 @@ export class HeaderComponent implements OnInit {
   }
 
   isActiveRoute(menuItem: NavItem): boolean {
-    return this.router.url === menuItem.link;
+    if (menuItem.link === '/') {
+      return this.router.url === menuItem.link;
+    }
+
+    return this.router.url.indexOf(menuItem.link) === 0;
   }
 
   isHomePage(): boolean {
