@@ -1,5 +1,13 @@
 [
   {
+    "name": "Fitness TV and Smartwatch Design",
+    "id": "fitness-tv-watch",
+    "type": "School project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["design"],
+    "imageUrl": "/assets/portfolio-items/images/fitness-tv-watch.jpg"
+  },
+  {
     "name": "Monterey Bay Aquarium",
     "id": "monterey-bay",
     "type": "School project",
