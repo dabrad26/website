@@ -1,0 +1,21 @@
+[
+  {
+    "school": "University of California San Diego Extension",
+    "degree": "Professional Certificate",
+    "program": "User Experience Design",
+    "location": "San Diego, CA",
+    "description": "Professional certificate on user experience and user interface design for products and applications.",
+    "startDate": "2019-01-16",
+    "endDate": "2020-03-21"
+  },
+  {
+    "school": "Google",
+    "degree": "Professional Certificate",
+    "program": "Google IT Automation with Python",
+    "location": "Coursera",
+    "description": "This six-course certificate, developed by Google, is designed to provide in-demand skills like Python and IT automation.",
+    "startDate": "2020-12-20",
+    "endDate": "2020-12-30",
+    "link": "https://coursera.org/verify/professional-cert/JGJ964PUYVWV"
+  }
+]

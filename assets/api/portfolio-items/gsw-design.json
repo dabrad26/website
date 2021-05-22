@@ -1,0 +1,39 @@
+{
+    "id": "gsw-design",
+    "name": "Georgia Southwestern Design Projects",
+    "imageUrl": "/assets/portfolio-items/images/gsw-design.jpg",
+    "shortDescription": "During my time working at Georgia Southwestern State University I created numerous graphics, documents and other items for logos, advertisements and other marketing tools.  Below are some of the items I created, this does not include all of the items, but just a select few. Most of these items were created in Photoshop, InDesign and Illustrator.",
+    "quickFacts": {
+      "Project type": "Work project",
+      "Company": "Georgia Southwestern State University",
+      "Role": "Graphic Designer",
+      "Tools": "Adobe InDesign, Adobe Photoshop, Adobe Illustrator",
+      "URL": "https://gsw.edu"
+    },
+    "projectImages": [
+      {
+        "name": "GeorgiaView banner",
+        "url": "/assets/portfolio-items/images/gsw-design-1.jpg"
+      },
+      {
+        "name": "Preview Day banner",
+        "url": "/assets/portfolio-items/images/gsw-design-2.jpg"
+      },
+      {
+        "name": "Postcard advertisement",
+        "url": "/assets/portfolio-items/images/gsw-design-3.jpg"
+      },
+      {
+        "name": "Postcard advertisement",
+        "url": "/assets/portfolio-items/images/gsw-design-4.jpg"
+      },
+      {
+        "name": "Preview Day postcard",
+        "url": "/assets/portfolio-items/images/gsw-design-5.jpg"
+      },
+      {
+        "name": "Vietnam Traveling Wall postcard invitation",
+        "url": "/assets/portfolio-items/images/gsw-design-6.jpg"
+      }
+    ]
+  }

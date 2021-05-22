@@ -1,0 +1,48 @@
+{
+    "id": "gsw-map",
+    "name": "Georgia Southwestern Campus Map",
+    "imageUrl": "/assets/portfolio-items/images/gsw-map.jpg",
+    "shortDescription": "To help people who are new to campus I developed a campus map built on the Google Maps API. This full feature map was mainly designed for the mobile aspect (the development of GSW Mobile apps), but also serves as a great campus map for the school.",
+    "longDescription": "I started off using Google Maps Maker to add our campus to the actual Google Maps, so that building outlines would already be on the map and general Google Map searches could find buildings and I also added the sidewalks and bike paths to Google Maps Maker so that navigation could be used between buildings and parking lots.\n\nThe next step was creating the map application. This was built on the Google Maps API. I added the coordinates of each area (parking lots, buildings, recreation areas) and created event handlers to handle when the coordinates were clicked. To make a nice-looking page I decided to go with modals instead of Info Windows, since the modal were more customizable and offered better handling on mobile devices. I added Geolocation for finding the user’s location and added buttons in the modals for in site navigation using the user’s location. This allowed the user to see the best route to take without leaving the app. I also added a button to launch Google or Apple maps app if viewing on a mobile device to allow step by step navigation to a specific place.\n\nThe final step was creating a menu bar. I added a Bootstrap based header/menu bar and added some methods to turn off certain elements on the map. This allowed the user to turn off areas on the map to only see the area they are looking for. This allowed a user to sort by building types, recreational fields, parking lots (different types) and any combination of these items.\n\nYou could also switch the map type to view either the standard view, satellite view, or hybrid view of the map.\n\nThis entire web application was HTML5/CSS based written in JavaScript using the Google Maps API and JQuery. This was a huge success and gave students a quick way to get around campus and find the best route for walking (which would use the sidewalks on campus), biking (using sidewalks, roads and bike paths) or driving (using roads).",
+    "quickFacts": {
+      "Project type": "Work project",
+      "Company": "Georgia Southwestern State University",
+      "Language": "jQuery, Google Maps API, JavaScript, HTML, CSS",
+      "URL": "http://map.gsw.edu",
+      "Completion": "January 17, 2014"
+    },
+    "projectImages": [
+      {
+        "name": "Map view",
+        "url": "/assets/portfolio-items/images/gsw-map-1.jpg"
+      },
+      {
+        "name": "Filter options",
+        "url": "/assets/portfolio-items/images/gsw-map-2.jpg"
+      },
+      {
+        "name": "Navigation view",
+        "url": "/assets/portfolio-items/images/gsw-map-3.jpg"
+      },
+      {
+        "name": "Details view",
+        "url": "/assets/portfolio-items/images/gsw-map-4.jpg"
+      },
+      {
+        "name": "Mobile details view",
+        "url": "/assets/portfolio-items/images/gsw-map-5.jpg"
+      },
+      {
+        "name": "Mobile navigation view",
+        "url": "/assets/portfolio-items/images/gsw-map-6.jpg"
+      },
+      {
+        "name": "Mobile map view",
+        "url": "/assets/portfolio-items/images/gsw-map-7.jpg"
+      },
+      {
+        "name": "Mobile filter options",
+        "url": "/assets/portfolio-items/images/gsw-map-8.jpg"
+      }
+    ]
+  }
