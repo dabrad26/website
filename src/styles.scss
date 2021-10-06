@@ -237,3 +237,7 @@ button:focus {
     }
   }
 }
+
+.row > * {
+  flex-shrink: inherit !important;
+}

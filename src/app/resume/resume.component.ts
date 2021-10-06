@@ -91,7 +91,7 @@ export class ResumeComponent implements OnInit {
   private getDateString(startDate: string, endDate: string): string {
     const start = new Date(startDate);
     const end = endDate ? new Date(endDate) : null;
-    const dateOptions = {year: 'numeric', month: 'short'};
+    const dateOptions = {year: 'numeric' as 'numeric', month: 'short' as 'short'};
     return `${start.toLocaleDateString('en-us', dateOptions)} - ${end ? end.toLocaleDateString('en-us', dateOptions) : 'Present'}`;
   }
 
