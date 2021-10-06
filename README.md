@@ -1,11 +1,17 @@
 # David Bradshaw's Personal Website
 
-This is the FE for my personal website and portfolio.
+This is the UI application for my personal website
 
-## Development server
+## Getting started
 
-Run `npm run dev` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- `npm ci` to install node dependencies
+- `npm run dev` to run it in development mode (with live reload)
+- `npm run build` to build it (dist directory)
 
-## Build
+## About me
 
-Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- 👋 Hi, I’m David Bradshaw ([@dabrad26](http://github.com/dabrad26))
+- 👀 I’m interested in UI Engineering and UX Design
+- 🌱 I’m always learning new UX best practices and new techniques to improve myself as a developer
+- 💞️ I’m looking to collaborate on anything UI or UX.
+- 📫 Check out my website at <https://davidbradshaw.us>
