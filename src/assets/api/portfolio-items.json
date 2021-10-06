@@ -1,11 +1,11 @@
 [
   {
-    "name": "Fitness TV and Smartwatch Design",
-    "id": "fitness-tv-watch",
-    "type": "School project",
+    "name": "IBM Aspera Starter Library",
+    "id": "aspera-starter",
+    "type": "Work project",
     "gridSize": "col-lg-4 col-sm-6",
-    "category": ["design"],
-    "imageUrl": "/assets/portfolio-items/images/fitness-tv-watch.jpg"
+    "category": ["design", "web", "applications"],
+    "imageUrl": "/assets/portfolio-items/images/aspera-starter.jpg"
   },
   {
     "name": "Monterey Bay Aquarium",
@@ -14,6 +14,14 @@
     "gridSize": "col-lg-4 col-sm-6",
     "category": ["design"],
     "imageUrl": "/assets/portfolio-items/images/monterey-bay.jpg"
+  },
+  {
+    "name": "Fitness TV and Smartwatch Design",
+    "id": "fitness-tv-watch",
+    "type": "School project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["design"],
+    "imageUrl": "/assets/portfolio-items/images/fitness-tv-watch.jpg"
   },
   {
     "name": "Evolution of Handheld Gaming Infographic",
