@@ -34,30 +34,36 @@ export class PortfolioItemComponent implements OnInit {
       {name: 'Item', link: `/portfolio/${currentId}`}
     ]);
 
-    this.apiService.getData('portfolioEntity', currentId).subscribe((response: PortfolioEntry) => {
-      this.portfolioData = response;
-      this.sharedService.setPageTitle(`${this.portfolioData.name} - Portfolio`);
-      if (this.portfolioData.useHtmlVersion) {
-        this.loadHtml();
-      } else {
-        if (typeof this.portfolioData.quickFacts === 'object') {
-          this.quickFactKeys = Object.keys(this.portfolioData.quickFacts);
+    this.apiService.getData('portfolioEntity', currentId).subscribe({
+      next: (response: PortfolioEntry) => {
+        this.portfolioData = response;
+        this.sharedService.setPageTitle(`${this.portfolioData.name} - Portfolio`);
+        if (this.portfolioData.useHtmlVersion) {
+          this.loadHtml();
+        } else {
+          if (typeof this.portfolioData.quickFacts === 'object') {
+            this.quickFactKeys = Object.keys(this.portfolioData.quickFacts);
+          }
+          this.pageStatus = '';
         }
-        this.pageStatus = '';
+      },
+      error: error => {
+        this.sharedService.handleError('Unable to get portfolio detail', error);
+        this.pageStatus = 'error';
       }
-    }, error => {
-      this.sharedService.handleError('Unable to get portfolio detail', error);
-      this.pageStatus = 'error';
     });
   }
 
   loadHtml(): void {
-    this.apiService.getData('portfolioEntityHtml', this.portfolioData.id, true).subscribe((response) => {
-      this.portfolioHtml = this.domSanitizer.bypassSecurityTrustHtml(response);
-      this.pageStatus = 'html';
-    }, error => {
-      this.sharedService.handleError('Unable to get portfolio html', error);
-      this.pageStatus = 'error';
+    this.apiService.getData('portfolioEntityHtml', this.portfolioData.id, true).subscribe({
+      next: response => {
+        this.portfolioHtml = this.domSanitizer.bypassSecurityTrustHtml(response);
+        this.pageStatus = 'html';
+      },
+      error: error => {
+        this.sharedService.handleError('Unable to get portfolio html', error);
+        this.pageStatus = 'error';
+      }
     });
   }
 

@@ -20,14 +20,19 @@ export class BaseComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.router.events.subscribe((routeEvent) => {
-      if (routeEvent instanceof NavigationEnd) {
-        if (document.body) {
-          document.body.scrollTop = 0;
+    this.router.events.subscribe({
+      next: routeEvent => {
+        if (routeEvent instanceof NavigationEnd) {
+          if (document.body) {
+            document.body.scrollTop = 0;
+          }
+          if (document.documentElement) {
+            document.documentElement.scrollTop = 0;
+          }
         }
-        if (document.documentElement) {
-          document.documentElement.scrollTop = 0;
-        }
+      },
+      error: error => {
+        console.error('Base component failed to subscribe to router event', error);
       }
     });
   }

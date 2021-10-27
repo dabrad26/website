@@ -8,6 +8,7 @@ export class ApiService {
     educations: '/assets/api/educations.json',
     certificates: '/assets/api/certificates.json',
     experiences: '/assets/api/experiences.json',
+    awards: '/assets/api/awards.json',
     portfolioItems: '/assets/api/portfolio-items.json',
     portfolioEntity: '/assets/api/portfolio-items/$1.json',
     portfolioEntityHtml: '/assets/api/html/$1.html',

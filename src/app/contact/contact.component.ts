@@ -77,15 +77,18 @@ export class ContactComponent implements OnInit {
       sent: new Date().toISOString(),
     };
     this.disableForm = true;
-    this.apiService.post('https://mailthis.to/emaildavid', data, {responseType: 'text'}).subscribe(response => {
-      alert('To confirm you are not a robot.  Please do the following captcha and then click "Go Back" to return.');
-      this.formData = new ContactForm();
-      this.disableForm = false;
-      window.location.href = 'https://mailthis.to/confirm';
-    }, error => {
-      alert('Message could not be sent. Please try again.');
-      this.sharedService.handleError('Unable to submit contact form', error);
-      this.disableForm = false;
+    this.apiService.post('https://mailthis.to/emaildavid', data, {responseType: 'text'}).subscribe({
+      next: () => {
+        alert('To confirm you are not a robot.  Please do the following captcha and then click "Go Back" to return.');
+        this.formData = new ContactForm();
+        this.disableForm = false;
+        window.location.href = 'https://mailthis.to/confirm';
+      },
+      error: error => {
+        alert('Message could not be sent. Please try again.');
+        this.sharedService.handleError('Unable to submit contact form', error);
+        this.disableForm = false;
+      }
     });
   }
 

@@ -15,7 +15,7 @@ export class SharedService {
       link: '/about'
     },
     {
-      name: 'Resume',
+      name: 'Résumé',
       link: '/resume'
     },
     {

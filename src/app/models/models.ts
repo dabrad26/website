@@ -50,6 +50,16 @@ export class ExperienceItem {
   ];
 }
 
+export class AwardItem {
+  name: string;
+  issuer: string;
+  location: string;
+  issueDate: string;
+  description: string;
+  displayDateString?: string;
+  collapsed?: boolean;
+}
+
 export class PortfolioEntry {
   id: string;
   name: string;

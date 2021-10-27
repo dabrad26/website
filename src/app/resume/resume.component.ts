@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SharedService } from '../services/shared.service';
-import { ExperienceItem, EducationItem } from '../models/models';
+import { ExperienceItem, EducationItem, AwardItem } from '../models/models';
 import { ApiService } from '../services/api.service';
 import { mergeMap, map } from 'rxjs/operators';
 
@@ -14,6 +14,7 @@ export class ResumeComponent implements OnInit {
   experiences: Array<ExperienceItem> = [];
   educations: Array<EducationItem> = [];
   certificates: Array<EducationItem> = [];
+  awards: Array<AwardItem> = [];
   viewData = {
     education: {
       hasMore: false,
@@ -24,6 +25,10 @@ export class ResumeComponent implements OnInit {
       visible: false,
     },
     certificate: {
+      hasMore: false,
+      visible: false,
+    },
+    award: {
       hasMore: false,
       visible: false,
     }
@@ -59,7 +64,7 @@ export class ResumeComponent implements OnInit {
           }
           return certificate;
         });
-        return this.apiService.getData('experiences').pipe(map((experienceData: Array<ExperienceItem>) => {
+        return this.apiService.getData('experiences').pipe(mergeMap((experienceData: Array<ExperienceItem>) => {
           this.experiences = experienceData.map(experience => {
             if (Array.isArray(experience.roles)) {
               experience.roles.forEach(role => {
@@ -72,27 +77,43 @@ export class ResumeComponent implements OnInit {
             }
             return experience;
           });
+          return this.apiService.getData('awards').pipe(map((awardData: Array<AwardItem>) => {
+            this.awards = awardData.map(award => {
+              award.displayDateString = this.getDateStringValue(new Date(award.issueDate));
+              if (award.collapsed) {
+                this.viewData.award.hasMore = true;
+              }
+              return award;
+            });
+          }));
         }));
       }));
-    })).subscribe(() => {
-      this.pageStatus = '';
-    }, error => {
+    })).subscribe({
+      next: () => {
+        this.pageStatus = '';
+      },
+      error: error => {
       this.sharedService.handleError('Unable to get resume items', error);
       this.pageStatus = 'error';
+      }
     });
   }
 
-  showMore = (type: 'experience'|'certificate'|'education', event: MouseEvent): void => {
+  showMore = (type: 'experience'|'certificate'|'education'|'award', event: MouseEvent): void => {
     event.preventDefault();
     this.viewData[type].visible = true;
     this.viewData[type].hasMore = false;
   };
 
+  private getDateStringValue(date: Date): string {
+    const dateOptions = {year: 'numeric' as 'numeric', month: 'short' as 'short'};
+    return date.toLocaleDateString('en-us', dateOptions);
+  }
+
   private getDateString(startDate: string, endDate: string): string {
     const start = new Date(startDate);
     const end = endDate ? new Date(endDate) : null;
-    const dateOptions = {year: 'numeric' as 'numeric', month: 'short' as 'short'};
-    return `${start.toLocaleDateString('en-us', dateOptions)} - ${end ? end.toLocaleDateString('en-us', dateOptions) : 'Present'}`;
+    return `${this.getDateStringValue(start)} - ${end ? this.getDateStringValue(end) : 'Present'}`;
   }
 
 }

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Outstanding Technical Achievement Award",
+    "issuer": "IBM",
+    "location": "New York, NY",
+    "description": "Presented for the successful release of the IBM Aspera HTTP Gateway 2.0.",
+    "issueDate": "2020-10-28"
+  },
+  {
+    "name": "Outstanding Computer Science Graduate",
+    "issuer": "Georgia Southwestern State University",
+    "location": "Americus, GA",
+    "description": "Selected as the graduate studies outstanding student for 2013 graduating class.",
+    "issueDate": "2013-05-02"
+  },
+  {
+    "name": "Outstanding Computer Science Undergraduate",
+    "issuer": "Georgia Southwestern State University",
+    "location": "Americus, GA",
+    "description": "Selected as the undergraduate studies outstanding student for 2012 graduating class.",
+    "issueDate": "2012-05-02"
+  },
+  {
+    "name": "Excellence in Academics and Service to the School of Computing and Mathematics",
+    "issuer": "Georgia Southwestern State University",
+    "location": "Americus, GA",
+    "description": "Honored for providing outstanding service and research within the school of Computing and Mathematics during my undergraduate studies.",
+    "issueDate": "2012-05-02"
+  }
+]
