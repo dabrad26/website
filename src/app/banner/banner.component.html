@@ -2,8 +2,7 @@
   <div class="banner_inner d-flex align-items-center">
     <div class="container">
       <div class="banner_content text-right">
-        <h1>{{getCurrentPageName()}}</h1>
-        <app-breadcrumbs></app-breadcrumbs>
+        <h1 class="{{hasNavigationLink() ? 'banner_quick_jump' : ''}}" (click)="navigateToPage()">{{getCurrentPageName()}}</h1>
       </div>
     </div>
   </div>

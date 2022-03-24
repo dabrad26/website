@@ -30,6 +30,17 @@ export class BannerComponent {
   scrollDown(): void {
     jquery('html, body').animate({
       scrollTop: (jquery('#fullscreen-image')[0].offsetHeight - 20)
-  }, 500);
+    }, 500);
+  }
+
+  hasNavigationLink(): boolean {
+    return this.router?.url?.split('/')?.length > 2;
+  }
+
+  navigateToPage(): void {
+    if (this.hasNavigationLink()) {
+      const parentPath = this.router.url.split('/')[1];
+      this.router.navigate([parentPath]);
+    }
   }
 }
