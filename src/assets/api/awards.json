@@ -1,5 +1,12 @@
 [
   {
+    "name": "Entrepreneur Award - 2022",
+    "issuer": "IBM",
+    "location": "Emeryville, CA",
+    "description": "Awarded for the initiative of the consolidation of projects and code libraries by using React and React Native for our offerings.",
+    "issueDate": "2022-03-23"
+  },
+  {
     "name": "Outstanding Technical Achievement Award",
     "issuer": "IBM",
     "location": "New York, NY",

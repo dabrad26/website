@@ -1,5 +1,13 @@
 [
   {
+    "name": "IBM Aspera on Cloud X",
+    "id": "aspera-on-cloud-x",
+    "type": "Work project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["design", "web"],
+    "imageUrl": "/assets/portfolio-items/images/aspera-on-cloud-x.jpg"
+  },
+  {
     "name": "IBM Aspera Starter Library",
     "id": "aspera-starter",
     "type": "Work project",
