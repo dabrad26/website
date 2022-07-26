@@ -18,8 +18,8 @@
               <li *ngFor="let key of quickFactKeys">
                 <span class="label">{{key}}:</span>
                 <span class="data">
-                  <a *ngIf="key==='URL'" [href]="portfolioData.quickFacts[key]" target="_blank">{{portfolioData.quickFacts[key]}}</a>
-                  <ng-container *ngIf="key!=='URL'">{{portfolioData.quickFacts[key]}}</ng-container>
+                  <a *ngIf="key==='URL'||isQuickFactUrl(key); else urlElse" [href]="portfolioData.quickFacts[key]" target="_blank">{{portfolioData.quickFacts[key]}}</a>
+                  <ng-template #urlElse>{{portfolioData.quickFacts[key]}}</ng-template>
                 </span>
               </li>
             </ul>

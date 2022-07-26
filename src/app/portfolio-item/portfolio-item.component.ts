@@ -67,6 +67,12 @@ export class PortfolioItemComponent implements OnInit {
     });
   }
 
+  isQuickFactUrl(key: string): boolean {
+    const item = this.portfolioData.quickFacts[key];
+
+    return (typeof item === 'string' && item.indexOf('http') === 0);
+  }
+
   getShareText(): string {
     return `Checkout ${this.portfolioData.name} from David Bradshaw's portfolio!`;
   }
