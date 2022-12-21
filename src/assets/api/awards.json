@@ -1,10 +1,24 @@
 [
   {
+    "name": "IBM Tech 2023",
+    "issuer": "IBM",
+    "location": "Emeryville, CA",
+    "description": "The new technical recognition program that recognizes IBM's premier technical contributors. This recognition is a testament to hard work throughout 2022 to drive innovation, transform culture and accelerate growth.",
+    "issueDate": "2022-12-06"
+  },
+  {
     "name": "Entrepreneur Award - 2022",
     "issuer": "IBM",
     "location": "Emeryville, CA",
     "description": "Awarded for the initiative of the consolidation of projects and code libraries by using React and React Native for our offerings.",
     "issueDate": "2022-03-23"
+  },
+  {
+    "name": "Pratt Circle",
+    "issuer": "Pratt Institute",
+    "location": "New York, NY",
+    "description": "Presented for graduating with honors or distinction",
+    "issueDate": "2021-06-01"
   },
   {
     "name": "Outstanding Technical Achievement Award",
