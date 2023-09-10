@@ -1,6 +1,10 @@
 {
   "name": "website-fe",
   "version": "2.0.0",
+  "author": {
+    "name": "David Bradshaw",
+    "url": "https://davidbradshaw.us"
+  },
   "scripts": {
     "ng": "ng",
     "dev": "npm run set:hosts && ng serve -o --host davidtest.io",
