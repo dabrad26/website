@@ -1,5 +1,13 @@
 [
   {
+    "name": "DATArt Hackathon Project",
+    "id": "datart-hackathon",
+    "type": "Hackathon project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["design", "web"],
+    "imageUrl": "/assets/portfolio-items/images/datart-hackathon.jpg"
+  },
+  {
     "name": "Carbon for React Native",
     "id": "carbon-react-native",
     "type": "Open source project",
@@ -28,7 +36,7 @@
     "id": "aspera-starter",
     "type": "Work project",
     "gridSize": "col-lg-4 col-sm-6",
-    "category": ["design", "web", "applications"],
+    "category": ["design", "web"],
     "imageUrl": "/assets/portfolio-items/images/aspera-starter.jpg"
   },
   {
