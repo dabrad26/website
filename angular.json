@@ -66,18 +66,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "website-fe:build"
+            "buildTarget": "website-fe:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "website-fe:build:production"
+              "buildTarget": "website-fe:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "website-fe:build"
+            "buildTarget": "website-fe:build"
           }
         },
         "lint": {
