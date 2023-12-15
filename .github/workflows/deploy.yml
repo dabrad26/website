@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v2
       -
         name: Install Node dependencies
-        run: npm install --ignore-optional
+        run: npm ci --ignore-optional
       -
         name: Build site
         run: npm run build
