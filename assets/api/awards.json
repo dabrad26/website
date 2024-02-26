@@ -1,0 +1,51 @@
+[
+  {
+    "name": "IBM Tech 2023",
+    "issuer": "IBM",
+    "location": "Dallas, TX",
+    "description": "The new technical recognition program that recognizes IBM's premier technical contributors. This recognition is a testament to hard work throughout 2022 to drive innovation, transform culture and accelerate growth.",
+    "issueDate": "2023-02-05"
+  },
+  {
+    "name": "Entrepreneur Award - 2022",
+    "issuer": "IBM",
+    "location": "San Francisco, CA",
+    "description": "Awarded for the initiative of the consolidation of projects and code libraries by using React and React Native for our offerings.",
+    "issueDate": "2022-03-23"
+  },
+  {
+    "name": "Pratt Circle",
+    "issuer": "Pratt Institute",
+    "location": "New York, NY",
+    "description": "Presented for graduating with honors or distinction",
+    "issueDate": "2021-06-01"
+  },
+  {
+    "name": "Outstanding Technical Achievement Award",
+    "issuer": "IBM",
+    "location": "New York, NY",
+    "description": "Presented for the successful release of the IBM Aspera HTTP Gateway 2.0.",
+    "issueDate": "2020-10-28"
+  },
+  {
+    "name": "Outstanding Computer Science Graduate",
+    "issuer": "Georgia Southwestern State University",
+    "location": "Americus, GA",
+    "description": "Selected as the graduate studies outstanding student for 2013 graduating class.",
+    "issueDate": "2013-05-02"
+  },
+  {
+    "name": "Outstanding Computer Science Undergraduate",
+    "issuer": "Georgia Southwestern State University",
+    "location": "Americus, GA",
+    "description": "Selected as the undergraduate studies outstanding student for 2012 graduating class.",
+    "issueDate": "2012-05-02"
+  },
+  {
+    "name": "Excellence in Academics and Service to the School of Computing and Mathematics",
+    "issuer": "Georgia Southwestern State University",
+    "location": "Americus, GA",
+    "description": "Honored for providing outstanding service and research within the school of Computing and Mathematics during my undergraduate studies.",
+    "issueDate": "2012-05-02"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "id": "placemaking-week-redesign",
+  "name": "Placemaking Week Redesign",
+  "imageUrl": "/assets/portfolio-items/images/placemaking-week-redesign.jpg",
+  "shortDescription": "For the Information Architecture & Interaction Design class we took on the role of redesigning an existing site for a local company (Project for Public Spaces).  This semester long project went through the initial informatiomn collection to the final production of a digital prototype.",
+  "longDescription": "We were in a group of five members who broke up the work and worked together to design a new site for 'Placemaking Week', a conference held by the Project for Public Spaces.  Our group worked together to collect user research and then take that research to create a final prototype for the new redesigned website.  We designed paper prototypes for mobile and desktop for a few use cases and finally created a style guide and delivered a final fully designed prototype.",
+  "quickFacts": {
+    "Project type": "School group project",
+    "School": "Pratt Institute",
+    "Class": "INFO-643 – Information Architecture & Interaction Design",
+    "Completion": "May 2, 2020"
+  },
+  "projectLinks": [
+    {
+      "name": "Paper prototype",
+      "link": "/assets/portfolio-items/documents/placemaking-week-redesign-paper-prototype.pdf"
+    },
+    {
+      "name": "Style guide",
+      "link": "/assets/portfolio-items/documents/placemaking-week-redesign-style-guide.pdf"
+    }
+  ],
+  "projectImages": [
+    {
+      "name": "Home page",
+      "url": "/assets/portfolio-items/images/placemaking-week-redesign-1.jpg"
+    },
+    {
+      "name": "List of talks",
+      "url": "/assets/portfolio-items/images/placemaking-week-redesign-2.jpg"
+    },
+    {
+      "name": "List of talks (expanded item)",
+      "url": "/assets/portfolio-items/images/placemaking-week-redesign-3.jpg"
+    },
+    {
+      "name": "Tickets page",
+      "url": "/assets/portfolio-items/images/placemaking-week-redesign-4.jpg"
+    },
+    {
+      "name": "Mobile home page",
+      "url": "/assets/portfolio-items/images/placemaking-week-redesign-5.jpg"
+    },
+    {
+      "name": "Mobile list of talks",
+      "url": "/assets/portfolio-items/images/placemaking-week-redesign-6.jpg"
+    },
+    {
+      "name": "Mobile tickets page",
+      "url": "/assets/portfolio-items/images/placemaking-week-redesign-7.jpg"
+    }
+  ]
+}
