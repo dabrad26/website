@@ -1,5 +1,13 @@
 [
   {
+    "name": "Calorie Counter iOS App",
+    "id": "calorie-counter-ios",
+    "type": "School project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["applications"],
+    "imageUrl": "/assets/portfolio-items/images/calorie-counter-ios.jpg"
+  },
+  {
     "name": "DATArt Hackathon Project",
     "id": "datart-hackathon",
     "type": "Hackathon project",
