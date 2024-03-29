@@ -19,6 +19,16 @@
   {
     "school": "Google",
     "degree": "Professional Certificate",
+    "program": "Google IT Support",
+    "location": "Coursera",
+    "description": "This five-course certificate, developed by Google, is designed to provide skills in IT support.",
+    "startDate": "2024-03-12",
+    "endDate": "2024-03-28",
+    "link": "https://coursera.org/verify/professional-cert/24PC2BDA42FB"
+  },
+  {
+    "school": "Google",
+    "degree": "Professional Certificate",
     "program": "Google IT Automation with Python",
     "location": "Coursera",
     "description": "This six-course certificate, developed by Google, is designed to provide in-demand skills like Python and IT automation.",
