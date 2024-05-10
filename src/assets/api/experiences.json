@@ -1,14 +1,14 @@
 [
   {
     "company": "IBM",
-    "jobTitle": "UI/UX Architect",
+    "jobTitle": "Platform Frontend Architect",
     "location": "Los Angeles Metropolitan Area",
-    "description": "In this role I drive the architecture of Aspera’s frontend products and lead the UI engineers, with a specific focus on design standards, scalability, performance and NPS growth. I work closely with design to ensure consistency and patterns that meet our customer needs.",
+    "description": "In this role I drive the architecture of Aspera's frontend products and lead the UI engineers, with a specific focus on design standards, scalability, performance and NPS growth. I work closely with design to ensure consistency and patterns that meet our customer needs.",
     "startDate": "2018-01-14",
     "endDate": null,
     "roles": [
       {
-        "jobTitle": "UI/UX Architect",
+        "jobTitle": "Platform Frontend Architect",
         "startDate": "2023-11-11",
         "endDate": null
       },
