@@ -1,5 +1,13 @@
 [
   {
+    "name": "PhotoWall Hackathon Project",
+    "id": "photowall-hackathon",
+    "type": "Hackathon project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["design", "web"],
+    "imageUrl": "/assets/portfolio-items/images/photowall-hackathon.jpg"
+  },
+  {
     "name": "Calorie Counter iOS App",
     "id": "calorie-counter-ios",
     "type": "School project",
