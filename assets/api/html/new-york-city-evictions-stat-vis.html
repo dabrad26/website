@@ -1,0 +1,83 @@
+<article>
+  <h1 class="entry-title">New York City Evictions</h1>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/evictions-20170811_evictionlawyersnyc-1.jpg" alt="New York City" />
+    <a rel="noreferrer noopener" href="https://www.motherjones.com/politics/2017/08/new-york-becomes-first-city-to-guarantee-lawyers-to-tenants-facing-eviction/" target="_blank">New York City Eviction Law Changes</a>
+  </div>
+  <h2>Introduction</h2>
+  <p>This project aims to find patterns from the evictions that occur across the five boroughs of New York City as well as the change in eviction numbers as new tenant laws are passed and the COVID-19 pandemic changed the city.  Evictions can occur for numerous reasons like failure to pay, breaking community rules or other violations in the lease.  Initially the hope was to use this data as well, but this data is not available and is confidentially placed in the court cases until a future time when the court case becomes public record. However the data that was obtained did provide interesting views into the cities eviction numbers and locations based on the area it occurs mostly.</p>
+  <h2>Material</h2>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/evictions-open-data.png" alt="New York City Open Data" />
+    <a href="https://opendata.cityofnewyork.us" target="_blank" rel="noreferrer noopener">New York City Open Data</a>
+  </div>
+  <p>For this experiment data from the <a rel="noreferrer noopener" href="https://opendata.cityofnewyork.us" target="_blank">New York City Open Data</a> project was used.  The dataset for <a rel="noreferrer noopener" href="https://data.cityofnewyork.us/City-Government/Evictions/6z8x-wfk4" target="_blank">Evictions</a> is updated daily and at the time of pulling the data from the city it was last updated on June 18, 2020.  This includes all evictions that were handled by legal measures since January 1, 2017; which means that the data would not include evictions that did not go through the proper legal channels.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/evictions-tableau.jpg" alt="Tableau Public" />
+    <a href="https://public.tableau.com/s/" target="_blank" rel="noreferrer noopener">Tableau Public</a>
+  </div>
+  <p>The New York City Open Data site allowed for exporting the data into a CSV file (comma separated value).  This data was opened in <a rel="noreferrer noopener" href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank">Microsoft Excel</a> and converted to a Microsoft Excel 2007 format (XLSX).  Which was set as the data source inside of <a rel="noreferrer noopener" href="https://public.tableau.com/s/" target="_blank">Tableau Public</a> which is what was used for this project to visually analyze the data and experiment with different graphs and layouts to find trends for the data.  Tableau Public is a very powerful tool that offers a simple graphical user interface for connecting to a data source (in our case Microsoft Excel) and allowing simple drag and drop mechanisms to create visual renderings of the data.</p>
+  <h2>Process</h2>
+  <p>The first step in this project was finding the best data source.  After searching through open data systems at the New York State level and using search engines I followed the Open Data site from the City of New York and found the eviction data source.  I looked for some others but this was the most up to date dataset although I was hoping to have a bit more data.  The data only contained three years and did not include extra metadata that could have yielded more interesting patterns like reasons for eviction, type of housing (public, private, government), ethnic background of the evictees, family size, or age of the primary renter.  However, the data did yield some interesting trends and breakdowns of the areas with higher eviction rates.</p>
+  <p>With the data found it was downloaded as a CSV file which was then converted to an Excel document for easier use within Tableau.  Adding the data to Tableau was simple and the welcome screen indicated what to do without issue. However, Tableau did offer several videos which helped to find out more advanced features and understand how properly connect the data. These videos were found in their <a rel="noreferrer noopener" href="https://public.tableau.com/s/resources" target="_blank">Resources page</a>.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/evictions-graph-types.png" style="max-width: 320px;" alt="Tableau Chart Types">
+    <span>Tableau Chart Types</span>
+  </div>
+  <p>Now with the data hooked up within Tableau I started to explore the different visual representations of the data. This was simple via the drag and drop mechanism and easy to understand chart types which also indicated what data was needed to generate this chart.  I created several different worksheets with different types of charts that helped me visually view the data and find trends and patterns.</p>
+  <p>I did encounter one issue with the Pie chart which required some research. I could not figure out how to make it bigger. Luckily another <a href="https://www.youtube.com/watch?v=FTSNVAFqfB8" target="_blank" rel="noreferrer noopener">YouTube video</a> explained this for this software and that solved my problem and I was able to achieve the views I wanted and get all of my worksheets polished and looking proper.</p>
+  <p>With all of my worksheets created I created a single Dashboard which included all of the worksheets I created in a single page view format that allowed for gathering in all the data in one place.  The final creations and evaluation of the data and trends is presented in the next section.</p>
+  <h2>Outcome</h2>
+  <div class="image-group">
+    <iframe width="100%" height="690px" frameborder="0" src="https://public.tableau.com/views/INFOHomework/Dashboard?:showVizHome=no&:embed=true" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen=""></iframe>
+    <a rel="noreferrer noopener" href="https://public.tableau.com/views/INFOHomework/Dashboard?:language=en&amp;:retry=yes&amp;:display_count=y&amp;:origin=viz_share_link" target="_blank">The final Tableau Public project can be seen here.</a>
+  </div>
+  <p>My final outcome yielded four charts and one dashboard.  Each chart and dashboard is listed below with an image representation and a brief description of the findings from that chart.  Under each image is a link that will take you to the Tableau Public site where you can view the interactive version of the entity.</p>
+  <h3>Evictions By Area (Map View)</h3>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/evictions-map.png" alt="Evictions by Area Map View" />
+    <a href="https://public.tableau.com/views/INFOHomework/Map?:language=en&amp;:display_count=y&amp;:origin=viz_share_link" target="_blank" rel="noreferrer noopener">Evictions By Area</a>
+  </div>
+  <p>For my first data exploration I created a map view that used proportional symbols to show which areas (based on zip code) had the most evictions.  This map showed that the Bronx and North Manhattan has the largest cluster of evictions over the last three years with parts of North Brooklyn and South Queens coming in second.  Manhattan (under 100th Street) had the smallest numbers after Staten Island.  The interesting take aways from this is that the population ratios do not match the eviction patterns.  A logical connection would be that areas with higher population would have higher rates of eviction. However, this was not the case and The Bronx had an extreme number of evictions compared to any other Borough.  Without further data it is hard to understand why without just speculation.</p>
+  <h3>Evictions By Borough (Bubble View)</h3>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/evictions-bubbles.png" alt="Evictions by Borough Bubble View" />
+    <a href="https://public.tableau.com/views/INFOHomework/Bubble?:language=en&amp;:display_count=y&amp;:origin=viz_share_link" target="_blank" rel="noreferrer noopener">Evictions by Borough</a>
+  </div>
+  <p>The second data exploration was to view the ratio of evictions based on each Borough.  This complements the map view but can help provide a simpler interpretation of which Borough had more evictions over the last three years.  From the packed bubbles above we can see that the Bronx is the largest group of evictions with Brooklyn coming in a very close second place.  Queens and Manhattan following with third and fourth most evictions respectively and with Staten Island having the fewest.  </p>
+  <h3>Evictions over Time (Area View)</h3>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/evictions-stack-lines.png" alt="Evictions Over Time Area View" />
+    <a href="https://public.tableau.com/views/INFOHomework/Time?:language=en&amp;:display_count=y&amp;:origin=viz_share_link" target="_blank" rel="noreferrer noopener">Evictions over Time</a>
+  </div>
+  <p>Next I reviewed the total number of evictions over the last three years broken up by Borough.  This view provided a nice way to see how eviction totals have changed over time per Borough and see if there is any trend in any specific Borough.  Initially going into this project I had expected to see a drop in March of 2020 and on due to the Coronavirus, since from March to June 2020 all evictions <a rel="noreferrer noopener" href="https://www1.nyc.gov/content/tenantprotection/pages/covid19-home-quarantine" target="_blank">were put on hold</a>.  However the drastic drop in evictions started in early 2019.  I started researching around that time to see if I could identify what external factors changed to cause this drastic reduction of evictions.  Interestingly in 2019 drastic <a rel="noreferrer noopener" href="https://www.nytimes.com/2019/06/21/nyregion/rent-laws-new-york.html" target="_blank">Rental Law protection rules</a> became law in New York City which has <a rel="noreferrer noopener" href="https://gothamist.com/news/evictions-nyc-continue-fall-wake-rent-reforms" target="_blank">led to the drastic decrease in evictions</a>.  From the data the laws seem to help and avoid people being evicted as much as they were in 2017 and 2018.  It will be interesting to follow the trend and see how this graph continues as late 2020 comes and courts resume overseeing eviction rulings which are set to start back on June 20, 2020.  </p>
+  <h3>Total Evictions By Borough (Pie view)</h3>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/evictions-pie.png" alt="Total Evictions By Borough Pie View" />
+    <a href="https://public.tableau.com/views/INFOHomework/Pie?:language=en&amp;:display_count=y&amp;:origin=viz_share_link" target="_blank" rel="noreferrer noopener">Total Evictions By Borough</a>
+  </div>
+  <p>Finally I broke down the evictions in a simple pie chart to show the percentage of evictions by Borough.  This view is a simple way to illustrate data as a whole by showing how many evictions were done in each Borough compared to the sum.  This allows for quick identification of which slice of the pie is largest, which in this case The Bronx followed closely by Brooklyn.</p>
+  <h3>Dashboard</h3>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/evictions-dashboard.png" alt="Final Dashboard" />
+    <a href="https://public.tableau.com/views/INFOHomework/Dashboard?:language=en&amp;:retry=yes&amp;:display_count=y&amp;:origin=viz_share_link" target="_blank" rel="noreferrer noopener">Dashboard</a>
+  </div>
+  <p>The final dashboard provides a simple way to see all of the worksheets and visual representations for this project in one view and allows for a simple comparison of data as you take in the global view of all of the data in different formats.</p>
+  <h2>Reflections</h2>
+  <p>This project was an interesting experience leading to learning new information about Rent laws that took place in 2019.  Going into this project I was expecting to see a drastic drop of evictions in early 2020 due to the COVID-19 Pandemic.  However, I was surprised to find the drop had taken place prior due to rent laws that went into place that I was not aware of going into this data exploration.  For the breakdown of the data by Borough I wish their was a way to collect additional data with this dataset that indicated reason for the eviction and the type of housing as this may have provided some interesting patterns and explorations on ways to help people avoid evictions. However, this data was not available.  Coming back to this project in late 2020 would provide a very interesting insight into how the COVID-19 Pandemic has influenced evictions due to the economy shutdown, the area chart could be used again to show the trend in evictions by time and how the rental law changes and COVID-19 Pandemic aftermath has shifted the trends.  </p>
+  <h2>Works Cited</h2>
+  <ul>
+    <li><a rel="noreferrer noopener" href="https://data.cityofnewyork.us/City-Government/Evictions/6z8x-wfk4" target="_blank">New York City OpenData – Evictions</a></li>
+    <li><a rel="noreferrer noopener" href="https://public.tableau.com/s/resources" target="_blank">Tableau Public Resources – How To Videos</a></li>
+    <li><a rel="noreferrer noopener" href="https://www.youtube.com/watch?v=FTSNVAFqfB8" target="_blank">How to Increase the Size of Pie Charts in Tableau – Intact Adobe</a></li>
+    <li><a rel="noreferrer noopener" href="https://gothamist.com/news/evictions-nyc-continue-fall-wake-rent-reforms" target="_blank">Evictions in NYC Continue to Fall in Wake of Rent Reforms – Gothamist</a></li>
+    <li><a href="https://www.nytimes.com/2019/06/21/nyregion/rent-laws-new-york.html" target="_blank" rel="noreferrer noopener">How Rent Laws in N.Y Help All Tenants – The New York Times</a></li>
+  </ul>
+  <h2>Project Metadata</h2>
+  <ul>
+    <li><b>Project type</b>: School project</li>
+    <li><b>School</b>: Pratt Institute</li>
+    <li><b>Class</b>: INFO-658 – Information Visualization</li>
+    <li><b>Completion</b>: June 18, 2020</li>
+  </ul>
+</article>

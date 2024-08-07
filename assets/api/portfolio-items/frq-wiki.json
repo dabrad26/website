@@ -1,0 +1,34 @@
+{
+    "id": "frq-wiki",
+    "name": "Flint RiverQuarium Wiki",
+    "imageUrl": "/assets/portfolio-items/images/frq-wiki.jpg",
+    "shortDescription": "A Wiki site was developed for the Flint RiverQuarium to allow the content that was created for the Touchscreen projects to be made available on the Internet for anyone and to give the content to the Public Domain so that anyone can use the images and descriptions in their own projects. The Wiki was mainly designed to be used in academia, but can be used for any type of research or collection of information by anyone.",
+    "longDescription": "The Wiki was developed using MediaWiki and was setup to connect to a MySQL database. The Wiki allows for an approval phase for individuals to contribute and share their knowledge on the wiki, this approval phase ensures that verified individuals in academia or the life sciences are the only ones that can contribute. Features like a universal language translator were added for ease of use by anyone, regardless of language. The structure of the Wiki is based on the exhibit structures at the aquarium and can be used by individuals at the aquarium if they do not wish to use the touchscreens. The front end of the site also has a mobile detection (JavaScript) that will change the front end to a mobile friendly version when a smartphone is used. The videos created for the touchscreen projects are also available in the Wiki, but are not in the Public Domain and are hosted on YouTube.",
+    "quickFacts": {
+      "Project type": "Work project",
+      "Company": "Flint RiverQuarium",
+      "Language": "JavaScript, HTML, CSS, PHP, MySQL",
+      "Setup": "Apache, MediaWiki",
+      "URL": "http://flintriverquarium.com",
+      "Completion": "February 8, 2013",
+      "Status": "Shut down"
+    },
+    "projectImages": [
+      {
+        "name": "Home page",
+        "url": "/assets/portfolio-items/images/frq-wiki-1.jpg"
+      },
+      {
+        "name": "Exhibits page",
+        "url": "/assets/portfolio-items/images/frq-wiki-2.jpg"
+      },
+      {
+        "name": "Content page",
+        "url": "/assets/portfolio-items/images/frq-wiki-3.jpg"
+      },
+      {
+        "name": "Mobile page",
+        "url": "/assets/portfolio-items/images/frq-wiki-4.jpg"
+      }
+    ]
+  }

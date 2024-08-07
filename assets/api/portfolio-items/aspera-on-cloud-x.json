@@ -1,0 +1,46 @@
+{
+  "id": "aspera-on-cloud-x",
+  "name": "IBM Aspera on Cloud X",
+  "imageUrl": "/assets/portfolio-items/images/aspera-on-cloud-x.jpg",
+  "shortDescription": "While working for IBM I started working on the upgrade to Aspera on Cloud. This upgrade was a full rebuild from the ground up to ensure we used the most modern approaches and technology stack without being stuck in our legacy code base.",
+  "longDescription": "This system took advantage of Aspera Starter to allow for rapid development of views that used reusable components built following IBM's Carbon design system and a simple script system to keep the project up to date and enforce linting and process rules. This time we added a new component called the UI Server that was a NodeJS server to act as middelware proxy to our primary APIs. This server allowed for quicker calls and performing more complex logic on the server allowing the browser to stay snappy. This improved performance drastically and allowed for faster load times and less coding on the UI side as all authentication systems and token exchanges were handled server side.",
+  "quickFacts": {
+    "Project type": "Work project",
+    "Company": "IBM",
+    "Role": "Lead Frontend Engineer & Architect",
+    "Setup": "React, TypeScript, NodeJS, Sass",
+    "Testing": "Jest",
+    "URL": "https://www.ibm.com/cloud/aspera",
+    "Completion": "March 10, 2022"
+  },
+  "projectImages": [
+    {
+      "name": "Landing page",
+      "url": "/assets/portfolio-items/images/aspera-on-cloud-X-1.jpg"
+    },
+    {
+      "name": "Files application",
+      "url": "/assets/portfolio-items/images/aspera-on-cloud-X-2.jpg"
+    },
+    {
+      "name": "Packages application (light mode)",
+      "url": "/assets/portfolio-items/images/aspera-on-cloud-X-3.jpg"
+    },
+    {
+      "name": "Admin application",
+      "url": "/assets/portfolio-items/images/aspera-on-cloud-X-4.jpg"
+    },
+    {
+      "name": "Automation application",
+      "url": "/assets/portfolio-items/images/aspera-on-cloud-X-5.jpg"
+    },
+    {
+      "name": "Responsive mobile layout",
+      "url": "/assets/portfolio-items/images/aspera-on-cloud-X-6.jpg"
+    },
+    {
+      "name": "Activity application for transfers",
+      "url": "/assets/portfolio-items/images/aspera-on-cloud-X-7.jpg"
+    }
+  ]
+}

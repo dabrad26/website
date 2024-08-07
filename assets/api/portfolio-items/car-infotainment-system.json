@@ -1,0 +1,49 @@
+{
+  "id": "car-infotainment-system",
+  "name": "Car Infotainment System",
+  "imageUrl": "/assets/portfolio-items/images/car-infotainment-system.jpg",
+  "shortDescription": "We are becoming more and more attached to our smartphones, however, while driving this can be very dangerous. Cars have started to integrate more and more with mobile devices but only with the basic items like Music or SMS messages.",
+  "longDescription": "This proposed system hopes to bridge the gap by providing a way for the car infotainment system to replace the phone with all features we rely on for our phone; so that whether you are a commuter, driving for a living, or parent driving your kids to their events you can get their while staying connected to your smartphone without being distracted.",
+  "quickFacts": {
+    "Project type": "School project",
+    "School": "UC San Diego Extension",
+    "Class": "ART-40638 – Principles of UX",
+    "Completion": "March 3, 2019"
+  },
+  "projectLinks": [
+    {
+      "name": "Wireframe",
+      "link": "/assets/portfolio-items/documents/car-infotainment-system-wireframe.pdf"
+    },
+    {
+      "name": "Storyboard",
+      "link": "/assets/portfolio-items/documents/car-infotainment-system-storyboard.pdf"
+    },
+    {
+      "name": "User personas",
+      "link": "/assets/portfolio-items/documents/car-infotainment-system-user-personas.pdf"
+    },
+    {
+      "name": "Final design",
+      "link": "/assets/portfolio-items/documents/car-infotainment-system-final-design.pdf"
+    }
+  ],
+  "projectImages": [
+    {
+      "name": "Music player screen",
+      "url": "/assets/portfolio-items/images/car-infotainment-system-1.jpg"
+    },
+    {
+      "name": "Receiving text message screen",
+      "url": "/assets/portfolio-items/images/car-infotainment-system-2.jpg"
+    },
+    {
+      "name": "Calendar event screen",
+      "url": "/assets/portfolio-items/images/car-infotainment-system-3.jpg"
+    },
+    {
+      "name": "Meeting screen",
+      "url": "/assets/portfolio-items/images/car-infotainment-system-4.jpg"
+    }
+  ]
+}
