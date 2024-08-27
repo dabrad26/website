@@ -1,0 +1,43 @@
+{
+  "id": "pedestrian-cyclist-vis",
+  "name": "Pedestrian and Cyclist Accidents Visualization",
+  "imageUrl": "/assets/portfolio-items/images/pedestrian-cyclist-vis.jpg",
+  "shortDescription": "This final project is a Data visualization exploring the fatalities of pedestrians and cyclist in New York City and creating a narrative about the issue and efforts to end accidents. This was the final project for a graduate level class working toward a Masters in Information Experience Design.  The full project can be viewed on Github via the links below.",
+  "longDescription": "Being a pedestrian and cyclist in New York City can be dangerous with the high population and number of vehicles on the road. New York City has made several efforts to make the streets safer for all and this visualization hopes to explore how efforts to improve the city’s streets for non-automobiles has worked out and also evaluate the most dangerous times of the day for pedestrians and cyclist. Filters on the right side of the page are available to fine tune the data for your specific case. This allows you to find the safest time for biking to school or work based on your age group. As well as filtering for killed, injured or accident but no injuries. You can also include data from other major cities like Los Angeles or Chicago for comparative data.",
+  "quickFacts": {
+    "Project type": "School project",
+    "School": "Pratt Institute",
+    "Class": "INFO-697 – Programming Interactive Viz",
+    "Completion": "December 5, 2020",
+    "Setup": "D3, React, TypeScript, Sass",
+    "URL": "https://github.com/dabrad26/vis-final"
+  },
+  "projectImages": [
+    {
+      "name": "Time of Day of accidents comparison",
+      "url": "/assets/portfolio-items/images/pedestrian-cyclist-vis-1.jpg"
+    },
+    {
+      "name": "Time of Day of graphics",
+      "url": "/assets/portfolio-items/images/pedestrian-cyclist-vis-2.jpg"
+    },
+    {
+      "name": "Visual over time",
+      "url": "/assets/portfolio-items/images/pedestrian-cyclist-vis-3.jpg"
+    },
+    {
+      "name": "Comparison to other cities",
+      "url": "/assets/portfolio-items/images/pedestrian-cyclist-vis-4.jpg"
+    }
+  ],
+  "projectLinks": [
+    {
+      "name": "View deployed project",
+      "link": "https://dabrad26.github.io/vis-final/"
+    },
+    {
+      "name": "Github repo",
+      "link": "https://github.com/dabrad26/vis-final"
+    }
+  ]
+}

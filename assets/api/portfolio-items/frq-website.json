@@ -1,0 +1,45 @@
+{
+    "id": "frq-website",
+    "name": "Flint RiverQuarium Website",
+    "imageUrl": "/assets/portfolio-items/images/frq-website.jpg",
+    "shortDescription": "I was hired to create a new website for the Flint RiverQuarium. To save money the Aquarium decided to start with an already made template and have me alter it and fine tune it to make it work for their website. This new site was made as a responsive website with custom CSS for mobile (including Bootstrap) to make it mobile friendly when viewing it on a mobile device. This site had custom CSS and JavaScript functions to make it unique to the Aquarium and includes custom web apps I developed to make it more user friendly and accessible to customers.",
+    "longDescription": "To start I installed Joomla on their hosting server with a MySQL server for the database. Due to the size of the site and the complexity of the JavaScript and CSS needed to make it responsive and setup compression and caching for quicker load times. I also went in and compressed all the images to ensure fast loading on the user’s side. Joomla was used for the Content Management System and users were created in the backend to allow the staff at the Aquarium to quickly be able to login and change content as needed. Some of the custom web apps developed for this site was the Open/Close Widget that used JavaScript to get the current time and use a hierarchy of checks to see if the Aquarium should be open based on their schedule. If the Aquarium was open a message was printed to specify this and the same if they were closed. The system used many custom widgets to help make managing the site as easy as possible.\n\nThis included a Calendar that pulled using an events manager, auto lists for documents (like Press Releases) and many other widgets based alternatives to hardcoding.",
+    "quickFacts": {
+      "Project type": "Work project",
+      "Company": "Flint RiverQuarium",
+      "Language": "jQuery, JavaScript, HTML, CSS, PHP, MySQL",
+      "Setup": "Apache, Joomla CMS",
+      "URL": "http://flintriverquarium.com",
+      "Completion": "April 14, 2014"
+    },
+    "projectImages": [
+      {
+        "name": "Home page top",
+        "url": "/assets/portfolio-items/images/frq-website-1.jpg"
+      },
+      {
+        "name": "Home page bottom",
+        "url": "/assets/portfolio-items/images/frq-website-2.jpg"
+      },
+      {
+        "name": "Lab page",
+        "url": "/assets/portfolio-items/images/frq-website-3.jpg"
+      },
+      {
+        "name": "Exhibits page",
+        "url": "/assets/portfolio-items/images/frq-website-4.jpg"
+      },
+      {
+        "name": "Mobile home page",
+        "url": "/assets/portfolio-items/images/frq-website-5.jpg"
+      },
+      {
+        "name": "Mobile navigation",
+        "url": "/assets/portfolio-items/images/frq-website-6.jpg"
+      },
+      {
+        "name": "Mobile lab page",
+        "url": "/assets/portfolio-items/images/frq-website-7.jpg"
+      }
+    ]
+  }
