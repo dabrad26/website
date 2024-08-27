@@ -31,7 +31,7 @@ export class ContactComponent implements OnInit {
   }
 
   setupMap() {
-    const myLatlng = new google.maps.LatLng(33.694232, -117.826764);
+    const myLatlng = new google.maps.LatLng(37.395987, -122.002825);
 
     const mapStyles = [
       {
