@@ -1,0 +1,51 @@
+{
+  "id": "aspera-mobile",
+  "name": "IBM Aspera mobile",
+  "imageUrl": "/assets/portfolio-items/images/aspera-mobile.jpg",
+  "shortDescription": "While working for IBM I started working on a proof of concept to modernize our mobile applications. Our current stack included 4 legacy apps that were no longer maintained and were showing their age. For this project we tried to create a system that would be easier to maintain and could be maintained by the UI team. This project has since been updated to use Carbon for React Native library.",
+  "longDescription": "We decided to use React Native for the architecture of the app. This allowed a similar coding practice we used for our other React apps and could still use native code to perform transfers. We created a Bridge from Aspera Starter (central library for our web apps) that could detect and talk to our mobile app for the newer webapps. For the legacy apps we created React Native views that could perform all the actions needed by these older apps directly via their APIs. All views were made responsive to support landscape/portrait as well as larger devices. We also ensured dark/light theming and internationalization. We created a component library to support the Carbon Design language in our new app and are working to make this library officially available.",
+  "quickFacts": {
+    "Project type": "Work project",
+    "Company": "IBM",
+    "Role": "Lead Frontend Engineer & Architect",
+    "Setup": "React Native, TypeScript, Swift, Java",
+    "Testing": "Jest",
+    "Apple app store": "https://apps.apple.com/mg/app/ibm-aspera/id1612281171",
+    "Google Play": "https://play.google.com/store/apps/details?id=com.ibm.software.aspera.mobile",
+    "Completion": "July 1, 2022"
+  },
+  "projectImages": [
+    {
+      "name": "Landing page",
+      "url": "/assets/portfolio-items/images/aspera-mobile-1.jpg"
+    },
+    {
+      "name": "Server choices",
+      "url": "/assets/portfolio-items/images/aspera-mobile-2.jpg"
+    },
+    {
+      "name": "Adding a server",
+      "url": "/assets/portfolio-items/images/aspera-mobile-3.jpg"
+    },
+    {
+      "name": "Browser interaction (web app connect)",
+      "url": "/assets/portfolio-items/images/aspera-mobile-4.jpg"
+    },
+    {
+      "name": "Downloads view",
+      "url": "/assets/portfolio-items/images/aspera-mobile-5.jpg"
+    },
+    {
+      "name": "Sending packages (Aspera Faspex)",
+      "url": "/assets/portfolio-items/images/aspera-mobile-6.jpg"
+    },
+    {
+      "name": "Browsing files (Aspera Shares)",
+      "url": "/assets/portfolio-items/images/aspera-mobile-7.jpg"
+    },
+    {
+      "name": "Performing transfers",
+      "url": "/assets/portfolio-items/images/aspera-mobile-8.jpg"
+    }
+  ]
+}
