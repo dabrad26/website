@@ -4,9 +4,10 @@ import { FilterItem, PortfolioItem } from '../models/models';
 import { ApiService } from '../services/api.service';
 
 @Component({
-  selector: 'app-portfolio',
-  templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.scss']
+    selector: 'app-portfolio',
+    templateUrl: './portfolio.component.html',
+    styleUrls: ['./portfolio.component.scss'],
+    standalone: false
 })
 export class PortfolioComponent implements OnInit {
   @Input() limitView: boolean;

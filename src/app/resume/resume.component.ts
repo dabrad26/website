@@ -5,9 +5,10 @@ import { ApiService } from '../services/api.service';
 import { mergeMap, map } from 'rxjs/operators';
 
 @Component({
-  selector: 'app-resume',
-  templateUrl: './resume.component.html',
-  styleUrls: ['./resume.component.scss']
+    selector: 'app-resume',
+    templateUrl: './resume.component.html',
+    styleUrls: ['./resume.component.scss'],
+    standalone: false
 })
 export class ResumeComponent implements OnInit {
   pageStatus: ''|'error'|'loading' = 'loading';

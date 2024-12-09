@@ -1,5 +1,12 @@
 [
   {
+    "name": "Outstanding Technical Achievement Award",
+    "issuer": "IBM",
+    "location": "San Francisco, CA",
+    "description": "Presented for the successful release of the \"Accelerated enterprise file search and retrieval across distributed file systems\" which addresses delays and unresponsiveness with complex folder structures. The Fast Recursive Search feature is not just a tool for quicker file retrieval-it's a foundational step toward bringing desktop-like search functionality to object storage systems. As cloud storage continues to grow, the ability to search and collaborate efficiently will become even more critical, and this feature will be pivotal in addressing that need. This was a group award.",
+    "issueDate": "2024-11-29"
+  },
+  {
     "name": "IBM Tech 2023",
     "issuer": "IBM",
     "location": "Dallas, TX",

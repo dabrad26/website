@@ -4,9 +4,10 @@ import { Router } from '@angular/router';
 import * as jquery from 'jquery';
 
 @Component({
-  selector: 'app-banner',
-  templateUrl: './banner.component.html',
-  styleUrls: ['./banner.component.scss']
+    selector: 'app-banner',
+    templateUrl: './banner.component.html',
+    styleUrls: ['./banner.component.scss'],
+    standalone: false
 })
 export class BannerComponent {
   @Input() home: boolean;

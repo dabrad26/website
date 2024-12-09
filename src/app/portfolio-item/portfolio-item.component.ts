@@ -6,9 +6,10 @@ import { ApiService } from '../services/api.service';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-portfolio-item',
-  templateUrl: './portfolio-item.component.html',
-  styleUrls: ['./portfolio-item.component.scss']
+    selector: 'app-portfolio-item',
+    templateUrl: './portfolio-item.component.html',
+    styleUrls: ['./portfolio-item.component.scss'],
+    standalone: false
 })
 export class PortfolioItemComponent implements OnInit {
   portfolioData: PortfolioEntry;

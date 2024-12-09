@@ -5,9 +5,10 @@ import { SharedService } from '../services/shared.service';
 import * as jquery from 'jquery';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+    selector: 'app-header',
+    templateUrl: './header.component.html',
+    styleUrls: ['./header.component.scss'],
+    standalone: false
 })
 export class HeaderComponent implements OnInit {
   menuItems: Array<NavItem>;
