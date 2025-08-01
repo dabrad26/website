@@ -1,27 +1,31 @@
-<section *ngIf="!home" class="banner_area">
-  <div class="banner_inner d-flex align-items-center">
-    <div class="container">
-      <div class="banner_content text-right">
-        <h1 class="{{hasNavigationLink() ? 'banner_quick_jump' : ''}}" (click)="navigateToPage()">{{getCurrentPageName()}}</h1>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section *ngIf="home" class="banner-area owl-carousel" id="home">
-  <div class="single_slide_banner slide_bg image-{{imageNumber}}">
-    <div class="container">
-      <div class="row fullscreen d-flex align-items-center" id="fullscreen-image" [ngStyle]="{height: getWindowHeight()}">
-        <div class="banner-content col-lg-12 justify-content-center">
-          <h1>David Bradshaw</h1>
-          <h3>Software Engineer and UX Designer</h3>
-          <a (click)="scrollDown()" class="primary-btn">
-            <i class="fa fa-arrow-down" style="margin-right: 5px;"></i>
-            Learn more
-            <i class="fa fa-arrow-down" style="margin-left: 5px;"></i>
-          </a>
+@if (!home) {
+  <section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+      <div class="container">
+        <div class="banner_content text-right">
+          <h1 class="{{hasNavigationLink() ? 'banner_quick_jump' : ''}}" (click)="navigateToPage()">{{getCurrentPageName()}}</h1>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+}
+
+@if (home) {
+  <section class="banner-area owl-carousel" id="home">
+    <div class="single_slide_banner slide_bg image-{{imageNumber}}">
+      <div class="container">
+        <div class="row fullscreen d-flex align-items-center" id="fullscreen-image" [ngStyle]="{height: getWindowHeight()}">
+          <div class="banner-content col-lg-12 justify-content-center">
+            <h1>David Bradshaw</h1>
+            <h3>Software Engineer and UX Designer</h3>
+            <a (click)="scrollDown()" class="primary-btn">
+              <i class="fa fa-arrow-down" style="margin-right: 5px;"></i>
+              Learn more
+              <i class="fa fa-arrow-down" style="margin-left: 5px;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+}

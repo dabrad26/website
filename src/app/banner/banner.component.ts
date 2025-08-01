@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { SharedService } from '../services/shared.service';
 import { Router } from '@angular/router';
-import * as jquery from 'jquery';
+import jquery from 'jquery';
 
 @Component({
     selector: 'app-banner',

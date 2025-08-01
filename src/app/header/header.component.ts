@@ -2,7 +2,7 @@ import { Component, OnInit, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 import { NavItem } from '../models/models';
 import { SharedService } from '../services/shared.service';
-import * as jquery from 'jquery';
+import jquery from 'jquery';
 
 @Component({
     selector: 'app-header',

@@ -1,58 +1,81 @@
 <section class="portfolio_details_area section_gap">
   <div class="container">
-    <app-loading *ngIf="pageStatus==='loading'"></app-loading>
-    <app-error *ngIf="pageStatus==='error'"></app-error>
-    <div id="html-inject-point" class="injected-portfolio-item" *ngIf="pageStatus==='html'" [innerHTML]="portfolioHtml"></div>
-    <div *ngIf="!pageStatus" class="portfolio_details_inner">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="left_img">
-            <img class="img-fluid" [src]="portfolioData.imageUrl" [alt]="portfolioData.name">
+    @if (pageStatus==='loading') {
+      <app-loading></app-loading>
+    }
+    @if (pageStatus==='error') {
+      <app-error></app-error>
+    }
+    @if (pageStatus==='html') {
+      <div id="html-inject-point" class="injected-portfolio-item" [innerHTML]="portfolioHtml"></div>
+    }
+    @if (!pageStatus) {
+      <div class="portfolio_details_inner">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="left_img">
+              <img class="img-fluid" [src]="portfolioData.imageUrl" [alt]="portfolioData.name">
+            </div>
           </div>
-        </div>
-        <div class="offset-md-1 col-md-5">
-          <div class="portfolio_right_text mt-30">
-            <h4>{{portfolioData.name}}</h4>
-            <p>{{portfolioData.shortDescription}}</p>
-            <ul class="list list-quick-facts" *ngIf="quickFactKeys.length">
-              <li *ngFor="let key of quickFactKeys">
-                <span class="label">{{key}}:</span>
-                <span class="data">
-                  <a *ngIf="key==='URL'||isQuickFactUrl(key); else urlElse" [href]="portfolioData.quickFacts[key]" target="_blank">{{portfolioData.quickFacts[key]}}</a>
-                  <ng-template #urlElse>{{portfolioData.quickFacts[key]}}</ng-template>
-                </span>
-              </li>
-            </ul>
-            <ul class="list social_details">
-              <h5>Share this item</h5>
-              <li><a (click)="shareTwitter()"><i class="fa fa-twitter"></i></a></li>
-              <li><a (click)="shareEmail()"><i class="fa fa-envelope"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div *ngIf="portfolioData.projectLinks" class="col-lg-3 project-links">
-          <h5>Project links</h5>
-          <ul>
-            <li *ngFor="let link of portfolioData.projectLinks"><a [href]="link.link" target="_blank">{{link.name}}</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-{{portfolioData.projectLinks ? '9' : '12'}}">
-          <p class="long-description">{{portfolioData.longDescription}}</p>
-        </div>
-      </div>
-      <div class="row">
-        <div *ngIf="portfolioData.projectImages" class="col-sm-12 project-images">
-          <h5>Project images</h5>
-          <div class="project-images-wrapper">
-            <div class="project-image-image" *ngFor="let image of portfolioData.projectImages">
-              <h6>{{image.name}}</h6>
-              <img class="img-fluid" [src]="image.url" [alt]="image.name" [title]="image.name">
+          <div class="offset-md-1 col-md-5">
+            <div class="portfolio_right_text mt-30">
+              <h4>{{portfolioData.name}}</h4>
+              <p>{{portfolioData.shortDescription}}</p>
+              @if (quickFactKeys.length) {
+                <ul class="list list-quick-facts">
+                  @for (key of quickFactKeys; track key) {
+                    <li>
+                      <span class="label">{{key}}:</span>
+                      <span class="data">
+                        @if (key==='URL'||isQuickFactUrl(key)) {
+                          <a [href]="portfolioData.quickFacts[key]" target="_blank">{{portfolioData.quickFacts[key]}}</a>
+                        } @else {
+                          {{portfolioData.quickFacts[key]}}
+                        }
+                      </span>
+                    </li>
+                  }
+                </ul>
+              }
+              <ul class="list social_details">
+                <h5>Share this item</h5>
+                <li><a (click)="shareTwitter()"><i class="fa fa-twitter"></i></a></li>
+                <li><a (click)="shareEmail()"><i class="fa fa-envelope"></i></a></li>
+              </ul>
             </div>
           </div>
         </div>
+        <div class="row">
+          @if (portfolioData.projectLinks) {
+            <div class="col-lg-3 project-links">
+              <h5>Project links</h5>
+              <ul>
+                @for (link of portfolioData.projectLinks; track link) {
+                  <li><a [href]="link.link" target="_blank">{{link.name}}</a></li>
+                }
+              </ul>
+            </div>
+          }
+          <div class="col-lg-{{portfolioData.projectLinks ? '9' : '12'}}">
+            <p class="long-description">{{portfolioData.longDescription}}</p>
+          </div>
+        </div>
+        <div class="row">
+          @if (portfolioData.projectImages) {
+            <div class="col-sm-12 project-images">
+              <h5>Project images</h5>
+              <div class="project-images-wrapper">
+                @for (image of portfolioData.projectImages; track image) {
+                  <div class="project-image-image">
+                    <h6>{{image.name}}</h6>
+                    <img class="img-fluid" [src]="image.url" [alt]="image.name" [title]="image.name">
+                  </div>
+                }
+              </div>
+            </div>
+          }
+        </div>
       </div>
-    </div>
+    }
   </div>
 </section>
