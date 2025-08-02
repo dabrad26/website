@@ -17,6 +17,16 @@
     "startDate": "2019-01-16",
     "endDate": "2020-03-21"
   },
+    {
+    "school": "Google Cloud",
+    "degree": "Professional Certificate",
+    "program": "Generative AI Leader",
+    "location": "Coursera",
+    "description": "This five-course certificate, developed by Google Cloud, provides comprehensive Gen AI Leader training. Exploring key concepts like AI, ML, and foundation models.",
+    "startDate": "2025-07-29",
+    "endDate": "2025-08-02",
+    "link": "https://www.coursera.org/account/accomplishments/specialization/JKLP4488YYBJ"
+  },
   {
     "school": "Google",
     "degree": "Professional Certificate",
