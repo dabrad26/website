@@ -1,5 +1,13 @@
 [
   {
+    "name": "PawsitiveID Hackathon Project",
+    "id": "pawsitive-id",
+    "type": "Hackathon project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["design", "applications"],
+    "imageUrl": "/assets/portfolio-items/images/pawsitive-id.jpg"
+  },
+  {
     "name": "PhotoWall Hackathon Project",
     "id": "photowall-hackathon",
     "type": "Hackathon project",
