@@ -2,7 +2,6 @@ import { Component, OnInit, ElementRef } from '@angular/core';
 import { SharedService } from '../services/shared.service';
 import { ContactForm } from '../models/models';
 import { ApiService } from '../services/api.service';
-declare const google;
 
 @Component({
     selector: 'app-contact',
@@ -28,38 +27,6 @@ export class ContactComponent implements OnInit {
       this.sharedService.getNavItemByRoute('/'),
       this.sharedService.getNavItemByRoute('/contact')
     ]);
-    this.setupMap();
-  }
-
-  setupMap() {
-    const myLatlng = new google.maps.LatLng(37.395987, -122.002825);
-
-    const mapStyles = [
-      {
-        featureType: 'poi',
-        elementType: 'labels',
-        stylers: [
-          {visibility: 'off'}
-        ]
-      }
-    ];
-
-    const mapOptions = {
-      zoom: 9,
-      scrollwheel: false,
-      center: myLatlng,
-      mapTypeId: google.maps.MapTypeId.ROADMAP,
-      disableDefaultUI: true,
-      styles: mapStyles
-    };
-
-    const map = new google.maps.Map(this.elementRef.nativeElement.querySelector('#mapBox'), mapOptions);
-
-    const marker = new google.maps.Marker({
-      position: myLatlng,
-      map,
-      animation: google.maps.Animation.DROP,
-    });
   }
 
   sendContact(): void {
