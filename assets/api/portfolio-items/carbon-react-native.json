@@ -1,0 +1,46 @@
+{
+  "id": "carbon-react-native",
+  "name": "Carbon for React Native",
+  "imageUrl": "/assets/portfolio-items/images/carbon-react-native.jpg",
+  "shortDescription": "While working on the IBM Aspera Mobile app I needed components for our new app. IBM uses Carbon Design System for its projects and a mobile design was created. However, no component library existed yet. We took this opportunity to create one and release it as an open source project as part of Carbon.",
+  "longDescription": "Carbon for React Native provides a design language, component library and pattern library for apps following Carbon Design for mobile. This project is in React Native and supports different designs for iOS and Android as defined by the Carbon designers. Carbon for mobile provides a quick way to create a full fledge app with navigation, forms, modals, input and all other standard component and flows. It also provides patterns for account creation, login, legal acceptance, permission granting and all other required flows for apps. This library is used by IBM Aspera mobile as well as IBM W3 mobile and many more. We hope that now that it is open source and available to all it will have even more adoption.",
+  "quickFacts": {
+    "Project type": "Open source project",
+    "Company": "IBM",
+    "Role": "Lead Frontend Engineer & Architect",
+    "Setup": "React Native, TypeScript, Swift, Java",
+    "Testing": "Jest",
+    "Github": "https://github.com/carbon-design-system/carbon-react-native",
+    "Completion": "July 1, 2023"
+  },
+  "projectImages": [
+    {
+      "name": "Landing page",
+      "url": "/assets/portfolio-items/images/carbon-react-native-1.jpg"
+    },
+    {
+      "name": "Full bleed forms",
+      "url": "/assets/portfolio-items/images/carbon-react-native-2.jpg"
+    },
+    {
+      "name": "Menu/Navigation",
+      "url": "/assets/portfolio-items/images/carbon-react-native-3.jpg"
+    },
+    {
+      "name": "Notification component",
+      "url": "/assets/portfolio-items/images/carbon-react-native-4.jpg"
+    },
+    {
+      "name": "New account password picker",
+      "url": "/assets/portfolio-items/images/carbon-react-native-5.jpg"
+    },
+    {
+      "name": "Legal acceptance pattern",
+      "url": "/assets/portfolio-items/images/carbon-react-native-6.jpg"
+    },
+    {
+      "name": "Grant access",
+      "url": "/assets/portfolio-items/images/carbon-react-native-7.jpg"
+    }
+  ]
+}

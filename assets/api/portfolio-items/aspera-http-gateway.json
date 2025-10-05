@@ -1,0 +1,26 @@
+{
+    "id": "aspera-http-gateway",
+    "name": "IBM Aspera HTTP Gateway SDK",
+    "imageUrl": "/assets/portfolio-items/images/sdk.jpg",
+    "shortDescription": "While working for IBM I created an SDK for the new IBM Aspera HTTP Gateway.  The HTTP Gateway provides a way for developers to offer an alternative to using IBM Aspera Connect transfers and instead use normal HTTP transfers.",
+    "longDescription": "For my role I created an SDK that is used by IBM products as well as external customer products.  The SDK offers a simple Promise based solution for triggering HTTP Gateway transfers.  This SDK talks to the HTTP Gateway Server and for downloads creates a download link to start a browser download and for upload uses Websockets to send packets of data (FileReader read data) to the server in batches to allow for transferring large files over HTTP from any client to the server. This SDK was written in TypeScript and is compiled down to ES5 JavaScript as well as CommonJS for using it via NPM.  I also ensured the product had high test coverage via Jest and was documented heavily for easy future development and to help customers adopt it.  Documentation was done via TSDoc (JSDoc syntax).",
+    "quickFacts": {
+      "Project type": "Work project",
+      "Company": "IBM",
+      "Role": "Platform Frontend Architect",
+      "Language": "TypeScript",
+      "Testing": "Jest",
+      "URL": "https://www.ibm.com/products/aspera",
+      "Completion": "May 10, 2020"
+    },
+    "projectImages": [
+      {
+        "name": "Documentation Page",
+        "url": "/assets/portfolio-items/images/aspera-http-gateway-1.jpg"
+      },
+      {
+        "name": "Documentation Globals",
+        "url": "/assets/portfolio-items/images/aspera-http-gateway-2.jpg"
+      }
+    ]
+  }
