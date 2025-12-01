@@ -1,0 +1,42 @@
+{
+  "id": "datart-hackathon",
+  "name": "DATArt Hackathon Project",
+  "imageUrl": "/assets/portfolio-items/images/datart-hackathon.jpg",
+  "shortDescription": "For the DataPalooza hackathon we created a data to art renderer to help drive adoption of data by generating pleasant art that can be shared.",
+  "longDescription": "This hackathon was sponsored by Twilio Segment. For this project we had four team members. I was responsible for the UI development and Amazon Web Service (AWS) S3 integration, Cynthia Yue who created the designs and flows, Alex Young who worked on the data structure and processing, and Ricky Lau who worked on marketing use case and product management. This project used Segment to push events into S3 buckets that were obtained and parsed and turned into graphical images that could be shared and highly customized.",
+  "quickFacts": {
+    "Project type": "Hackathon project",
+    "Status": "Winner: Most Unexpected Marketing Use-Case",
+    "Setup": "Amazon Web Service S3, Amazon Web Service IAM, Segment, TypeScript, React, Sass, Github Actions",
+    "Demo": "https://dabrad26.github.io/datart",
+    "Github": "https://github.com/dabrad26/datart",
+    "Hackathon": "https://devpost.com/software/consumer-data-viz",
+    "Completion": "December 4, 2023"
+  },
+  "projectImages": [
+    {
+      "name": "Settings page",
+      "url": "/assets/portfolio-items/images/datart-hackathon-1.jpg"
+    },
+    {
+      "name": "Settings page 2",
+      "url": "/assets/portfolio-items/images/datart-hackathon-2.jpg"
+    },
+    {
+      "name": "Linear gradient art",
+      "url": "/assets/portfolio-items/images/datart-hackathon-3.jpg"
+    },
+    {
+      "name": "Time based line art",
+      "url": "/assets/portfolio-items/images/datart-hackathon-4.jpg"
+    },
+    {
+      "name": "Time based circle art",
+      "url": "/assets/portfolio-items/images/datart-hackathon-5.jpg"
+    },
+    {
+      "name": "Project overview",
+      "url": "/assets/portfolio-items/images/datart-hackathon-6.jpg"
+    }
+  ]
+}

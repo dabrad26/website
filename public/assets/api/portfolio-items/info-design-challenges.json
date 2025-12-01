@@ -1,0 +1,46 @@
+{
+  "id": "info-design-challenges",
+  "name": "Design Challenges",
+  "imageUrl": "/assets/portfolio-items/images/info-design-challenges.jpg",
+  "shortDescription": "For the Visual Communication and Information Design class we were given a challenge each week to create a design based on a set of rules. Each of those challenges and the final deliverables can be found below.  These designs were done in the most appropriate software based on the challenge; this usually was Sketch, Adobe InDesign, Adobe Photoshop or Adobe Illustrator.",
+  "quickFacts": {
+    "Project type": "School project",
+    "School": "Pratt Institute",
+    "Class": "INFO-641 – Visual Communication and Info Design",
+    "Completion": "May 5, 2021"
+  },
+  "projectImages": [
+    {
+      "name": "Band Poster Challenge",
+      "url": "/assets/portfolio-items/images/info-design-challenges-1.jpg"
+    },
+    {
+      "name": "Type Specimen Challenge",
+      "url": "/assets/portfolio-items/images/info-design-challenges-2.jpg"
+    },
+    {
+      "name": "Quote Postcard Challenge",
+      "url": "/assets/portfolio-items/images/info-design-challenges-3.jpg"
+    },
+    {
+      "name": "Natural Color Palette Challenge",
+      "url": "/assets/portfolio-items/images/info-design-challenges-4.jpg"
+    },
+    {
+      "name": "Pattern using the Natural Color Palette Challenge",
+      "url": "/assets/portfolio-items/images/info-design-challenges-4a.jpg"
+    },
+    {
+      "name": "Monochrome Book Cover Challenge",
+      "url": "/assets/portfolio-items/images/info-design-challenges-5.jpg"
+    },
+    {
+      "name": "Photography Website Challenge",
+      "url": "/assets/portfolio-items/images/info-design-challenges-6.jpg"
+    },
+    {
+      "name": "Infographic for Climate Change",
+      "url": "/assets/portfolio-items/images/info-design-challenges-7.jpg"
+    }
+  ]
+}

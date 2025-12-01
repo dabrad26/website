@@ -1,0 +1,82 @@
+@import '../../styles/variables';
+
+.resume_content {
+  .padded-right {
+    padding-right: 32px;
+  }
+
+  .main-title {
+    margin-bottom: 30px;
+    text-align: right;
+    h1 {
+        padding-bottom: 20px;
+        font-size: 34px;
+        margin-bottom: 30px;
+        &:before {
+            left: unset;
+            right: 0;
+        }
+        &:after {
+            left: unset;
+            right: 0;
+        }
+    }
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+    @media (max-width: 1024px) {
+        padding-bottom: 0px;
+    }
+  }
+
+  .resume-grouping {
+    margin-bottom: 60px
+  }
+
+  .listing {
+    margin-bottom: 40px;
+
+    .listing-title {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #000;
+
+      @media (max-width: 767px) {
+        font-size: 16px;
+      }
+
+      .listing-note {
+        color: $primary-color;
+        font-size: 12px;
+        margin-left: 5px;
+        vertical-align: top;
+
+        @media (max-width: 767px) {
+          font-size: 10px;
+        }
+      }
+    }
+
+    .listing-subtitle {
+      font-weight: 600;
+      margin-bottom: 4px;
+      color: #000;
+    }
+
+    .listing-roles {
+      padding-left: 15px;
+      font-weight: 600;
+      margin-bottom: 4px;
+
+      &--item::before {
+        content: '\2014';
+        margin-right: 10px;
+      }
+    }
+
+    &.collapsed-item {
+      display: none;
+    }
+  }
+}

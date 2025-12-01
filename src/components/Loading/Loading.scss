@@ -1,0 +1,8 @@
+@import '../../styles/variables';
+
+.loading-indication {
+  color: $primary-color;
+  width: 80px;
+  height: 80px;
+  border-width: 6px;
+}

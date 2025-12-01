@@ -1,0 +1,358 @@
+<article class="custom-style-versizon">
+  <style>
+    .custom-style-versizon table {
+      width: 100%;
+      margin-bottom: 24px;
+    }
+    .custom-style-versizon h1, .custom-style-versizon h2, .custom-style-versizon h3, .custom-style-versizon h4 {
+      color: #E10000;
+    }
+    .custom-style-versizon p, .custom-style-versizon span, .custom-style-versizon li {
+      color: #000000;
+    }
+    .custom-style-versizon .image-group a, .custom-style-versizon .image-group span {
+      color: #E10000;
+    }
+  </style>
+  <h1>Verizon Wireless Heuristic Evaluation</h1>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/verizon-image002.png" alt="Verizon Wireless" />
+    <a href="/assets/portfolio-items/documents/vzw-heuristic-eval.pdf" target="_blank" rel="noreferrer noopener">Download PDF Version of this report</a>
+  </div>
+  <h2>Introduction</h2>
+  <p>This evaluation covers the Verizon Wireless online store experience.  The goal is to evaluate the current implementation of the online experience, as of September 2020, and find areas that could be improved to provide a better user experience.</p>
+  <p>The online store has become ever more critical to the success of businesses during the pandemic as more and more users stay home.  Providing all services that one could complete in store easily and with as little issue as possible is critical for the keeping business going during these tough times.</p>
+  <p>Due to the current pandemic of 2020 this evaluation was done remotely via an online screen share and was done with three other user experience students.  Unfortunately, two of the participants were located outside of the United States and were unable to get through the entire task due to the website not allowing users outside of the United States to add the device to their cart.  It was unknown at the start that the participants were outside of the United States and that the site would prohibit the purchase; however, this is actually a positive finding for the user experience evaluation as it showcased the fifth heuristic of error prevention by not allowing users who could not use the device or network from getting into a further state of error or confusion.</p>
+  <h2>Methodology</h2>
+  <p>For this study we utilized the 10 Usability Heuristics (Nielsen, April 1994) and found any usability issues that violated these rules.  Each instance found was documented and a heuristic that was violated was mentioned for that incident.  By using this we were able to quickly identify common user experience shortcomings based on acceptable usability standards from the current implementation and find recommendations for improving it based on these rules.  Each problem found was given Severity Rating (Nielsen, November 1994) that allowed for prioritizing what changes should be made first as we provide recommendations for how to improve the user experience.</p>
+  <h2>Tasks for Evaluation</h2>
+  <p>For the online evaluation a basic, but most common task was picked for evaluation.  This task is the normal use case of finding a phone and purchasing it.  Prior to seeing the tasks, the evaluators were given a quick overview of Verizon Wireless by and what it offers.  The tasks should require the testers to enter the site, find the device in some manner and find the required information and pick a plan.  Verizon Wireless offers a unique plan structure compared to other competitors in the United States and because of this the design they use is unique.</p>
+  <h3>Overview</h3>
+  <p><i>You want to buy a new phone running the latest version of Android OS from Verizon Wireless.  You need a plan that offers hotspot features and can text people internationally.  The device you want is the LG Velvet 5G Device but need to verify that it has the latest version of Android.  </i></p>
+  <h3>Tasks</h3>
+  <ul>
+    <li>Open verizonwireless.com and plan to purchase a Smartphone</li>
+    <li>Find the LG Velvet 5G UW Device</li>
+    <li>Find out what version of Android it comes with</li>
+    <li>Find plan with hotspot and texting international</li>
+    <li>Finish Checking out (get to summary)</li>
+  </ul>
+  <h2>Findings</h2>
+  <p>Overall the Verizon Wireless shopping site has a clean and modern UI with a unique design not seen at other wireless carriers.  The biggest issue came from trying to find specific information on pages.  The biggest issue came from the product details page and finding specific specifications on a device.  From finding the location of the specifications to finding a specific one once you found it were the most commented issues from the testers.  The second biggest issue came from understanding cellular plans after picking a device.  For this evaluation we will take the top four issues and try to explore their shortcomings and find solutions that should allow for improving the user experience.</p>
+  <h2>#1: Product Details Tab System</h2>
+  <p>From the group Findings #1; on the product details page the tabs are relatively hard to see. They blend in with the top-level header and are not distinguished as a child of the page.  The bar also jumps around as the page is scrolled down. From being top center, to top left, to top center again as it shifts content.  You can see from the figure below (LG VELVET) that the tabs move around and do not have a distinguishing design from the primary header.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/verizon-image003.png" alt="Product Page" />
+    <span>Product Page</span>
+  </div>
+  <p>As you can see above the tabs shift position but do not have a large division between the primary header (area 1) and the tabs (area 2).</p>
+  <p>The issue here is that the aesthetic and minimalist design used here causes confusion from standard recall of using the site.  Prior pages do not have this combination of tabs and header and consistency and standards are not followed as most users would expect ti scroll down and find specs and reviews as you go down or at least the tabs to find it would be better under the primary action and content.  This would be similar to multiple eCommerce sites like Amazon, Target and Walmart.</p>
+  <p>Solutions could include having tabs show below the primary content; as seen in this mockup below. This would lock as the user scrolls down; which is same behavior as currently where when the tab hits the top of the page it locks to the top.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/verizon-image004.png" alt="Payment Options Page" />
+    <span>Payment Options Page</span>
+  </div>
+  <p>Another option would be to keep the normal design and instead of having content across tabs have all items on the same page. Users can scroll down and see all the content and the tabs server as a jump to a section of the page.  For example, you could click “Specs” and it would just jump down the page via scroll change and show the specs.  This would then allow the same design and have the content hierarchy and controlled by the tabs to allow clicking to work and scrolling down to work.  So that all expected use cases of following consistencies and standards would meet all user’s needs.</p>
+  <h2>#2: Organization of Specs Content</h2>
+  <p>Some of the testers encountered problems trying to find specific specifications of the device.  A complaint was that the content was just listed without much information hierarchy and was hard to navigate.  An example of the layout is seen in the figure below.  As you can see there is no real organization, and everything is just listed. Critical features like Operating System are found randomly on the page.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/verizon-image005.png" alt="Device Specifications Page" />
+    <span>Device Specifications Page</span>
+  </div>
+  <p>The issue seen above is that the content is just a basic list of all items and requires vertically reading to find what the user is looking for.  Because of this the page loses its aesthetic appeal and becomes a large gather of text that is hard to read or process.</p>
+  <p>By simply breaking the specs apart into groupings should allow for quicker identification of the category and find what you are looking for via visual indicators for utilizing recall when looking at the page.  This would ensure that users can scan the page and find what they are looking for without reading each line.  To improve this, it is recommended to group stuff and use visual cues to help the user find exactly what they are looking for.  For example, the specs found on the LG website (LGG8 ThinQ) shows a nice division using iconography to help the user find the critical item.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/verizon-image006.png" alt="LG's Specifications Page" />
+    <span>LG's Specifications Page</span>
+  </div>
+  <p>Another example of better division can be seen on the Samsung example (Galaxy S20) where items are divided into categories allowing the user to scan for the top-level category and then read the finite list of items that are children of the parent category; this can be seen below from Samsung’s specs page.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/verizon-image007.png" alt="Samsung's Specifications Page" />
+    <span>Samsung's Specifications Page</span>
+  </div>
+  <h2>#3: Plans to Choose from Page </h2>
+  <p>When choosing a plan, the user is presented a lot of information that was raised as a concern by testers.  This included having too much information that overloaded the user when trying to choose or not having a clear understanding of what each plan gets vs the prior one.  The page does have a lot of content that is overwhelming and does not utilize a standard flow of comparisons that other sites use when picking linear plan offerings. </p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/verizon-image008.png" alt="Plan Choices Page" />
+    <span>Plan Choices Page</span>
+  </div>
+  <p>The matrix of features also has incorrect textual data from the page.  For example; the Just Kids plan shows up in the same comparison table but does not include content under the “All plans include” section as seen below.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/verizon-image009.png" alt="Plan Choices Page" />
+    <span>Plan Choices Page</span>
+  </div>
+  <p>An issue is there is no growing linear representation that could simplify the flow.  The user has to read down each section to figure out the difference. This leads to confusion on picking; especially since there are two plans at the $80 level.</p>
+  <p>For simplifying this layout, it would be recommended to use a standard consistent flow found frequently when shopping for packages like with TV and devices.   Combining the “Play More” and “Do More” into one with a dropdown or choice mechanism into which the user cares more about; these two plans differ between wanting more media playing bandwidth or more tethering bandwidth.  The “Just Kids” plan should be removed and placed as its own entity outside of this comparison as it does not offer the global container of the “Unlimited” plans.</p>
+  <p>As seen in the image below the content should be divided by a linear progressive plan where each step adds on new features that you get.  So each plan only lists its specific benefits and the smaller packages has the basic list of all items that are included in all plans.  This allows for users to quickly see the basic features and to explore the benefits of the extra costs for each one growing linear.  In the image below from Gitlab comparing packages (Gitlab Packages) it is shown moving upward and using “All the Benefits of [prior plan]”.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/verizon-image010.png" alt="Gitlab's Plan Choices Page" />
+    <span>Gitlab's Plan Choices Page</span>
+  </div>
+  <p>Another simplified example is using a checkbox system which allows the user to find specific features and compare them across all packages.  However, I think for a simplistic system with only 3-4 choices it is easier to show the added features of the plan as it grows linear from basic to more advanced.  An example of checkbox system can be seen below from SiriusXM’s feature list by packages (SiriusXM).</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/verizon-image011.png" alt="SiriusXM's Plan Choices Page" />
+    <span>SiriusXM's Plan Choices Page</span>
+  </div>
+  <h2>#4: Consistent Action Controls</h2>
+  <p>During the flow from picking a phone to checkout the user encounters different methods for moving forward without adding an add-on.  It is shown in the figures below that the way to continue differs.  The left image being the picking accessories page while the right being the picking an add-on special for your purchase.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/verizon-image012.png" alt="Example of Continue Call To Actions" />
+    <span>Example of Continue Call To Actions</span>
+  </div>
+  <p>As seen above the “No thanks” option is in different places and different continue actions are used.  The recommended way to fix this is to ensure the consistency of flows are used across similar patterns to ensure that users can use mental recall from the earlier flows to simply click and continue without having to read and figure out.  While this is probably a bit more complicated than needed to attempt to get the user to read and require more contextual processing to figure out how to continue and read the offers that may be enticing to the user.  This could be considered a dark UX pattern.  But regardless, it would be recommended to keep everything consistent and to make this happen the following mockup shows a recommendation.  Below the same simple reject option is next to the action for instant expectation of what the action will do as you continue through each step.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/verizon-image014.png" alt="Customize Your Device Page" />
+    <span>Customize Your Device Page</span>
+  </div>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/verizon-image015.png" alt="Discount Available Page" />
+    <span>Discount Available Page</span>
+  </div>
+  <h2>Appendix</h2>
+  <h3>Table of Findings</h3>
+  <p>The table below shows the collected findings from the 4 testers who evaluated the website with their recommendation of severity. A final Severity Rating indicates the overall opinion of the finding.  Findings are sorted by overall severity with the highest being at the top.  The top 4 findings are evaluated in this document.  Some of the findings were due to usage outside of allowed countries and are not impacting final severity rating.</p>
+  <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;border:none'>
+    <tr>
+      <td width=29 style='width:21.8pt;border:solid windowtext 1.0pt;background:#E10000;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><b><span style='font-size:12.0pt;color:white'>#</span></b></p>
+      </td>
+      <td width=108 style='width:81.35pt;border:solid windowtext 1.0pt;border-left: none;background:#E10000;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><b><span style='font-size:12.0pt;color:white'>Location</span></b></p>
+      </td>
+      <td width=198 style='width:148.2pt;border:solid windowtext 1.0pt;border-left: none;background:#E10000;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><b><span style='font-size:12.0pt;color:white'>Description of Problem</span></b></p>
+      </td>
+      <td width=93 style='width:69.85pt;border:solid windowtext 1.0pt;border-left: none;background:#E10000;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><b><span style='font-size:12.0pt;color:white'>Heuristics Violated</span></b></p>
+      </td>
+      <td width=34 style='width:25.5pt;border:solid windowtext 1.0pt;border-left: none;background:#E10000;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><b><span style='font-size:12.0pt;color:white'>T1</span></b></p>
+      </td>
+      <td width=38 style='width:28.35pt;border:solid windowtext 1.0pt;border-left: none;background:#E10000;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><b><span style='font-size:12.0pt;color:white'>T2</span></b></p>
+      </td>
+      <td width=38 style='width:28.55pt;border:solid windowtext 1.0pt;border-left: none;background:#E10000;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><b><span style='font-size:12.0pt;color:white'>T3</span></b></p>
+      </td>
+      <td width=38 style='width:28.7pt;border:solid windowtext 1.0pt;border-left: none;background:#E10000;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><b><span style='font-size:12.0pt;color:white'>T4</span></b></p>
+      </td>
+      <td width=47 style='width:35.2pt;border:solid windowtext 1.0pt;border-left: none;background:#E10000;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><b><span style='font-size:12.0pt;color:white'>Sev</span></b></p>
+      </td>
+    </tr>
+    <tr>
+      <td width=29 style='width:21.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>1</span></p>
+      </td>
+      <td width=108 style='width:81.35pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal><span style='font-size:12.0pt'>Device Details</span></p>
+      </td>
+      <td width=198 style='width:148.2pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal><span style='font-size:12.0pt'>When trying to find specs for a device, tabs are hard to find</span></p>
+      </td>
+      <td width=93 style='width:69.85pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>H4, H6, H7, H8</span></p>
+      </td>
+      <td width=34 style='width:25.5pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>3</span></p>
+      </td>
+      <td width=38 style='width:28.35pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>&nbsp;</span></p>
+      </td>
+      <td width=38 style='width:28.55pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>&nbsp;</span></p>
+      </td>
+      <td width=38 style='width:28.7pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>&nbsp;</span></p>
+      </td>
+      <td width=47 style='width:35.2pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>3</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td width=29 style='width:21.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>2</span></p>
+      </td>
+      <td width=108 style='width:81.35pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal><span style='font-size:12.0pt'>Specs Tab</span></p>
+      </td>
+      <td width=198 style='width:148.2pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal><span style='font-size:12.0pt'>Specs are not organized and hard to find what you are looking for.</span></p>
+      </td>
+      <td width=93 style='width:69.85pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>H4, H7, H8, H10</span></p>
+      </td>
+      <td width=34 style='width:25.5pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>&nbsp;</span></p>
+      </td>
+      <td width=38 style='width:28.35pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>2</span></p>
+      </td>
+      <td width=38 style='width:28.55pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>0</span></p>
+      </td>
+      <td width=38 style='width:28.7pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>1</span></p>
+      </td>
+      <td width=47 style='width:35.2pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>2</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td width=29 style='width:21.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>3</span></p>
+      </td>
+      <td width=108 style='width:81.35pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal><span style='font-size:12.0pt'>Plan Page</span></p>
+      </td>
+      <td width=198 style='width:148.2pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal><span style='font-size:12.0pt'>Comparison of plans does not indicate what is included from other plan as it grows and includes too much text for readability.</span></p>
+      </td>
+      <td width=93 style='width:69.85pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>H2, H4, H6, H8, H10</span></p>
+      </td>
+      <td width=34 style='width:25.5pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>2</span></p>
+      </td>
+      <td width=38 style='width:28.35pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>2</span></p>
+      </td>
+      <td width=38 style='width:28.55pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>&nbsp;</span></p>
+      </td>
+      <td width=38 style='width:28.7pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>&nbsp;</span></p>
+      </td>
+      <td width=47 style='width:35.2pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>2</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td width=29 style='width:21.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>4</span></p>
+      </td>
+      <td width=108 style='width:81.35pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal><span style='font-size:12.0pt'>Home Page</span></p>
+      </td>
+      <td width=198 style='width:148.2pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal><span style='font-size:12.0pt'>Hard to find where to start shopping at and search for device</span></p>
+      </td>
+      <td width=93 style='width:69.85pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>H1, H2, H9</span></p>
+      </td>
+      <td width=34 style='width:25.5pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>&nbsp;</span></p>
+      </td>
+      <td width=38 style='width:28.35pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>&nbsp;</span></p>
+      </td>
+      <td width=38 style='width:28.55pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>&nbsp;</span></p>
+      </td>
+      <td width=38 style='width:28.7pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>3</span></p>
+      </td>
+      <td width=47 style='width:35.2pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>2</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td width=29 style='width:21.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>5</span></p>
+      </td>
+      <td width=108 style='width:81.35pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal><span style='font-size:12.0pt'>Multi Page</span></p>
+      </td>
+      <td width=198 style='width:148.2pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal><span style='font-size:12.0pt'>Inconsistent usage of underline and red color for selected items and clickable items leads to confusion</span></p>
+      </td>
+      <td width=93 style='width:69.85pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>H4, H8</span></p>
+      </td>
+      <td width=34 style='width:25.5pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>2</span></p>
+      </td>
+      <td width=38 style='width:28.35pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>&nbsp;</span></p>
+      </td>
+      <td width=38 style='width:28.55pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>1</span></p>
+      </td>
+      <td width=38 style='width:28.7pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>&nbsp;</span></p>
+      </td>
+      <td width=47 style='width:35.2pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>1</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td width=29 style='width:21.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>6</span></p>
+      </td>
+      <td width=108 style='width:81.35pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal><span style='font-size:12.0pt'>Checkout </span></p>
+      </td>
+      <td width=198 style='width:148.2pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal><span style='font-size:12.0pt'>Encountered error and got unhelpful message “Service Unavailable”</span></p>
+      </td>
+      <td width=93 style='width:69.85pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>H9</span></p>
+      </td>
+      <td width=34 style='width:25.5pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>&nbsp;</span></p>
+      </td>
+      <td width=38 style='width:28.35pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>3</span></p>
+      </td>
+      <td width=38 style='width:28.55pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>&nbsp;</span></p>
+      </td>
+      <td width=38 style='width:28.7pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>3</span></p>
+      </td>
+      <td width=47 style='width:35.2pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+        <p class=MsoNormal align=center style='text-align:center'><span style='font-size:12.0pt'>0</span></p>
+      </td>
+    </tr>
+  </table>
+  <h3>Usability Heuristics for UI Design (Nielsen)</h3>
+  <ol>
+    <li>Visibility of system status - <i>The system should always keep users informed about what is going on, through appropriate feedback within reasonable time.</i></li>
+    <li>Match between system and the real world - <i>The system should speak the users' language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order.</i></li>
+    <li>User control and freedom - <i>Users often choose system functions by mistake and will need a clearly marked "emergency exit" to leave the unwanted state without having to go through an extended dialogue. Support undo and redo.</i></li>
+    <li>Consistency and standards - <i>Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.</i></li>
+    <li>Error prevention - <i>Even better than good error messages is a careful design which prevents a problem from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action.</i></li>
+    <li>Recognition rather than recall - <i>Minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate.</i></li>
+    <li>Flexibility and efficiency of use - <i>Accelerators — unseen by the novice user — may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.</i></li>
+    <li>Aesthetic and minimalist design - <i>Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.</i></li>
+    <li>Help users recognize, diagnose, and recover from errors - <i>Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.</i></li>
+    <li>Help and documentation - <i>Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large.</i></li>
+  </ol>
+  <h3>Severity Rating for Usability Problems (Nielsen)</h3>
+  <ol start="0">
+    <li>I don't agree that this is a usability problem at all</li>
+    <li>Cosmetic problem only: need not be fixed unless extra time is available on project</li>
+    <li>Minor usability problem: fixing this should be given low priority</li>
+    <li>Major usability problem: important to fix, so should be given high priority</li>
+    <li>Usability catastrophe: imperative to fix this before product can be released</li>
+  </ol>
+  <h2>References &amp; Citations</h2>
+  <ul>
+    <li><a href="https://www.samsung.com/us/mobile/galaxy-s20-5g/specs/" target="_blank" rel="noreferrer noopener">Galaxy S20, S20+ and S20 Ultra 5G Specs. (n.d.). Retrieved September 28, 2020, from https://www.samsung.com/us/mobile/galaxy-s20-5g/specs/</a></li>
+    <li><a href="https://about.gitlab.com/pricing/" target="_blank" rel="noreferrer noopener">GitLab Pricing. (n.d.). Retrieved September 28, 2020, from https://about.gitlab.com/pricing/</a></li>
+    <li><a href="https://www.lg.com/us/mobile-phones/g8-thinq/specs" target="_blank" rel="noreferrer noopener">LG G8 ThinQ Specs. (n.d.). Retrieved September 28, 2020, from https://www.lg.com/us/mobile-phones/g8-thinq/specs</a></li>
+    <li><a href="https://www.verizon.com/smartphones/lg-velvet-5g-uw/" target="_blank" rel="noreferrer noopener">LG VELVET 5G UW. Verizon Wireless. (n.d.). Retrieved September 28, 2020, from https://www.verizon.com/smartphones/lg-velvet-5g-uw/</a></li>
+    <li><a href="https://www.nngroup.com/articles/ten-usability-heuristics/" target="_blank" rel="noreferrer noopener">Nielsen, J. (1994, April 24). 10 Heuristics for User Interface Design. Retrieved September 28, 2020, from https://www.nngroup.com/articles/ten-usability-heuristics/</a></li>
+    <li><a href="https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/" target="_blank" rel="noreferrer noopener">Nielsen, J. (1994, November 1). Severity Ratings for Usability Problems. Retrieved September 28, 2020, from https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/</a></li>
+    <li><a href="https://www.siriusxm.com/ourmostpopularpackages" target="_blank" rel="noreferrer noopener">SiriusXM - Our Packages. (n.d.). Retrieved September 28, 2020, from https://www.siriusxm.com/ourmostpopularpackages</a></li>
+  </ul>
+  <h2>Project Metadata</h2>
+  <ul>
+    <li><a href="/assets/portfolio-items/documents/vzw-heuristic-eval.pdf" rel="noreferrer noopener" target="_blank">Download PDF Version</a></li>
+    <li><b>Project type</b>: School project</li>
+    <li><b>School</b>: Pratt Institute</li>
+    <li><b>Class</b>: INFO-644 – Usability Theory and Practice</li>
+    <li><b>Completion</b>: June 18, 2020</li>
+  </ul>
+</article>

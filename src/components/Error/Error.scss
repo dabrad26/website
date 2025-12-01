@@ -1,0 +1,19 @@
+@import '../../styles/variables';
+
+.error-page {
+  margin: 20px 0;
+
+  .error-image {
+    background-image: url('/assets/images/error.svg');
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 40px;
+  }
+
+  .error-main-text {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+}

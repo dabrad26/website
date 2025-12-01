@@ -1,0 +1,23 @@
+{
+    "id": "perfect-candidate-for-job",
+    "name": "The Perfect Candidate for the Job",
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg",
+    "shortDescription": "We all have to make decisions in life. Some decisions are easier than others and some require little knowledge to make the decision due to personal bias. However, some decisions are much harder. These decisions require the processing of much information and avoiding bias of the alternatives.",
+    "longDescription": "These decisions are where Decision Support Systems can help. For my project I decided to talk to the person in charge of hiring at a company and get information on what they look for and what is most important. I set down with her and asked her what was most important when she is interviewing someone. Since she interviews people for a customer service/front end job I expected her requirements to be focused more on interaction than on education. This did come to be true and she listed out each category that she found to be most important when meeting an interviewee. For each category I asked her to give me some subcategories, she did and she even had a few subcategories that had their own subcategories.",
+    "quickFacts": {
+      "Project type": "School paper",
+      "School": "Georgia Southwestern State University",
+      "Class": "CIS-5310 – Decision Support Systems",
+      "Completion": "June 18, 2013"
+    },
+    "projectLinks": [
+      {
+        "name": "Final paper",
+        "link": "/assets/portfolio-items/documents/perfect-candidate-for-job-final.pdf"
+      },
+      {
+        "name": "Datasets",
+        "link": "/assets/portfolio-items/documents/perfect-candidate-for-job-datasets.xlsx"
+      }
+    ]
+  }

@@ -1,0 +1,59 @@
+{
+  "id": "pawsitive-id",
+  "name": "PawsitiveID Hackathon Project",
+  "imageUrl": "/assets/portfolio-items/images/pawsitive-id.jpg",
+  "shortDescription": "For the Google Maps hackathon we created a mobile app to find your lost pet(s) or identify a pet you have found. Using the Google Maps SDK to pinpoint where you have found or noticed a lost pet or identify where your pet was last seen..",
+  "longDescription": "This hackathon was sponsored by Google Maps. For this project we had two team members. I was responsible for the Swift and iOS development and backend development and Bi Nguyen worked on the Swift and iOS development. This app allows you to quickly post a found pet or lost pet to help reunite the owner with their pet. This app runs on iOS and providers a way to post anonymously or with an account (in the future). Each post can be commented on and when the poster gets the pet back home or finds their pet they can mark it as reunited and share their experience and reunited pictures to be showcased on the app's home page. For posting and seeing nearby found/lost pets all items appear on Google Maps. The Google Maps view includes markers to show nearby lost pets with their photo as well as when posting about a pet you can choose where you last saw the pet via the Google Maps view or by searching for pointer of interests or cities to instantly place a marker on the map.",
+  "quickFacts": {
+    "Project type": "Hackathon project",
+    "Status": "Submitted",
+    "Setup": "Google Maps iOS SDK, PHP, MySQL, Swift, SwiftUI",
+    "Demo Video": "https://www.youtube.com/watch?v=X4UyxlgrQ3E",
+    "Github iOS App": "https://github.com/unreal-pixels/pawsitive-id-ios",
+    "Github Backend": "https://github.com/unreal-pixels/pawsitive-id-api-php",
+    "Hackathon": "https://devpost.com/software/pawsitiveid",
+    "Completion": "July 31, 2025"
+  },
+  "projectImages": [
+    {
+      "name": "Home page",
+      "url": "/assets/portfolio-items/images/pawsitive-id-1.jpg"
+    },
+    {
+      "name": "My lost pet",
+      "url": "/assets/portfolio-items/images/pawsitive-id-2.jpg"
+    },
+    {
+      "name": "Accounts page",
+      "url": "/assets/portfolio-items/images/pawsitive-id-3.jpg"
+    },
+    {
+      "name": "Browse pets",
+      "url": "/assets/portfolio-items/images/pawsitive-id-4.jpg"
+    },
+    {
+      "name": "Pet details",
+      "url": "/assets/portfolio-items/images/pawsitive-id-5.jpg"
+    },
+    {
+      "name": "Pet details continued",
+      "url": "/assets/portfolio-items/images/pawsitive-id-6.jpg"
+    },
+    {
+      "name": "Map search",
+      "url": "/assets/portfolio-items/images/pawsitive-id-7.jpg"
+    },
+    {
+      "name": "Map location",
+      "url": "/assets/portfolio-items/images/pawsitive-id-8.jpg"
+    },
+    {
+      "name": "Report found pet",
+      "url": "/assets/portfolio-items/images/pawsitive-id-9.jpg"
+    },
+    {
+      "name": "Reunited pet",
+      "url": "/assets/portfolio-items/images/pawsitive-id-10.jpg"
+    }
+  ]
+}

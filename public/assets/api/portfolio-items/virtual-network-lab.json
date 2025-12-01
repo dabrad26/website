@@ -1,0 +1,18 @@
+{
+    "id": "virtual-network-lab",
+    "name": "Virtual Network Lab",
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg",
+    "shortDescription": "The following paper looks at the available options in creating a virtualized network lab for use by students and professors alike to create a safe, destructible environment from which to learn networking. For hypervisors, a review of various hypervisors was taken. Hypervisors included in the survey are Microsoft Hyper-V, Citrix Xen, Xen.Org, Marionnet, and VMWare. Following will be a short conclusion offering a proposed solution to the lab.",
+    "quickFacts": {
+      "Project type": "School paper",
+      "School": "Georgia Southwestern State University",
+      "Class": "CSCI-6900 – Special Problems in Computer Science",
+      "Completion": "December 2, 2012"
+    },
+    "projectLinks": [
+      {
+        "name": "Final paper",
+        "link": "/assets/portfolio-items/documents/virtual-network-lab-final.pdf"
+      }
+    ]
+  }

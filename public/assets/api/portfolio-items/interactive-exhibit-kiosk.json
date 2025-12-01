@@ -1,0 +1,32 @@
+{
+    "id": "interactive-exhibit-kiosk",
+    "name": "Interactive Exhibit Kiosk",
+    "imageUrl": "/assets/portfolio-items/images/interactive-exhibit-kiosk.jpg",
+    "shortDescription": "The Interactive Exhibit kiosks were one of the three touchscreen programs developed for the Flint RiverQuarium. It allowed customers to see information on the numerous animals located inside the aquarium. The touchscreens had an idle timeout that defaulted to a showcase of what was going on at the aquarium.",
+    "longDescription": "When a user interacted with the screen it would take them to a page to choose what part of the aquarium they wanted to learn about, the customer could view any exhibit from any kiosk, however, a ‘You Are Here’ star was added to the position that the kiosk was located and then choose an exhibit. The exhibit pages would contain images of all the animals in that exhibit. When an animal was chosen a details page was presented to the user. The details page would include an image and description of the animal. Some animals also included Curator’s Notes and a video of the animal.\n\nThis project was the largest of the three touchscreen kiosk projects. It consisted of the framework that was a Silverlight Out of Browser application. The framework was written in C# and was designed to run out of browser (standalone application file) in Full Screen mode. The application connected to a local web server that held the data for exhibits and animals. The detail and exhibit pages were HTML5 with CSS and JavaScript to make them appear and act like a native application in the kiosk. Videos were also produced by me for this project, showcasing staff and animals interacting and showing the interesting details of the animals. Most images used in this project were also taken by me and a few other staff members.\n\nThe kiosks are a great addition to the aquarium and allow guests to interact with them to learn more about any specific animal. The aquarium was able to easily edit the content of the animals and exhibit pages using a standard editor, which ensures that the content is kept up to date with new additions. The video sections are very popular and groups and customers will often be stopped in front of a kiosk watching the videos and viewing the high-resolution images of the animals.",
+    "quickFacts": {
+      "Project type": "Work project",
+      "Company": "Flint RiverQuarium",
+      "Setup": "C#, SilverLight SDK, JavaScript, HTML, CSS",
+      "URL": "http://flintriverquarium.com",
+      "Completion": "October 4, 2012"
+    },
+    "projectImages": [
+      {
+        "name": "Home map view",
+        "url": "/assets/portfolio-items/images/interactive-exhibit-kiosk-1.jpg"
+      },
+      {
+        "name": "Exhibits list view",
+        "url": "/assets/portfolio-items/images/interactive-exhibit-kiosk-2.jpg"
+      },
+      {
+        "name": "Animal view",
+        "url": "/assets/portfolio-items/images/interactive-exhibit-kiosk-3.jpg"
+      },
+      {
+        "name": "Animal video player",
+        "url": "/assets/portfolio-items/images/interactive-exhibit-kiosk-4.jpg"
+      }
+    ]
+  }

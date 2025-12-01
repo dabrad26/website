@@ -1,0 +1,20 @@
+.about-area {
+  .main-title {
+      margin-bottom: 30px;
+      h1 {
+          padding-bottom: 20px;
+          margin-bottom: 30px;
+      }
+      @media (max-width: 1024px) {
+          padding-bottom: 0px;
+      }
+  }
+  .about-left {
+      @media (max-width: 991px) {
+          display: none;
+      }
+  }
+  .primary-btn {
+      margin-top: 40px;
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "fitness-tv-watch",
+  "name": "Fitness TV and Smartwatch Design",
+  "imageUrl": "/assets/portfolio-items/images/fitness-tv-watch.jpg",
+  "shortDescription": "For my final group project in Mobile Interaction Design, we worked on creating an application Smart TVs that pairs with a Smartwatch to allow the user to perform workouts at home.  This app was to showcase the design connections between designing for televisions and watches and how to create a seamless integration.  Personal fitness was our primary topic to try and help people workout at home.",
+  "quickFacts": {
+    "Project type": "School project",
+    "School": "Pratt Institute",
+    "Class": "INFO-648 – Mobile Interaction Design",
+    "Completion": "May 5, 2021"
+  },
+  "projectImages": [
+    {
+      "name": "Welcome Screen",
+      "url": "/assets/portfolio-items/images/fitness-tv-watch-1.jpg"
+    },
+    {
+      "name": "Create Profile",
+      "url": "/assets/portfolio-items/images/fitness-tv-watch-2.jpg"
+    },
+    {
+      "name": "Choose Workout",
+      "url": "/assets/portfolio-items/images/fitness-tv-watch-3.jpg"
+    },
+    {
+      "name": "Pair Watch",
+      "url": "/assets/portfolio-items/images/fitness-tv-watch-4.jpg"
+    },
+    {
+      "name": "Active Workout",
+      "url": "/assets/portfolio-items/images/fitness-tv-watch-5.jpg"
+    },
+    {
+      "name": "Workout Complete Summary",
+      "url": "/assets/portfolio-items/images/fitness-tv-watch-6.jpg"
+    },
+    {
+      "name": "User flow",
+      "url": "/assets/portfolio-items/images/fitness-tv-watch-7.jpg"
+    },
+    {
+      "name": "Watch Wireframe Exploration",
+      "url": "/assets/portfolio-items/images/fitness-tv-watch-8.jpg"
+    },
+    {
+      "name": "Watch Final UI",
+      "url": "/assets/portfolio-items/images/fitness-tv-watch-9.jpg"
+    }
+  ],
+  "projectLinks": [
+    {
+      "name": "Final TV Design",
+      "link": "/assets/portfolio-items/documents/fitness-tv-watch.pdf"
+    },
+    {
+      "name": "Competitive Analysis",
+      "link": "/assets/portfolio-items/documents/fitness-tv-watch-competitive.pdf"
+    },
+    {
+      "name": "Secondary Research",
+      "link": "/assets/portfolio-items/documents/fitness-tv-watch-secondary.pdf"
+    }
+  ]
+}
