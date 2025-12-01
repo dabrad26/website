@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Culture Catalyst Award - 2024",
+    "issuer": "IBM",
+    "location": "San Francisco, CA",
+    "description": "Presented for reinventing skills, expertise and knowledge sharing by working on IBM Aspera Desktop and mobile app projects.",
+    "issueDate": "2024-12-16"
+  },
+  {
+    "name": "Outstanding Technical Achievement Award",
+    "issuer": "IBM",
+    "location": "San Francisco, CA",
+    "description": "Presented for the successful release of the \"Accelerated enterprise file search and retrieval across distributed file systems\" which addresses delays and unresponsiveness with complex folder structures. The Fast Recursive Search feature is not just a tool for quicker file retrieval-it's a foundational step toward bringing desktop-like search functionality to object storage systems. As cloud storage continues to grow, the ability to search and collaborate efficiently will become even more critical, and this feature will be pivotal in addressing that need. This was a group award.",
+    "issueDate": "2024-11-29"
+  },
+  {
+    "name": "IBM Tech 2023",
+    "issuer": "IBM",
+    "location": "Dallas, TX",
+    "description": "The new technical recognition program that recognizes IBM's premier technical contributors. This recognition is a testament to hard work throughout 2022 to drive innovation, transform culture and accelerate growth.",
+    "issueDate": "2023-02-05"
+  },
+  {
+    "name": "Entrepreneur Award - 2022",
+    "issuer": "IBM",
+    "location": "San Francisco, CA",
+    "description": "Awarded for the initiative of the consolidation of projects and code libraries by using React and React Native for our offerings.",
+    "issueDate": "2022-03-23"
+  },
+  {
+    "name": "Pratt Circle",
+    "issuer": "Pratt Institute",
+    "location": "New York, NY",
+    "description": "Presented for graduating with honors or distinction",
+    "issueDate": "2021-06-01",
+    "collapsed": true
+  },
+  {
+    "name": "Outstanding Technical Achievement Award",
+    "issuer": "IBM",
+    "location": "New York, NY",
+    "description": "Presented for the successful release of the IBM Aspera HTTP Gateway 2.0.",
+    "issueDate": "2020-10-28",
+    "collapsed": true
+  },
+  {
+    "name": "Outstanding Computer Science Graduate",
+    "issuer": "Georgia Southwestern State University",
+    "location": "Americus, GA",
+    "description": "Selected as the graduate studies outstanding student for 2013 graduating class.",
+    "issueDate": "2013-05-02",
+    "collapsed": true
+  },
+  {
+    "name": "Outstanding Computer Science Undergraduate",
+    "issuer": "Georgia Southwestern State University",
+    "location": "Americus, GA",
+    "description": "Selected as the undergraduate studies outstanding student for 2012 graduating class.",
+    "issueDate": "2012-05-02",
+    "collapsed": true
+  },
+  {
+    "name": "Excellence in Academics and Service to the School of Computing and Mathematics",
+    "issuer": "Georgia Southwestern State University",
+    "location": "Americus, GA",
+    "description": "Honored for providing outstanding service and research within the school of Computing and Mathematics during my undergraduate studies.",
+    "issueDate": "2012-05-02",
+    "collapsed": true
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "school": "University of California San Diego Extended Studies",
+    "degree": "Specialized Certificate",
+    "program": "iOS Programming",
+    "location": "San Diego, CA",
+    "description": "Specialized certificate focusing on iOS programming including Swift programming, best practices and building and deploying apps for iOS.",
+    "startDate": "2023-09-26",
+    "endDate": "2024-11-23"
+  },
+  {
+    "school": "University of California San Diego Extended Studies",
+    "degree": "Professional Certificate",
+    "program": "User Experience Design",
+    "location": "San Diego, CA",
+    "description": "Professional certificate on user experience and user interface design for products and applications.",
+    "startDate": "2019-01-16",
+    "endDate": "2020-03-21"
+  },
+    {
+    "school": "Google Cloud",
+    "degree": "Professional Certificate",
+    "program": "Generative AI Leader",
+    "location": "Coursera",
+    "description": "This five-course certificate, developed by Google Cloud, provides comprehensive Gen AI Leader training. Exploring key concepts like AI, ML, and foundation models.",
+    "startDate": "2025-07-29",
+    "endDate": "2025-08-02",
+    "link": "https://www.coursera.org/account/accomplishments/specialization/JKLP4488YYBJ"
+  },
+  {
+    "school": "Google",
+    "degree": "Professional Certificate",
+    "program": "Google IT Support",
+    "location": "Coursera",
+    "description": "This five-course certificate, developed by Google, is designed to provide skills in IT support.",
+    "startDate": "2024-03-12",
+    "endDate": "2024-03-28",
+    "link": "https://coursera.org/verify/professional-cert/24PC2BDA42FB",
+    "collapsed": true
+  },
+  {
+    "school": "Google",
+    "degree": "Professional Certificate",
+    "program": "Google IT Automation with Python",
+    "location": "Coursera",
+    "description": "This six-course certificate, developed by Google, is designed to provide in-demand skills like Python and IT automation.",
+    "startDate": "2020-12-20",
+    "endDate": "2020-12-30",
+    "link": "https://coursera.org/verify/professional-cert/JGJ964PUYVWV",
+    "collapsed": true
+  }
+]

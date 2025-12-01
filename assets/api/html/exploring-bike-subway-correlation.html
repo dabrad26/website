@@ -1,0 +1,53 @@
+<article>
+  <h1>Exploring Bike and Subway Correlations</h1>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/bike-Final-Map.png" alt="Final Map" />
+    <a href="https://dabrad26.carto.com/builder/079ba2f7-3098-4366-acfc-a6d293f57a2f/embed" target="_blank" rel="noreferrer noopener">Final Map</a>
+  </div>
+  <h2>Introduction</h2>
+  <p>For this project I explored the bikes and subway paths across the five boroughs of New York City.  After checking out <a rel="noreferrer noopener" href="https://offmetro.com/ny/57295/the-8-best-bike-maps-for-new-yorkers/" target="_blank">other bike maps</a> I realized not many show a connection to Subway routes and stations.  I became curious on how many station routes run parallel with bike paths and if bike paths could provide the needed final commute leg for most users.  This exploration was made possible by this map.</p>
+  <h2>Material and Process</h2>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/bike-CARTO-logo.svg_-1.png" alt="Carto" />
+    <a href="https://carto.com" target="_blank" rel="noreferrer noopener">Carto</a>
+  </div>
+  <p>To visualize the map, I found some data points related to <a rel="noreferrer noopener" href="https://carto.com/dataset/bikeroutes_ny" target="_blank">bike paths within New</a> York City from the <a rel="noreferrer noopener" href="https://www.dot.ny.gov/index" target="_blank">New York State Department of Transportation</a> and the <a rel="noreferrer noopener" href="https://carto.com/dataset/nyc_subway_entrance" target="_blank">subway station points in New York City</a>.  I put these two data points together to create an overlay on a light-colored map background to ensure readability.  The green lines represent the bike paths and the red dots represent the subway entrances. They use a standard shared radius as they are spaced apart in most cases and represent points of interest on the map.  For visualizing the data and creating an interaction and zoomable map that the user could use to explore their home or high traveled area I used <a href="https://carto.com" target="_blank" rel="noreferrer noopener">Carto</a> which was a simple tool for taking datasets and adding them as overlays via longitude and latitude data and <a href="https://geojson.org" target="_blank" rel="noreferrer noopener">geoJSON</a>.</p>
+  <p>The Carto system was fast and allowed for real time viewing as settings and data was changed which was useful for ensuring a great user experience for the final user.  I experimented with different map backgrounds but found the basic light background worked the best for this use case for exploring routes and viewing city streets in line with the routes and subway entrances.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/bike-Example-Popup-2.png" alt="Example of Popup" />
+    <span>Example of Popup</span>
+  </div>
+  <p>The data includes other useful items like path type (paves, gravel, dirt) and a small description of the trail or station to help user’s identify them.  This was enabled to be clickable on the map so users can identify each trail and subway entrance as well as what lines the subway served.    This can be seen in the image above.  I played with adding a widget for filtering by path types, however within New York City most paths were all paved; making this feature not very useful for this data.</p>
+  <h2>Outcome</h2>
+  <div class="image-group">
+    <iframe width="100%" height="520px" frameborder="0" src="https://dabrad26.carto.com/viz/079ba2f7-3098-4366-acfc-a6d293f57a2f/embed_map" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen=""></iframe>
+    <a rel="noreferrer noopener" href="https://dabrad26.carto.com/builder/079ba2f7-3098-4366-acfc-a6d293f57a2f/embed" target="_blank">Click here to view the map in a full browser window</a>
+  </div>
+  <p>The final map is an interactive map that allows the user to zoom in and click on bike paths and subway stations to see the data.  The Map is clean and easy to read and understand and the popups provide a simple way to view the metadata with the item in question.  The above embedded item allows you to play around and see the data on this page.</p>
+  <p>Now with the data loaded I am able to explore my queries and see if there is a correlation between subway paths and bike paths.  For the most part the subway lines and bike paths are not that together.  This is the truest in midtown Manhattan where very few bike paths exist.  In other parts like Brooklyn and The Bronx I see more connection to bike paths and subway stations including some following parallel.  Going into this exploration I expected more connection as I assumed most subway lines would be down main streets that would also be more bike oriented with official bike paths or lanes.  But it seems most of the main bike paths are more recreation oriented.  I could also speculate that the approach for bike paths is having a primary bike path like that which runs around Manhattan and then having specific streets that are safest for bikers and using that to handle cross town traffic to get the bikers where they need to go.  </p>
+  <h2>UX Feedback</h2>
+  <p>After receiving some UX feedback in the final stage the following changes were made:</p>
+  <ul>
+    <li>CitiBike nodes added to the map to add extra information</li>
+    <li>Map background changed to lighter and more basic map</li>
+    <li>Bike path popup has the path type moved higher</li>
+  </ul>
+  <h2>Reflections</h2>
+  <p>I wish I could have found a dataset that had the lines of the NYC subway that would work in Carto, but the subway entrances are not bad as you can see where subway lines run by the dot flow.  And for many of the line they service the same subway entrances so it may have made the map a bit too busy with multiple lines in the busy areas (like Manhattan) before they split off in different directions later.</p>
+  <p>I am surprised about the bike flow and really expected more correlation with subway paths something I saw in other metro areas like Oakland and San Francisco.  I will spend more time post-research searching for Department of Transportation planning for bike paths across the five boroughs to see what logic and reasoning went into these decisions.  It will be interesting to know if a model is being followed from a more bike-oriented country or if the decision is solely guided by the traffic flows in the areas.</p>
+  <h2>Works Cited</h2>
+  <ul>
+    <li><a rel="noreferrer noopener" href="https://offmetro.com/ny/57295/the-8-best-bike-maps-for-new-yorkers/" target="_blank">Best Bike Maps for New Yorkers – offMetro</a>&nbsp;</li>
+    <li><a rel="noreferrer noopener" href="https://carto.com/dataset/nyc_subway_entrance" target="_blank">NYC Subway Entrances – Carto</a></li>
+    <li><a rel="noreferrer noopener" href="https://carto.com/dataset/bikeroutes_ny" target="_blank">Bike Routes New York – Carto</a></li>
+    <li><a rel="noreferrer noopener" href="https://carto.com/help/tutorials/using-builder/" target="_blank">Carto Tutorial&nbsp;</a></li>
+    <li><a href="https://github.com/danigallo/CitiBike/blob/master/station_network/station_nodes.csv" target="_blank" rel="noreferrer noopener">CitiBike Station Nodes – danigallo Github</a></li>
+  </ul>
+  <h2>Project Metadata</h2>
+  <ul>
+    <li><b>Project type</b>: School project</li>
+    <li><b>School</b>: Pratt Institute</li>
+    <li><b>Class</b>: INFO-658 – Information Visualization</li>
+    <li><b>Completion</b>: July 11, 2020</li>
+  </ul>
+</article>
