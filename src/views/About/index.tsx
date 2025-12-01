@@ -1,15 +1,10 @@
-import { useEffect } from 'react';
 import './About.scss';
 import { useNavigate } from 'react-router';
 
-let imageNumber = 1;
+const imageNumber = Math.floor(Math.random() * 3);
 
 export default function About() {
   const navigate = useNavigate();
-
-  useEffect(() => {
-    imageNumber = Math.floor(Math.random() * 3);
-  }, []);
 
   const openResume = (): void => {
     navigate('/resume');

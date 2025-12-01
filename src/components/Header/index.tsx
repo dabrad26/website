@@ -1,13 +1,16 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { routes, type RouteType } from '../../constants/routes';
 import Banner from '../Banner';
 import Error from '../Error';
 import './Header.scss';
 import { useLocation, useNavigate } from 'react-router';
 
+const imageNumber = Math.floor(Math.random() * 3);
+
 export default function Header() {
   const navigate = useNavigate();
   const location = useLocation();
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
     const header = document.querySelector('header');
@@ -19,23 +22,25 @@ export default function Header() {
     const headerArea = document.querySelector('.header_area');
     const navOffsetTop = header.clientHeight + 50;
 
-    if (headerArea) {
-      const onScroll = () => {
-        const scroll = window.scrollY;
+    const onScroll = () => {
+      if (!headerArea) {
+        return;
+      }
 
-        if (scroll >= navOffsetTop) {
-          headerArea.classList.add('navbar_fixed');
-        } else {
-          headerArea.classList.remove('navbar_fixed');
-        }
-      };
+      const scroll = window.scrollY;
 
-      window.addEventListener('scroll', onScroll);
+      if (scroll >= navOffsetTop) {
+        headerArea.classList.add('navbar_fixed');
+      } else {
+        headerArea.classList.remove('navbar_fixed');
+      }
+    };
 
-      return () => {
-        window.removeEventListener('scroll', onScroll);
-      };
-    }
+    window.addEventListener('scroll', onScroll);
+
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+    };
   }, []);
 
   const getCurrentRoute = (): RouteType => {
@@ -48,6 +53,11 @@ export default function Header() {
 
   const navigateRoute = (route: string): void => {
     navigate(route);
+    setMobileOpen(false);
+  };
+
+  const toggleMobile = (): void => {
+    setMobileOpen(!mobileOpen);
   };
 
   return (
@@ -57,12 +67,12 @@ export default function Header() {
           <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
               <a className="navbar-brand" onClick={() => navigateRoute('/')}><img src="/assets/images/logo.svg" alt="David Bradshaw Home" /></a>
-              <button className="navbar-toggler" id="mobile-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button className="navbar-toggler" id="mobile-button" onClick={toggleMobile} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
               </button>
-              <div className="collapse navbar-collapse offset" id="navbarSupportedContent">
+              <div className={`collapse navbar-collapse offset ${mobileOpen ? 'show' : ''}`} id="navbarSupportedContent">
                 <ul className="nav navbar-nav menu_nav justify-content-end">
                   {routes.map(route => {
                     return (
@@ -79,7 +89,7 @@ export default function Header() {
           </nav>
         </div>
       </header>
-      <Banner currentRoute={getCurrentRoute()}/>
+      <Banner currentRoute={getCurrentRoute()} imageNumber={imageNumber}/>
     </>
   );
 }
