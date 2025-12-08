@@ -1,0 +1,31 @@
+{
+  "id": "aspera-desktop-sdk",
+  "name": "IBM Aspera SDK",
+  "imageUrl": "/assets/portfolio-items/images/aspera-desktop-sdk.jpg",
+  "shortDescription": "While working for IBM we started a project to create a new version of the Aspera Connect application called IBM Aspera for desktop. This new application needed a SDK to facilitate communication between the web browsers and the application. We decided to make a new one that would be modern and easier to maintain as well as handle the other JavaScript libraries for Aspera; like HTTP Gateway. This new SDK is now the one SDK to power all browser based transfers for the Aspera portfolio.",
+  "longDescription": "The new one SDK for all web based transfers provides a single set of functions and logic for starting transfers via IBM Aspera for desktop, IBM Aspera HTTP Gateway (V3 and V2) as well as IBM Aspera Connect. Which system to use can be easily set via init params and built in fallback to Aspera HTTP Gateway is provided automatically when using desktop and the app is not installed or reachable.  This allows the web applications to simply call and focus on logic for starting transfers and selecting files and not handling which transfer system to use. As part of the deployment of this open source project we included a full test app with code examples. The code examples allow quick copy and paste to use the new SDK with common settings exposed via the test pages. This allows for verification of the SDK right from Github Pages as well as examples to get up and running with minimal effort as well as installer flows for the common libraries (React, Angular, Vue and vanilla JavaScript). The demo app is auto deployed and available for all to use for testing purposes and accepts transfer specifications that can be used with any Aspera transfer server.",
+  "quickFacts": {
+    "Project type": "Open source project",
+    "Company": "IBM",
+    "Role": "Lead Frontend Engineer & Architect",
+    "Setup": "TypeScript, React",
+    "Testing": "Jest",
+    "Github": "https://github.com/IBM/aspera-sdk-js",
+    "Documentation": "https://ibm.github.io/aspera-sdk-js/",
+    "Completion": "November 1, 2025"
+  },
+  "projectImages": [
+    {
+      "name": "Start transfer example code and test",
+      "url": "/assets/portfolio-items/images/aspera-desktop-sdk-1.jpg"
+    },
+    {
+      "name": "Installation example code and test",
+      "url": "/assets/portfolio-items/images/aspera-desktop-sdk-2.jpg"
+    },
+    {
+      "name": "All test features together",
+      "url": "/assets/portfolio-items/images/aspera-desktop-sdk-3.jpg"
+    }
+  ]
+}

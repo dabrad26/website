@@ -1,5 +1,21 @@
 [
   {
+    "name": "IBM Aspera SDK",
+    "id": "aspera-desktop-sdk",
+    "type": "Open source project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["applications", "web"],
+    "imageUrl": "/assets/portfolio-items/images/aspera-desktop-sdk.jpg"
+  },
+  {
+    "name": "IBM Aspera for desktop",
+    "id": "aspera-desktop",
+    "type": "Work project",
+    "gridSize": "col-lg-4 col-sm-6",
+    "category": ["design", "applications"],
+    "imageUrl": "/assets/portfolio-items/images/aspera-desktop.jpg"
+  },
+  {
     "name": "PawsitiveID Hackathon Project",
     "id": "pawsitive-id",
     "type": "Hackathon project",
