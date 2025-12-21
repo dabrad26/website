@@ -1,6 +1,6 @@
 # David Bradshaw's Personal Website
 
-This is the UI application for my personal website in React
+This is my personal website in React
 
 ## Getting started
 
