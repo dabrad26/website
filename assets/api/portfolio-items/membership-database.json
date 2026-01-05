@@ -1,0 +1,71 @@
+{
+  "id": "membership-database",
+  "name": "Membership Database Management System",
+  "imageUrl": "/assets/portfolio-items/images/membership-database.jpg",
+  "shortDescription": "The final project was created as a MySQL database with a REST API server that would query the database and power a User Interface that would allow some basic tasks and views using the API data.  I have never created a full stack database system and wanted to use this as an opportunity.  Once I had the database working, I added the server and client.  The full code including the SQL, client and server can be found on GitHub.",
+  "longDescription": "The targeted audience would be the sales associates in the ticket office for selling, updating, and using the membership. The manager for mailing out promotional material, managing expected cash flow, issuing rewards to sellers. And possibly the customer for self- managing and checking membership online via a self-serve portal. By using a more controlled system instead of Excel you can easily always migrate data (like the membership level changes), ensure consistency of data and dates, create a UI around the database for simple usage by the ticket office and management. Run more precise queries for mailing data and tracking cash flow and always ensure more accurate data with accountability and consistent data formats.",
+  "quickFacts": {
+    "Project type": "School project",
+    "School": "Pratt Institute",
+    "Class": "INFO-639 – Database Design and Development",
+    "Completion": "November 24, 2020",
+    "Language": "MySQL, NodeJS, React, JavaScript",
+    "URL": "https://github.com/dabrad26/database-final"
+  },
+  "projectImages": [
+    {
+      "name": "Final relationship diagram",
+      "url": "/assets/portfolio-items/images/membership-database-des-rel-diag.jpg"
+    },
+    {
+      "name": "Logical design",
+      "url": "/assets/portfolio-items/images/membership-database-des-loc.jpg"
+    },
+    {
+      "name": "Conceptual design",
+      "url": "/assets/portfolio-items/images/membership-database-des.jpg"
+    },
+    {
+      "name": "Memberships page",
+      "url": "/assets/portfolio-items/images/membership-database-1.jpg"
+    },
+    {
+      "name": "Sell a memberships page",
+      "url": "/assets/portfolio-items/images/membership-database-2.jpg"
+    },
+    {
+      "name": "Customers page",
+      "url": "/assets/portfolio-items/images/membership-database-3.jpg"
+    },
+    {
+      "name": "Movie tickets page",
+      "url": "/assets/portfolio-items/images/membership-database-4.jpg"
+    },
+    {
+      "name": "Benefits usage page",
+      "url": "/assets/portfolio-items/images/membership-database-5.jpg"
+    },
+    {
+      "name": "Employee incentives page",
+      "url": "/assets/portfolio-items/images/membership-database-6.jpg"
+    },
+    {
+      "name": "View SQL queries",
+      "url": "/assets/portfolio-items/images/membership-database-7.jpg"
+    }
+  ],
+  "projectLinks": [
+    {
+      "name": "Github repo",
+      "link": "https://github.com/dabrad26/database-final"
+    },
+    {
+      "name": "Example video of site",
+      "link": "/assets/portfolio-items/documents/membership-database-final-proposal.mov"
+    },
+    {
+      "name": "Final Proposal",
+      "link": "/assets/portfolio-items/documents/membership-database-final-proposal.pdf"
+    }
+  ]
+}

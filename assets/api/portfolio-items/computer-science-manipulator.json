@@ -1,0 +1,71 @@
+{
+    "id": "computer-science-manipulator",
+    "name": "Computer Science Number Manipulator",
+    "imageUrl": "/assets/portfolio-items/images/computer-science-manipulator.jpg",
+    "shortDescription": "This app converts numbers between Decimal, Binary, Octal and Hexadecimal. It also shows the ASCII character for the number given, if any. The app allowed the end user to easily convert between each type of number by entering any of the numbers and hitting Convert, which would then show the values for the other fields. This app was made mostly for computer science students and professionals who needed to quickly get the value for any number in the most common formats.",
+    "longDescription": "The Android version was written for the Android platform as a native app. It was written in Java with the front end in XML (Android markup). The app offers a clean interface with layout support for all screen sizes. The app also supports a higher range of conversions (larger than normal 32-bit integers). The app has error handling and automation to automatically calculate values when the user presses enter (or OK) from any field (clears other fields for the user). The app also makes use of hardware acceleration to improve the calculation performance for larger numbers. This app also has a text filter to only allow numbers and characters that are supported by that numbering system to be entered. The Action Menu contains links to helpful tools for the app, this includes accessing the Help Menu, Visiting My Website, Reporting Bugs and Viewing My Other Apps.\n\nThe Windows Phone version was my first mobile app and offered a simple and clean interface and was written in C# with the layout XAML based. Update 1.1 added full support for Windows Phone 7 Mango when it was released.\n\nThe BlackBerry 10 version was written for the WebWorks platform for BlackBerry OS 10. It was written in JavaScript with the front end in HTML5 using JQuery Mobile. It offered a great improvement over the original BlackBerry version. It included a new user interface and a more user-friendly operation; including auto calculations when text was changed in the app and better error handling when users would alter data and attempt to calculate improper numbers.\n\nA BlackBerry version (original BlackBerry) was also available written using an older version of WebWorks for native BlackBerry apps.\n\nThe app was originally available on Google Play, Amazon App Store, Windows Phone App Store, BlackBerry Store.",
+    "quickFacts": {
+      "Project type": "Personal project",
+      "Language": "Java, Android SDK, C#, Windows Phone SDK, jQuery, BlackBerry SDK",
+      "Completion": "August 8, 2011",
+      "Status": "Shut down"
+    },
+    "projectImages": [
+      {
+        "name": "Android convert page",
+        "url": "/assets/portfolio-items/images/computer-science-manipulator-1.jpg"
+      },
+      {
+        "name": "Android help page",
+        "url": "/assets/portfolio-items/images/computer-science-manipulator-2.jpg"
+      },
+      {
+        "name": "Android convert page empty",
+        "url": "/assets/portfolio-items/images/computer-science-manipulator-3.jpg"
+      },
+      {
+        "name": "Android convert page 2",
+        "url": "/assets/portfolio-items/images/computer-science-manipulator-4.jpg"
+      },
+      {
+        "name": "BlackBerry 10 convert page empty",
+        "url": "/assets/portfolio-items/images/computer-science-manipulator-5.jpg"
+      },
+      {
+        "name": "BlackBerry 10 convert page",
+        "url": "/assets/portfolio-items/images/computer-science-manipulator-6.jpg"
+      },
+      {
+        "name": "BlackBerry 10 convert page 2",
+        "url": "/assets/portfolio-items/images/computer-science-manipulator-7.jpg"
+      },
+      {
+        "name": "BlackBerry 10 help page",
+        "url": "/assets/portfolio-items/images/computer-science-manipulator-8.jpg"
+      },
+      {
+        "name": "Windows Phone convert page",
+        "url": "/assets/portfolio-items/images/computer-science-manipulator-9.jpg"
+      },
+      {
+        "name": "Windows Phone convert page empty",
+        "url": "/assets/portfolio-items/images/computer-science-manipulator-10.jpg"
+      },
+      {
+        "name": "BlackBerry convert page empty top",
+        "url": "/assets/portfolio-items/images/computer-science-manipulator-11.jpg"
+      },
+      {
+        "name": "BlackBerry convert page empty bottom",
+        "url": "/assets/portfolio-items/images/computer-science-manipulator-12.jpg"
+      },
+      {
+        "name": "BlackBerry convert page top",
+        "url": "/assets/portfolio-items/images/computer-science-manipulator-13.jpg"
+      },
+      {
+        "name": "BlackBerry convert page bottom",
+        "url": "/assets/portfolio-items/images/computer-science-manipulator-14.jpg"
+      }
+    ]
+  }

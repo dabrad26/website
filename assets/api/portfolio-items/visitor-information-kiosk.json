@@ -1,0 +1,32 @@
+{
+    "id": "visitor-information-kiosk",
+    "name": "Visitor Information Kiosk",
+    "imageUrl": "/assets/portfolio-items/images/visitor-information-kiosk.jpg",
+    "shortDescription": "The Visitor Information Kiosk was one of the three touchscreen programs developed for the Flint RiverQuarium. It was placed in the main lobby of the aquarium and contained useful information for visitors coming to the aquarium and when idle featured current events and promotions.",
+    "longDescription": "The Visitor Information Kiosk included everything from general admission prices, membership prices and information, special events, facility rentals, nearby places to eat, and a virtual map. The virtual map included a listing of all the exhibit areas and a high-resolution collection of images that would loop while the customer read over the general information about the exhibit. The nearby places to eat section included the closest places to eat while visiting the aquarium and included a map of how to get to them, the restaurants phone number and address, general information about the restaurant and the hours of operation.\n\nThis project was a Silverlight based Out of Browser application. It was written in C# and was designed to run out of browser (standalone application file) in Full Screen mode. Most content was XAML based, but some of the sections that would change more often were HTML5 based with CSS and JavaScript to make them appear and act like a native application in the kiosk. Most images used in this project were also taken by me and a few other staff members.\n\nThe kiosk was a great addition to the lobby of the aquarium and gave prospective customers a place to collect information about the aquarium and gave customers information about what the aquarium has to offer and nearby places to eat to make a full day of their visit to the aquarium.",
+    "quickFacts": {
+      "Project type": "Work project",
+      "Company": "Flint RiverQuarium",
+      "Language": "C#, SilverLight SDK, JavaScript, HTML, CSS",
+      "URL": "http://flintriverquarium.com",
+      "Completion": "October 4, 2012"
+    },
+    "projectImages": [
+      {
+        "name": "Home page",
+        "url": "/assets/portfolio-items/images/visitor-information-kiosk-1.jpg"
+      },
+      {
+        "name": "About us page",
+        "url": "/assets/portfolio-items/images/visitor-information-kiosk-2.jpg"
+      },
+      {
+        "name": "Contact us page",
+        "url": "/assets/portfolio-items/images/visitor-information-kiosk-3.jpg"
+      },
+      {
+        "name": "Contact us page",
+        "url": "/assets/portfolio-items/images/visitor-information-kiosk-4.jpg"
+      }
+    ]
+  }

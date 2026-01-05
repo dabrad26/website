@@ -1,0 +1,42 @@
+{
+  "id": "aspera-files",
+  "name": "Aspera Files",
+  "imageUrl": "/assets/portfolio-items/images/aspera-files.jpg",
+  "shortDescription": "While working for IBM I worked on a new project called Aspera Files. Aspera Files is an enterprise file management and sharing application that utilizes Aspera FASP. It offers support for sending packages, uploading and managing files, and administrative settings to allow for enterprise level customization and access control all using a clean, modern user interface.",
+  "longDescription": "For this project, my main role was working as a front-end developer working closely with a design team to ensure proper user interaction and ensuring that the implementation matched the visual design comps created by the design team responsible for Aspera Files. For this project, we worked in small teams broken into front end, backend, DevOps and design and focused on an agile development process to accommodate continuous integration of new features and bug fixes into a launched production web application.",
+  "quickFacts": {
+    "Project type": "Work project",
+    "Company": "Aspera, an IBM Company",
+    "Role": "Frontend Engineer",
+    "Setup": "AngularJS, CoffeeScript, Jade, Stylus",
+    "Testing": "Karma, Protractor",
+    "URL": "https://files.asperasoft.com",
+    "Completion": "April 1, 2016"
+  },
+  "projectImages": [
+    {
+      "name": "Login page",
+      "url": "/assets/portfolio-items/images/aspera-files-1.jpg"
+    },
+    {
+      "name": "Files browse page",
+      "url": "/assets/portfolio-items/images/aspera-files-2.jpg"
+    },
+    {
+      "name": "Files browse split view page",
+      "url": "/assets/portfolio-items/images/aspera-files-3.jpg"
+    },
+    {
+      "name": "Create package from files",
+      "url": "/assets/portfolio-items/images/aspera-files-4.jpg"
+    },
+    {
+      "name": "Admin page",
+      "url": "/assets/portfolio-items/images/aspera-files-6.jpg"
+    },
+    {
+      "name": "Admin activity monitoring",
+      "url": "/assets/portfolio-items/images/aspera-files-7.jpg"
+    }
+  ]
+}

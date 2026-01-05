@@ -1,0 +1,38 @@
+{
+  "id": "aspera-desktop",
+  "name": "IBM Aspera for desktop",
+  "imageUrl": "/assets/portfolio-items/images/aspera-desktop.jpg",
+  "shortDescription": "While working for IBM we started a project to create a new version of the Aspera Connect application. The purpose of this application is to facilitate transfers from a local machine to an Aspera server. This new application went GA in late 2025 and is slowly being rolled out to customers with all receiving it by mid 2026.",
+  "longDescription": "This new application provided an updated GUI that followed the standard of the web applications and IBM design and was written in a newer architecture that allowed for easier maintainability and faster release cycles. We achieved this using Tauri to allow for a separation of business logic between the backend and the frontend of the application and communicated between the two sides using a system similar to APIs. This allowed for the frontend team to manage the UI easier and utilize our shared library systems that powered all the other GUIs across Aspera. We took this a step further for code reusability by releasing the main web applications (Aspera on Cloud and Faspex 5) onto our internal NPM to be able to import their classes and views to utilize within this application. Meaning we can render in app account and data and specific logic to the web applications without rewriting code. Instead the code is imported and used from the main projects. Meaning also that as they get new features we can just update the desktop app to automatically get the new features without any new code being written.",
+  "quickFacts": {
+    "Project type": "Work project",
+    "Company": "IBM",
+    "Role": "Lead Frontend Engineer & Architect",
+    "Setup": "Tauri, React, TypeScript, Rust",
+    "Testing": "Jest",
+    "Download": "https://ibmaspera.com/help/downloads/desktop",
+    "Completion": "October 1, 2025"
+  },
+  "projectImages": [
+    {
+      "name": "Transfer list",
+      "url": "/assets/portfolio-items/images/aspera-desktop-1.jpg"
+    },
+    {
+      "name": "Account list",
+      "url": "/assets/portfolio-items/images/aspera-desktop-2.jpg"
+    },
+    {
+      "name": "Adding automation",
+      "url": "/assets/portfolio-items/images/aspera-desktop-3.jpg"
+    },
+    {
+      "name": "Settings",
+      "url": "/assets/portfolio-items/images/aspera-desktop-4.jpg"
+    },
+    {
+      "name": "Help center",
+      "url": "/assets/portfolio-items/images/aspera-desktop-5.jpg"
+    }
+  ]
+}

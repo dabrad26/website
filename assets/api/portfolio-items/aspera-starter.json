@@ -1,0 +1,46 @@
+{
+  "id": "aspera-starter",
+  "name": "IBM Aspera Starter Library",
+  "imageUrl": "/assets/portfolio-items/images/aspera-starter.jpg",
+  "shortDescription": "While working for IBM I worked on a new library called Aspera Starter. Aspera Starter allowed for rapid development of web applications while ensuring a consistent design language, component usage and coding style across all applications. Aspera Starter ensured that applications were consistent and allowed design changes and any bug fixes to roll into all apps with minimal effort.",
+  "longDescription": "For this library me and my team worked closely with the design team and the IBM Hybrid Cloud Design team to integrate the Carbon Design Language System into Aspera Starter for supporting all of Aspera's applications. Aspera Starter was also fully mobile responsive from the beginning to support users on all devices and supports Right to Left languages. The Aspera Starter library is now powering all of Aspera's newer web applications. Aspera Starter allows for applications to be quickly bootstrapped and generated and for simple structure based JSON to define components and allow developers to focus on views and not components or system services (translations, modals, notifications, error handling...).",
+  "quickFacts": {
+    "Project type": "Work project",
+    "Company": "IBM",
+    "Role": "Software Development Manager & Architect",
+    "Setup": "React, TypeScript, HTML, Sass, NodeJS",
+    "Testing": "Jest",
+    "URL": "https://www.ibm.com/cloud/aspera",
+    "Completion": "September 1, 2021"
+  },
+  "projectImages": [
+    {
+      "name": "Data Table",
+      "url": "/assets/portfolio-items/images/aspera-starter-1.jpg"
+    },
+    {
+      "name": "Data Table file moving",
+      "url": "/assets/portfolio-items/images/aspera-starter-2.jpg"
+    },
+    {
+      "name": "Forms",
+      "url": "/assets/portfolio-items/images/aspera-starter-3.jpg"
+    },
+    {
+      "name": "Reorder component",
+      "url": "/assets/portfolio-items/images/aspera-starter-4.jpg"
+    },
+    {
+      "name": "Modal systems",
+      "url": "/assets/portfolio-items/images/aspera-starter-5.jpg"
+    },
+    {
+      "name": "Mobile Data Table",
+      "url": "/assets/portfolio-items/images/aspera-starter-6.jpg"
+    },
+    {
+      "name": "Mobile Left Navigation",
+      "url": "/assets/portfolio-items/images/aspera-starter-7.jpg"
+    }
+  ]
+}

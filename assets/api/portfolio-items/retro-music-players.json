@@ -1,0 +1,69 @@
+{
+  "id": "retro-music-players",
+  "name": "Retro Music Players",
+  "imageUrl": "/assets/portfolio-items/images/retro-music-players.jpg",
+  "shortDescription": "For a school assignment we created a fake business and generated an eCommerce site for the business.  For my project I did a fake business called Retro Music Players.",
+  "longDescription": "For the school project our business is 'Retro Music Players' located at retromusicplayers.com, we are a local store based in Brooklyn, New York creating music players and devices that feel like retro music players. We offer a wide range of devices from handheld to cabinet players. All of our players have a look and feel of a retro device but support modern music codecs and features. This allows people to get a retro feeling device in their home or on their person that looks chic but works with your modern life. Our handheld players are super popular with hipsters and provide people the fun of walking around with a classic Walkman or iPod while still carrying millions of songs and supporting internet streaming services. We also offer several accessories that mimic retro features with modern awesomeness.",
+  "quickFacts": {
+    "Project type": "School project",
+    "School": "UC San Diego Extension",
+    "Class": "ART-40642 – UX Design II",
+    "Completion": "September 7, 2019"
+  },
+  "projectLinks": [
+    {
+      "name": "Wireframe",
+      "link": "/assets/portfolio-items/documents/retro-music-players-wireframe.pdf"
+    },
+    {
+      "name": "Style guide",
+      "link": "/assets/portfolio-items/documents/retro-music-players-style-guide.pdf"
+    },
+    {
+      "name": "Prototype",
+      "link": "/assets/portfolio-items/documents/retro-music-players-prototype.pdf"
+    },
+    {
+      "name": "Evaluation & User testing",
+      "link": "/assets/portfolio-items/documents/retro-music-players-eval.pdf"
+    },
+    {
+      "name": "Evaluation report",
+      "link": "/assets/portfolio-items/documents/retro-music-players-eval-change.pdf"
+    }
+  ],
+  "projectImages": [
+    {
+      "name": "Home page",
+      "url": "/assets/portfolio-items/images/retro-music-players-1.jpg"
+    },
+    {
+      "name": "Category page",
+      "url": "/assets/portfolio-items/images/retro-music-players-2.jpg"
+    },
+    {
+      "name": "Browsing page",
+      "url": "/assets/portfolio-items/images/retro-music-players-3.jpg"
+    },
+    {
+      "name": "Product page",
+      "url": "/assets/portfolio-items/images/retro-music-players-4.jpg"
+    },
+    {
+      "name": "Cart page",
+      "url": "/assets/portfolio-items/images/retro-music-players-5.jpg"
+    },
+    {
+      "name": "Checkout page",
+      "url": "/assets/portfolio-items/images/retro-music-players-6.jpg"
+    },
+    {
+      "name": "Order confirmation page",
+      "url": "/assets/portfolio-items/images/retro-music-players-7.jpg"
+    },
+    {
+      "name": "Order tracking page",
+      "url": "/assets/portfolio-items/images/retro-music-players-8.jpg"
+    }
+  ]
+}
