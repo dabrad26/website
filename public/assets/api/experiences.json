@@ -1,16 +1,24 @@
 [
+    {
+    "company": "Adobe",
+    "jobTitle": "Senior Software Engineer",
+    "location": "San Francisco Bay Area",
+    "description": "In this role I work on sophisticated enterprise-grade web applications within the Adobe Experience Platform, leveraging a modern stack of JavaScript, React, Redux, and GraphQL to deliver high-performance SaaS solutions.",
+    "startDate": "2026-01-20",
+    "endDate": null
+  },
   {
     "company": "IBM",
     "jobTitle": "Platform Frontend Architect",
     "location": "San Francisco Bay Area",
     "description": "In this role I drive the architecture of Aspera's frontend products and lead the UI engineers, with a specific focus on design standards, scalability, performance and NPS growth. I work closely with design to ensure consistency and patterns that meet our customer needs.",
     "startDate": "2018-01-14",
-    "endDate": null,
+    "endDate": "2026-01-19",
     "roles": [
       {
         "jobTitle": "Platform Frontend Architect",
         "startDate": "2023-11-11",
-        "endDate": null
+        "endDate": "2026-01-19"
       },
       {
         "jobTitle": "Software Development Manager",
@@ -68,8 +76,17 @@
     "jobTitle": "Guest Services Associate",
     "location": "Albany, GA",
     "description": "As a Guest Services Associate I had to sell tickets, concessions, merchandise in the different departments and ensure all guests had an amazing time. I was also responsible for running the projectors (at the time 70mm film and later digital projection). During my time I also gave tours and lead birthday parties and sleepovers.",
-    "startDate": "2006-06-01",
+    "startDate": "2006-06-05",
     "endDate": "2008-07-27",
+    "collapsed": true
+  },
+  {
+    "company": "Flint RiverQuarium",
+    "jobTitle": "Volunteer",
+    "location": "Albany, GA",
+    "description": "As a volunteer I was helping as the administrative assistant for the aquarium business office. In this role I answered the phone and directed calls, helped visitors with appointments and providing information at the front desk, data entry using Microsoft Access and created and preparing printed material for mailing and distribution for advertisement campaigns.",
+    "startDate": "2005-07-02",
+    "endDate": "2006-06-05",
     "collapsed": true
   }
 ]
