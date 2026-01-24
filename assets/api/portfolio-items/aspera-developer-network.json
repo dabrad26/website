@@ -1,0 +1,34 @@
+{
+  "id": "aspera-developer-network",
+  "name": "Aspera Developer Network",
+  "imageUrl": "/assets/portfolio-items/images/aspera-developer-network.jpg",
+  "shortDescription": "While working for IBM I developed a new version of the Aspera Developer Network, which is the portal for developer resources and instruction on utilizing Aspera SDKs and APIs.",
+  "longDescription": "This new design incorporated the new modern design scheme being used in newer projects and offered a mobile first design approach to ensure usability across all screen sizes. Additional features were added including a more adaptive authentication flow for supporting current and future authentication servers (primarily OAuth 2), user profile settings for quicker access to the technologies needed based on user type, integrated tools to help test and support rapid development for third parties utilizing our SDKs and APIs.\n\nFor this site, my main role was setting up the server, creating a system for easy management for other team members and developing the site with the assistance of a visual designer.",
+  "quickFacts": {
+    "Project type": "Work project",
+    "Company": "Aspera, an IBM Company",
+    "Role": "Webmaster and developer",
+    "Language": "jQuery, JavaScript, HTML, CSS, PHP",
+    "Setup": "Apache, Joomla CMS",
+    "URL": "https://developer.asperasoft.com",
+    "Completion": "November 2, 2015"
+  },
+  "projectImages": [
+    {
+      "name": "Home page",
+      "url": "/assets/portfolio-items/images/aspera-developer-network-1.jpg"
+    },
+    {
+      "name": "Login page",
+      "url": "/assets/portfolio-items/images/aspera-developer-network-2.jpg"
+    },
+    {
+      "name": "API documentation page",
+      "url": "/assets/portfolio-items/images/aspera-developer-network-3.jpg"
+    },
+    {
+      "name": "User preferences page",
+      "url": "/assets/portfolio-items/images/aspera-developer-network-4.jpg"
+    }
+  ]
+}

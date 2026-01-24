@@ -1,0 +1,61 @@
+{
+  "id": "marriott-bonvoy-ux-study",
+  "name": "Marriott Bonvoy UX Study",
+  "imageUrl": "/assets/portfolio-items/images/marriott-bonvoy-ux-study.jpg",
+  "shortDescription": "For my final project I redesigned the navigation and booking flow within the Marriott Bonvoy application for iOS. The app used an odd navigation system that made it confusing for me to use; to fix this I used standard iOS design patterns that Apple Users would understand and be able to easily follow on their device.",
+  "longDescription": "The resulting application has a step through flow that guides the user with simple to follow pages. Some results and details page were already excellent in the app so they were not changed and images from the actual application were used for those pieces. The final project showcases the ideal flow for booking a hotel. The other screens; like Rewards, my account and past booking are already excellent and were not altered in the flow. Overall the new Marriott app is a gorgeous app that brings in a new design direction for Marriott brands.",
+  "quickFacts": {
+    "Project type": "School project",
+    "School": "UC San Diego Extension",
+    "Class": "ART-40639 – UX Design 1",
+    "Completion": "June 10, 2019"
+  },
+  "projectLinks": [
+    {
+      "name": "Case study",
+      "link": "/assets/portfolio-items/documents/marriott-bonvoy-ux-study-case-study.pdf"
+    },
+    {
+      "name": "Wireframe",
+      "link": "/assets/portfolio-items/documents/marriott-bonvoy-ux-study-wireframe.pdf"
+    },
+    {
+      "name": "Final design",
+      "link": "/assets/portfolio-items/documents/marriott-bonvoy-ux-study-final-design.pdf"
+    }
+  ],
+  "projectImages": [
+    {
+      "name": "Home page",
+      "url": "/assets/portfolio-items/images/marriott-bonvoy-ux-study-1.jpg"
+    },
+    {
+      "name": "Booking location page",
+      "url": "/assets/portfolio-items/images/marriott-bonvoy-ux-study-2.jpg"
+    },
+    {
+      "name": "Booking location search page",
+      "url": "/assets/portfolio-items/images/marriott-bonvoy-ux-study-3.jpg"
+    },
+    {
+      "name": "Booking date page",
+      "url": "/assets/portfolio-items/images/marriott-bonvoy-ux-study-4.jpg"
+    },
+    {
+      "name": "Search results page",
+      "url": "/assets/portfolio-items/images/marriott-bonvoy-ux-study-5.jpg"
+    },
+    {
+      "name": "Hotel info page",
+      "url": "/assets/portfolio-items/images/marriott-bonvoy-ux-study-6.jpg"
+    },
+    {
+      "name": "Hotel room type page",
+      "url": "/assets/portfolio-items/images/marriott-bonvoy-ux-study-7.jpg"
+    },
+    {
+      "name": "Final booking page",
+      "url": "/assets/portfolio-items/images/marriott-bonvoy-ux-study-8.jpg"
+    }
+  ]
+}

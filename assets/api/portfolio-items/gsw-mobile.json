@@ -1,0 +1,61 @@
+{
+  "id": "gsw-mobile",
+  "name": "Georgia Southwestern Mobile App",
+  "imageUrl": "/assets/portfolio-items/images/gsw-mobile.jpg",
+  "shortDescription": "While working for Georgia Southwestern State University I developed an Android Application for the University that would provide useful information for students and visitors when on and researching the University. When I started working at GSW they had already hired a third-party company to develop an app for iPhone and Android, however, the system the third-party developer used just put out a web app for both systems (optimized for iOS), but did not handle the different Android devices properly (layout and functionality).",
+  "longDescription": "This app offered several features and was a native app for the Android platform and was developed to support the different screen sizes from smartphones to tablets running Android. The app included general information about GSW, a campus map (using the map I developed earlier), a directory to search for staff and faculty, a news feed, a list of current events around campus, a gallery of images, a view of classes being offered for a specific term, a map of locations around the campus (using a set list of approved items), mobile donations, information about the library, a tool to search the library’s catalog and native support for Facebook, Twitter and YouTube integration.\n\nThe Android app was written in Java with the layout in Android XML. The app took advantage of many native integration features on Android; for example, location services for in app basic navigation as well as passing data using Intents for launching the native map app for step by step directions, Facebook, Twitter and YouTube APIs for utilizing the native apps installed on the device as well as Intents and in app integration for Phone, Web, and Email links.\n\nThe Windows Phone app was written in C# with the layout in XAML. The app took advantage of many native integration features on Windows Phone. For example, location services for launching the native map app for step by step directions. The app also supported the horizontal swipe layout in Windows Phone for a more native feel when using the app (instead of navigating through menus).\n\nThe BlackBerry 10 app was written using the BlackBerry 10 Webworks platform. Most pages were developed using Ajax and JQuery. Some of the more advance features like the campus map and nearby were developed using HTML5/CSS/JavaScript using the Google Maps API. The Classes tool was written in ASP.NET (C#) to allow for reading in the classes from the registration system’s website. The app also integrates to native apps on the BlackBerry 10, for example, if installed, Facebook and Twitter will take the user to the GSW profile in the native app, otherwise it will take them to the web version. The map and nearby section also use the user’s location from the device.\n\nThe BlackBerry app was written using the BlackBerry OS Webworks platform. The app offers a simplistic design to work better on the smaller and older BlackBerrys, it also is designed to work with a trackball or touch. Most pages were developed using Ajax and JQuery. Some of the more advance features like the campus map and nearby were developed using HTML5/CSS/JavaScript using the Google Maps API. The Classes tool was written in ASP.NET (C#) to allow for reading in the classes from the registration system’s website. The app used native functions like using the user’s location from the device for mapping and around as well as making phone calls for emergencies.",
+  "quickFacts": {
+    "Project type": "Work project",
+    "Company": "Georgia Southwestern State University",
+    "Language": "Java, Android SDK, C#, Windows Phone SDK, jQuery, Google Maps API, WebWorks",
+    "URL": "http://gsw.edu",
+    "Completion": "January 24, 2014",
+    "Status": "Shut down"
+  },
+  "projectImages": [
+    {
+      "name": "Android home page",
+      "url": "/assets/portfolio-items/images/gsw-mobile-1.jpg"
+    },
+    {
+      "name": "Android about page",
+      "url": "/assets/portfolio-items/images/gsw-mobile-2.jpg"
+    },
+    {
+      "name": "Android class schedules",
+      "url": "/assets/portfolio-items/images/gsw-mobile-3.jpg"
+    },
+    {
+      "name": "Android news page",
+      "url": "/assets/portfolio-items/images/gsw-mobile-4.jpg"
+    },
+    {
+      "name": "Windows Phone about page",
+      "url": "/assets/portfolio-items/images/gsw-mobile-5.jpg"
+    },
+    {
+      "name": "Windows Phone news page",
+      "url": "/assets/portfolio-items/images/gsw-mobile-6.jpg"
+    },
+    {
+      "name": "Windows Phone library page",
+      "url": "/assets/portfolio-items/images/gsw-mobile-7.jpg"
+    },
+    {
+      "name": "BlackBerry 10 about page",
+      "url": "/assets/portfolio-items/images/gsw-mobile-8.jpg"
+    },
+    {
+      "name": "BlackBerry 10 directory page",
+      "url": "/assets/portfolio-items/images/gsw-mobile-9.jpg"
+    },
+    {
+      "name": "BlackBerry about page",
+      "url": "/assets/portfolio-items/images/gsw-mobile-10.jpg"
+    },
+    {
+      "name": "BlackBerry class schedule page",
+      "url": "/assets/portfolio-items/images/gsw-mobile-11.jpg"
+    }
+  ]
+}

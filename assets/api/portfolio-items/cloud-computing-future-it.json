@@ -1,0 +1,19 @@
+{
+    "id": "cloud-computing-future-it",
+    "name": "Cloud Computing; the Future of Information Technology?",
+    "imageUrl": "/assets/portfolio-items/images/research-paper.jpg",
+    "shortDescription": "Cloud Computing has seen an explosion in the recent years with the turn to mobile technology, that has the same capabilities of modern computers. With this new need for data while on the go, Cloud computing evolved. While many people have misconceptions of what Cloud Computing is, most of them have been using services built for the Cloud.",
+    "longDescription": "For example email using a web interface is a Cloud application, accessing files on a web server or a backup server is a Cloud application. However, cloud applications go well beyond a simple data site with a web interface. Newer items like Windows Azure, Amazon Elastic Compute Cloud, and many others owned by For-Profit businesses are emerging to allow small businesses and developers to release application in the Cloud, on remote platforms.",
+    "quickFacts": {
+      "Project type": "School paper",
+      "School": "Georgia Southwestern State University",
+      "Class": "CIS-6720 – Distributed Web Applications",
+      "Completion": "January 13, 2012"
+    },
+    "projectLinks": [
+      {
+        "name": "Final paper",
+        "link": "/assets/portfolio-items/documents/cloud-computing-future-it.pdf"
+      }
+    ]
+  }

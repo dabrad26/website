@@ -1,0 +1,32 @@
+{
+    "id": "postcard-creator-kiosk",
+    "name": "Postcard Creator Kiosk",
+    "imageUrl": "/assets/portfolio-items/images/postcard-creator-kiosk.jpg",
+    "shortDescription": "The Interactive Postcard Creator was one of the three touchscreen programs developed for the Flint RiverQuarium. It allows the customer to take a photo using the built-in webcam on the touchscreen kiosk. Once a photo is taken the customer can choose a border to go around the photo.",
+    "longDescription": "The borders can be set by the client, and are easy to change to allow for different borders during different times of the year. The customer can confirm the border and the postcard is shown on another screen in the Gift Shop. This reminds the customer of their postcard when they get to the gift shop. If the customer wishes to purchase the postcard they can at the gift shop and the postcard is printed on prepared postcard paper.\n\nThis project was a Silverlight based Out of Browser application. It was written in C# and was designed to run out of browser (standalone application file) in Full Screen mode. It used hardware controls to connect to the camera and use it within the application. The application saved the images as JPEG images to a shared folder that could be accessed on the network. A script was also written to clear the images daily to ensure room for new images.\n\nThis project was a huge success and was very popular at the establishment. The cost per postcard was around $0.10 a postcard and the establishment decided to sell the postcards for $1.00. This allowed for a reasonable price, custom souvenir that families and groups loved and this was shown, since they would purchase several during their visit.",
+    "quickFacts": {
+      "Project type": "Work project",
+      "Company": "Flint RiverQuarium",
+      "Language": "C#, SilverLight SDK, JavaScript, HTML, CSS",
+      "URL": "http://flintriverquarium.com",
+      "Completion": "October 4, 2012"
+    },
+    "projectImages": [
+      {
+        "name": "Take photo screen",
+        "url": "/assets/portfolio-items/images/postcard-creator-kiosk-1.jpg"
+      },
+      {
+        "name": "Choose a border page",
+        "url": "/assets/portfolio-items/images/postcard-creator-kiosk-2.jpg"
+      },
+      {
+        "name": "Choose a border page 2",
+        "url": "/assets/portfolio-items/images/postcard-creator-kiosk-3.jpg"
+      },
+      {
+        "name": "Postcard created screen",
+        "url": "/assets/portfolio-items/images/postcard-creator-kiosk-4.jpg"
+      }
+    ]
+  }

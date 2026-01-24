@@ -1,0 +1,53 @@
+<article>
+  <h1 class="entry-title">Interactions of Primary School Children</h1>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/children-network-Final-2.png" alt="Final Results of School Children Grade Interactions" />
+    <span>Final Results of School Children Grade Interactions</span>
+  </div>
+  <h2>Introduction</h2>
+  <p>For this project I explored the social interactions between primary school children and their peers.    After reading over the findings from <a rel="noreferrer noopener" href="http://www.sociopatterns.org/publications/high-resolution-measurements-of-face-to-face-contact-patterns-in-a-primary-school/" target="_blank">“High-Resolution Measurements of Face-to-Face Contact Patterns in a Primary School”</a>. I wanted to see how students interact with peers outside of their grade level.    For example, how many interactions does a first grader have with a third grader, as well as see if there are any interesting trends that might exist between grade hierarchy and social interactions with peers outside of their grade.    The original study focused on French students in grades one through five; which are children age six to twelve.    The original study utilized a radio frequency device to monitor the students and who they were interacting with.    Their <a rel="noreferrer noopener" href="https://vimeo.com/31490438" target="_blank">final graphing data</a> shows the time breakdowns of each student’s interactions in a time lapsed visual networking graph.</p>
+  <h2>Material</h2>
+  <p>To visualize the data an open-source software called <a rel="noreferrer noopener" href="https://gephi.org" target="_blank">Gephi</a> was used.    This software is very powerful for rendering multiple graphs and networks and can be expanded via plugins for different visual renderings and analysis, they offer an <a rel="noreferrer noopener" href="https://gephi.org/plugins/#/" target="_blank">expansive plugin library</a> to support almost all curiosities.    Initially I encountered a bit of a learning curve, however the <a rel="noreferrer noopener" href="https://www.slideshare.net/gephi/gephi-quick-start" target="_blank">LinkedIn Learning slideshow</a> and <a rel="noreferrer noopener" href="https://www.youtube.com/watch?v=dSx5_PjaWVE" target="_blank">introductory video</a> helped get over this.    </p>
+  <p>Now with the tool in place I needed the data.    I took the <a href="http://www.sociopatterns.org/datasets/primary-school-cumulative-networks/" target="_blank" rel="noreferrer noopener">dataset from SocioPatterns</a> study mentioned in the introduction.    This data included all the interactions between the students from multiple classes for October 1, 2009 which resulted in 236 recorded interactions.    After extracting the data it was in an odd file format `.gexf_` I inspected the data and realized it was in XML format so I tried adding `.xml` to the file but that did not let me import into Gephi.    After some research I found out that `.gexf` was a valid file format that was a <a rel="noreferrer noopener" href="https://networkx.github.io/documentation/stable/reference/readwrite/gexf.html" target="_blank">Graph Exchange XML Format</a>.    After setting the extension to this I was able to successfully import the data into Gephi.</p>
+  <h2>Process</h2>
+  <p>With my data loaded I had a giant blob of color on the screen.    This was not very useful in its current format.    I experimented with the different layouts as described in the book on pages 56-76 of    <a rel="noreferrer noopener" href="http://gephi.michalnovak.eu/Mastering%20Gephi%20Network%20Visualization.pdf" target="_blank">“Mastering Gephi Network Visualization”</a>.    You can see the experiments in Figure 1 below.    This rendered different visualizations of the data in useful collections.    For my final layout I went with Yifan Hu which is a force-based algorithm with a performance gain.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/children-network-experiment.gif" alt="Experimenting with Layouts">
+    <span>Figure 1: Experimenting with Layouts</span>
+  </div>
+  <p>With my visualization of the interaction networks in place I wanted to add some color to my views to help the user quickly see the clusters of interactions without the need for labels.    I added colors to the classes.    But the data had the classes divided not just by grade but by a class in each grade; for example, grade one had two classes 1A and 1B.    I went into “Data Laboratory” view in Gephi and did a global change in the data to convert all the classes into grades.    For example 1A and 1B were turned into simply “1”.    This allowed me to now add a color for each grade and render a visually clustered network of interactions between grades.    The color choices for each can be seen below in Figure 2.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/children-network-Colors.png" alt="Color selection for each grade" />
+    <span>Figure 2: Color Selection for Each Grade</span>
+  </div>
+  <h2>Outcome</h2>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/children-network-network.gif" alt="Final Exploration of data">
+    <span>Figure 3: Final Exploration of Data</span>
+  </div>
+  <p>The image above represents the final visualization.    You can see as the mouse moves the connection that node had is highlighted to point to the interactions that student had.    The nodes more centered in the visualization represent the students who had more interactions with peers in other grades.    The spread represents the interaction differential where the outliers have the lowest amount of interactions with other grades and the smaller, more centered, items have more interactions across grade levels.</p>
+  <div class="image-group">
+    <img src="/assets/api/html/assets/children-network-Final-4.png" alt="Final Results of School Children Grade Interations" />
+    <span>Figure 4: <em>Final Results of School Children Grade Interactions</em></span>
+  </div>
+  <p>The static view of the final above can show the color overlap of the grades.    This is useful in showing the grade interactions. From the data we can see that the fourth grade has the most interactions with other groups.&nbsp;Having multiple interaction connections with students in the fifth and third grade.    The fifth grade group is the most isolated mostly interacting amongst themselves but some interaction with fourth graders.    The third grade also had a bit more isolation.    The first and second grade were the most intertwined.    One theory could be formed here that the older the child gets the less they want to interact with younger peers.    And that this behavior starts in around the third grade.    The division by age/grade can lead to this as found in <a rel="noreferrer noopener" href="https://researcharchive.vuw.ac.nz/xmlui/bitstream/handle/10063/1057/thesis.pdf" target="_blank">one study</a>.    However, the findings are interesting and following the interactions of older kids in middle and high school age groups could be used to see if this pattern follows.</p>
+  <p><a href="https://dabrad26.github.io/info-vis-as3/Graph.gephi" target="_blank" rel="noreferrer noopener">The final Gephi file can be downloaded here</a></p>
+  <h2>Reflections</h2>
+  <p>The data yielded some interesting findings about the social structure of grade age children.    The social interactions across grade levels can most likely be applied to all aspects of life and divisions.    Including cast systems, school grades, and company positions.    It would be nice to get a similar study of older children to see if the pattern of association with higher levels and your current peers exists as the children grow.    While the data showed this division was not as obvious to the younger children; third grade and lower.    Showing that around third grade a natural or instinctive division of social norms must be picked up somehow.    The same data processing on interactions of junior high and high school students, college level students, and organization groupings; like managers, workers, executives; could potentially show a correlation of the findings and illustrate this social behavior.    </p>
+  <h2>Works Cited</h2>
+  <ul>
+    <li><a rel="noreferrer noopener" href="http://www.sociopatterns.org/publications/high-resolution-measurements-of-face-to-face-contact-patterns-in-a-primary-school/" target="_blank">SocioPatterns – High-Resolution Measurements of Face-to-Face Contact Patterns in a Primary School</a></li>
+    <li><a rel="noreferrer noopener" href="http://www.sociopatterns.org/datasets/primary-school-cumulative-networks/" target="_blank">SocioPatterns – Primary school – cumulative networks Datasets</a></li>
+    <li><a rel="noreferrer noopener" href="https://www.slideshare.net/gephi/gephi-quick-start" target="_blank">LinkedIn Learning – Gephi Quick Start</a></li>
+    <li><a href="https://networkx.github.io/documentation/stable/reference/readwrite/gexf.html" target="_blank" rel="noreferrer noopener">NetworkX – GEXF Format</a></li>
+    <li><a href="http://gephi.michalnovak.eu/Mastering%20Gephi%20Network%20Visualization.pdf" target="_blank" rel="noreferrer noopener">Cherven, Ken – Mastering Gephi Network Visualization</a></li>
+    <li><a href="https://researcharchive.vuw.ac.nz/xmlui/bitstream/handle/10063/1057/thesis.pdf" target="_blank" rel="noreferrer noopener">Fagan, Tara Jan – Younger and Older Together: Children’s interactions in a mixed-age early childhood centre</a></li>
+  </ul>
+  <h2>Project Metadata</h2>
+  <ul>
+    <li><b>Project type</b>: School project</li>
+    <li><b>School</b>: Pratt Institute</li>
+    <li><b>Class</b>: INFO-658 – Information Visualization</li>
+    <li><b>Completion</b>: July 4, 2020</li>
+  </ul>
+</article>

@@ -1,0 +1,29 @@
+{
+    "id": "evolution-handheld-gaming",
+    "name": "Evolution of Handheld Gaming Infographic",
+    "imageUrl": "/assets/portfolio-items/images/evolution-handheld-gaming.jpg",
+    "shortDescription": "For the final project in my Visual Communication and Information Design class I created a poster infographic that showed the evolution of handheld gaming over the last 40 years.  This showed the first successful cartridge-based gaming units going through the 80s to the present (2021) and the primary stepping stones that made handheld gaming what it is now.  This included evolutions for controls to screen types to even blurring the lines between console gaming and handheld gaming.",
+    "longDescription": "For my project I would like to make a poster showing the evolution of handheld gaming consoles and games that run on it.  This would be presented as a poster showing the imagery and evolution over the last 40 years.  This would focus on the type of interaction the user had with the console, the type of games that ran on the machine and finally the size of the display.\n\nI was imagining this showing some interesting patterns of how interaction and evolution of battery support has pushed handheld gaming forward and interesting devices that have evolved from the past devices.  This will focus on the main players; while there are many game systems that have been sold this will focus on ones that had moderate success and evolved and had third party developers reliably releasing games for the console.",
+    "quickFacts": {
+      "Project type": "School project",
+      "School": "Pratt Institute",
+      "Class": "INFO-641 – Visual Communication and Info Design",
+      "Completion": "May 5, 2021"
+    },
+    "projectLinks": [
+      {
+        "name": "Final Design (print quality)",
+        "link": "/assets/portfolio-items/documents/evolution-handheld-gaming.pdf"
+      },
+      {
+        "name": "Final project data",
+        "link": "/assets/portfolio-items/documents/evolution-handheld-gaming-data.pdf"
+      }
+    ],
+    "projectImages": [
+      {
+        "name": "Final Poster",
+        "url": "/assets/portfolio-items/images/evolution-handheld-gaming-1.png"
+      }
+    ]
+  }

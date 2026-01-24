@@ -1,0 +1,49 @@
+{
+  "id": "oakland-forever-home",
+  "name": "Oakland Forever Home",
+  "imageUrl": "/assets/portfolio-items/images/oakland-forever-home.jpg",
+  "shortDescription": "For my final project I did a wireframe and mockup for a fictional pet shelter called 'Oakland Forever Home'. This site offered the user a simple way to find a pet and learn more about Oakland Forever Home.",
+  "longDescription": "The pet finder section was presented through an attention-grabbing carousel that presented newly or featured animals available for adoption. The goal of this was to provide an emotional impact on the user of the animals you can find on this site. The carousel was chosen to ensure that one of the animals presented will provide the emotional impact needed to influence adopting (for example catering to cat and dog people). Below the carousel was a call to action invitation of ‘Find your forever' section that reacts to mouseovers to grab your attention and invite clicking on the dog, cat or other.\n\nThe details page uses imagery to gain an emotional impact on the user. Large images with focal points on the animal are used to showcase the animal's traits. The user can swipe (on touch devices) or use the arrows (hovering over the image will darken them slightly) to toggle between the different images (an indicator of place is used at the bottom of the image carousel). On the same page with the information is the contact form for scheduling time to meet the current viewed pet. Interaction with the contact form is in page and the form is replaced with confirmation on submitting.\n\nThe recent adoptions page is used to showcase the past adoptions from the shelter. The images are large and infinitely scroll (newest first) showing the happy families created with their new pet from 'Oakland Forever Home'.",
+  "quickFacts": {
+    "Project type": "School project",
+    "School": "UC San Diego Extension",
+    "Class": "ART-40535 – UI Design",
+    "Completion": "March 7, 2019"
+  },
+  "projectLinks": [
+    {
+      "name": "Wireframe",
+      "link": "/assets/portfolio-items/documents/oakland-forever-home-wireframe.pdf"
+    },
+    {
+      "name": "Design specs",
+      "link": "/assets/portfolio-items/documents/oakland-forever-home-specs.pdf"
+    }
+  ],
+  "projectImages": [
+    {
+      "name": "Home page",
+      "url": "/assets/portfolio-items/images/oakland-forever-home-1.jpg"
+    },
+    {
+      "name": "Search page",
+      "url": "/assets/portfolio-items/images/oakland-forever-home-2.jpg"
+    },
+    {
+      "name": "Search page with advanced",
+      "url": "/assets/portfolio-items/images/oakland-forever-home-3.jpg"
+    },
+    {
+      "name": "Details page",
+      "url": "/assets/portfolio-items/images/oakland-forever-home-4.jpg"
+    },
+    {
+      "name": "Recent adoptions page",
+      "url": "/assets/portfolio-items/images/oakland-forever-home-5.jpg"
+    },
+    {
+      "name": "Learn more page",
+      "url": "/assets/portfolio-items/images/oakland-forever-home-6.jpg"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "aspera-on-cloud",
+  "name": "IBM Aspera on Cloud",
+  "imageUrl": "/assets/portfolio-items/images/aspera-on-cloud.jpg",
+  "shortDescription": "While working for IBM I worked on a new project called Aspera on Cloud. The replacement for the Aspera Files application. Aspera on Cloud would be a new cloud platform for all available apps that are offered through the Aspera Platform. Aspera on Cloud has several apps currently; Files, Packages, Activity, Automation, Admin and Help Center.",
+  "longDescription": "I worked closely with the design team and the IBM Hybrid Cloud Design team to integrate the Carbon Design Language System into Aspera on Cloud and ensure an easy to use experience for users. Aspera on Cloud was also mobile responsive from the beginning to support users on all devices. The Aspera on Cloud platform continues to grow, and new apps are constantly being added for the platform. Aspera on Cloud used a new architecture of an Angular 9 (TypeScript) core library that powers all apps that are added to the platform. Making app development simple using the central library.",
+  "quickFacts": {
+    "Project type": "Work project",
+    "Company": "IBM",
+    "Role": "Lead Frontend Engineer & Architect",
+    "Setup": "Angular, TypeScript, HTML, Sass",
+    "Testing": "Karma, Cypress",
+    "URL": "https://www.ibm.com/cloud/aspera",
+    "Completion": "January 10, 2019"
+  },
+  "projectImages": [
+    {
+      "name": "Landing page",
+      "url": "/assets/portfolio-items/images/aspera-on-cloud-1.jpg"
+    },
+    {
+      "name": "Files application",
+      "url": "/assets/portfolio-items/images/aspera-on-cloud-2.jpg"
+    },
+    {
+      "name": "Packages application",
+      "url": "/assets/portfolio-items/images/aspera-on-cloud-3.jpg"
+    },
+    {
+      "name": "Admin application",
+      "url": "/assets/portfolio-items/images/aspera-on-cloud-4.jpg"
+    },
+    {
+      "name": "Automation application",
+      "url": "/assets/portfolio-items/images/aspera-on-cloud-5.jpg"
+    },
+    {
+      "name": "Help center application",
+      "url": "/assets/portfolio-items/images/aspera-on-cloud-6.jpg"
+    },
+    {
+      "name": "Activity application for transfers",
+      "url": "/assets/portfolio-items/images/aspera-on-cloud-7.jpg"
+    },
+    {
+      "name": "Activity application for volume usage",
+      "url": "/assets/portfolio-items/images/aspera-on-cloud-8.jpg"
+    }
+  ]
+}

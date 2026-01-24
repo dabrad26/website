@@ -1,0 +1,29 @@
+{
+    "id": "southern-forestry",
+    "name": "Southern Forestry Realty",
+    "imageUrl": "/assets/portfolio-items/images/southern-forestry.jpg",
+    "shortDescription": "Southern Forestry Realty came to me looking for a new website. They already had a concept, but needed a site that was easy to manage themselves and looked and behaved the way they wanted. After interviewing with them I recommended using a Content Management System for their website.",
+    "longDescription": "They were moving from a local server to a cloud based server, so I set them up a Joomla! CMS using a MySQL database using a third-party hosting. Using the design that they had, I created a Joomla template for the site using the mockup that was done in Photoshop.\n\nSouthern Forestry Realty’s new website included a wood grain finish on the sides with a parchment paper for the content area. The menu bar was created to meet the design of the Photoshop mockup. The square buttons on the home page had hover effects that would light up the triangle when the user hovered over the area. The Newsletter signup was a modal that connected to the Email Management System and would allow for customers to sign up for the newsletter without leaving the site. The home page’s slideshow was JavaScript based and pulls content from the settings in the Widget controls of the CMS and allows for easy changing of the slides by the client.\n\nThe template was setup and the proper fields were added in the PHP code to allow for Joomla to post the content in the template. The style sheets and JavaScript were developed for proper behavior and look across the site. This site uses JavaScript to handle the slideshow and modal launching for small popup windows that were needed by the client.\n\nThis project also included the full setup of hosting and changing of the DNS records for pointing to the new hosting server and changes to the MX records to accommodate a new Google Apps setup for email.\n\nThe site’s content was setup inside the CMS and the home page customized to work properly while being easy to change by the client (custom widgets). This site also included some Flash elements for connecting to a third party for documents that they created.\n\nThe site was a success and the client was very happy with the look and feel of the site and I have been approached by other realty companies seeking a similar look and feel for their website.",
+    "quickFacts": {
+      "Project type": "Work project",
+      "Company": "Southern Forestry Realty",
+      "Language": "JavaScript, HTML, CSS, PHP, MySql",
+      "Setup": "Apache, Joomla CMS",
+      "URL": "http://southernforestryrealty.com",
+      "Completion": "August 3, 2012"
+    },
+    "projectImages": [
+      {
+        "name": "Home page",
+        "url": "/assets/portfolio-items/images/southern-forestry-1.jpg"
+      },
+      {
+        "name": "About us page",
+        "url": "/assets/portfolio-items/images/southern-forestry-2.jpg"
+      },
+      {
+        "name": "Contact us page",
+        "url": "/assets/portfolio-items/images/southern-forestry-3.jpg"
+      }
+    ]
+  }

@@ -1,0 +1,50 @@
+{
+    "id": "gsw-website",
+    "name": "Georgia Southwestern Website",
+    "imageUrl": "/assets/portfolio-items/images/gsw-website.jpg",
+    "shortDescription": "While working for Georgia Southwestern State University, I was tasked with developing a completely new website for the university. This website was to be responsive and cutting edge. To accomplish this, I used numerous new tags and features of HTML5. However, I realized that our current Content Management System did not support HTML5 tags. To accommodate this, I installed Joomla, an Open Source CMS.",
+    "longDescription": "By using Joomla, I was able to customize the backend to meet the needs of the university and create an easy to maintain website that was able to use the newer benefits of HTML5. I took my mockup of the new HTML5 site and created a Joomla (v3) template out of them.\n\nThe new site took advantage of some of the new features of HTML5 and CSS3, like Media Queries, the aside tag, the nav tag auto gridding, auto image resizing and print media queries. JavaScript and jQuery were used to offer advanced functionality on the site. I also created some special CSS and JavaScript for handling older browsers. To ensure that everything worked in Internet Explorer 7 and 8 as well as older Firefox, JavaScript functions were developed to handle functions of jQuery that were no longer working and CSS was used to try to match the style of the new site while still using CSS that these older browsers could understand.\n\nWith the added task of migrating to a new CMS, I had to move all content over to the new system. Since I had to do this one page at a time, I cleaned up the pages and ensured that all old content had clean code (unnecessary tags and bad formatting removed and replaced) and that it matched the new style.\n\nThe new site was created and all pages migrated to the new CMS. To help make editing the new site as easy as possible, I customized the Joomla backend and created an easy to use frontend editing system. This allowed for simple login to the frontend and the use of an edit link. We were also able to synchronize users with ActiveDirectory for even simpler user management. The backend was fully customized to match the GSW branding and feel like a GSW application. During the process of creating the new site and trying to make it easy to edit, I created a few custom Joomla Modules that allowed for simple data entry to generate content on the frontend. These modules were installable through the Module manager and were fully customized to match the needs of the university.\n\nThe site was a success, and the responsive nature of the site made it easy for everyone to use on desktop and mobile; and both versions offered a great user experience. Faculty, Staff and Students all responded positively to the new site and the special features hidden all over the site for improving user experience were praised upon as being helpful for students while on campus using smartphones.",
+    "quickFacts": {
+      "Project type": "Work project",
+      "Company": "Georgia Southwestern State University",
+      "Role": "Web developer",
+      "Language": "jQuery, PHP, JavaScript, HTML, CSS",
+      "Setup": "Apache, Joomla CMS",
+      "URL": "https://gsw.edu",
+      "Completion": "July 2, 2014"
+    },
+    "projectImages": [
+      {
+        "name": "Home page",
+        "url": "/assets/portfolio-items/images/gsw-website-1.jpg"
+      },
+      {
+        "name": "Directory page",
+        "url": "/assets/portfolio-items/images/gsw-website-2.jpg"
+      },
+      {
+        "name": "Admissions page",
+        "url": "/assets/portfolio-items/images/gsw-website-3.jpg"
+      },
+      {
+        "name": "School of nursing page",
+        "url": "/assets/portfolio-items/images/gsw-website-4.jpg"
+      },
+      {
+        "name": "Community links sidebar",
+        "url": "/assets/portfolio-items/images/gsw-website-5.jpg"
+      },
+      {
+        "name": "Mobile home page",
+        "url": "/assets/portfolio-items/images/gsw-website-6.jpg"
+      },
+      {
+        "name": "Mobile navigation",
+        "url": "/assets/portfolio-items/images/gsw-website-7.jpg"
+      },
+      {
+        "name": "Mobile navigation sidebar",
+        "url": "/assets/portfolio-items/images/gsw-website-8.jpg"
+      }
+    ]
+  }

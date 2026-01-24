@@ -1,0 +1,46 @@
+{
+  "id": "calorie-counter-ios",
+  "name": "Calorie Counter for iOS",
+  "imageUrl": "/assets/portfolio-items/images/calorie-counter-ios.jpg",
+  "shortDescription": "Class project for creating a full iOS Application. For this project created a SwiftUI Calorie Counter.",
+  "longDescription": "This app logs daily food intake by manually adding food or searching the FDC food database to create food entries. You can also import and export your data and manage your food diary (adding, removing and editing existing items). This app supports light and dark mode.",
+  "quickFacts": {
+    "Project type": "School project",
+    "School": "UC San Diego Extension",
+    "Class": "CSE-41249 – iOS App Productions",
+    "Setup": "Swift, SwiftUI",
+    "Github": "https://github.com/dabrad26/Calorie-Counter",
+    "Github Access": "Private, Contact for access",
+    "Completion": "February 25, 2024"
+  },
+  "projectImages": [
+    {
+      "name": "Today View (Light Mode)",
+      "url": "/assets/portfolio-items/images/calorie-counter-ios-1.jpg"
+    },
+    {
+      "name": "Diary View (Light Mode)",
+      "url": "/assets/portfolio-items/images/calorie-counter-ios-2.jpg"
+    },
+    {
+      "name": "Search Food View (Light Mode)",
+      "url": "/assets/portfolio-items/images/calorie-counter-ios-3.jpg"
+    },
+    {
+      "name": "Search Food Results View (Dark Mode)",
+      "url": "/assets/portfolio-items/images/calorie-counter-ios-4.jpg"
+    },
+    {
+      "name": "Create New Food View (Dark Mode)",
+      "url": "/assets/portfolio-items/images/calorie-counter-ios-5.jpg"
+    },
+    {
+      "name": "Account View (Dark Mode)",
+      "url": "/assets/portfolio-items/images/calorie-counter-ios-6.jpg"
+    },
+    {
+      "name": "App Icon and Tray View",
+      "url": "/assets/portfolio-items/images/calorie-counter-ios-7.jpg"
+    }
+  ]
+}

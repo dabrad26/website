@@ -1,0 +1,43 @@
+{
+  "id": "photowall-hackathon",
+  "name": "PhotoWall Hackathon Project",
+  "imageUrl": "/assets/portfolio-items/images/photowall-hackathon.jpg",
+  "shortDescription": "For the Square hackathon we created a local business photo and leads generator app.",
+  "longDescription": "This hackathon was sponsored by Square. For this project we had three team members. I was responsible for the UI and backend development, Cynthia Yue who created the designs and flows, and Ricky Lau who worked on marketing use case and product management. This project was a platform for customers to post photos about their experience with a local business. Customers can use these posts to refer their social circles for special perks via loyalty programs, and browse photos to make better purchasing decisions.",
+  "quickFacts": {
+    "Project type": "Hackathon project",
+    "Status": "Winner: Best Experience that Drives Customer Loyalty",
+    "Setup": "Square API, PHP, MySQL, TypeScript, React, Sass, Github Actions",
+    "Demo": "https://dabrad26.github.io/square-hackathon",
+    "Github Frontend": "https://github.com/dabrad26/square-hackathon",
+    "Github Backend": "https://github.com/dabrad26/square-hackathon-backend",
+    "Hackathon": "https://devpost.com/software/photowall",
+    "Completion": "June 1, 2024"
+  },
+  "projectImages": [
+    {
+      "name": "Home page",
+      "url": "/assets/portfolio-items/images/photowall-hackathon-1.jpg"
+    },
+    {
+      "name": "Review page",
+      "url": "/assets/portfolio-items/images/photowall-hackathon-2.jpg"
+    },
+    {
+      "name": "Menu item page",
+      "url": "/assets/portfolio-items/images/photowall-hackathon-3.jpg"
+    },
+    {
+      "name": "Cart page",
+      "url": "/assets/portfolio-items/images/photowall-hackathon-4.jpg"
+    },
+    {
+      "name": "Create review landing page",
+      "url": "/assets/portfolio-items/images/photowall-hackathon-5.jpg"
+    },
+    {
+      "name": "Create review page",
+      "url": "/assets/portfolio-items/images/photowall-hackathon-6.jpg"
+    }
+  ]
+}
